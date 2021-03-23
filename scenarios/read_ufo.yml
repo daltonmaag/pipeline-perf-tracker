@@ -8,14 +8,14 @@ use_cases: >
   - Time to first overview of a font freshly opened in a font editor.
   - ...
 variants:
-  - name: Scope One (XXX glyphs)
+  - id: Scope One (XXX glyphs)
     sources:
+      git:
+        repository: https://github.com/daltonmaag/scope-one
+        ref: 7a5c5df
+    variables:
       UFO:
-        git:
-          repository: https://github.com/daltonmaag/scope-one
-          ref: 7a5c5df
-          files:
-            - source/ScopeOne_Rg.ufo
+        - source/ScopeOne_Rg.ufo
   # - name: Open Sans Regular (XXX glyphs)
 
 
