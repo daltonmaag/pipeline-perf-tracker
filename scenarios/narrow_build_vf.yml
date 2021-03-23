@@ -1,9 +1,9 @@
 name: Narrow build (VF)
-description: >
+description: |
   Build a variable font from a designspace file that links several master UFOs.
-goal: >
   Read all UFOs speedily, combine outline data etc. into variable font TTF.
-use_cases: >
+
+  Use-cases:
   - Build final variable fonts on CI machines
   - Build test variable fonts on designer's machines
   - ...

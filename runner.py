@@ -35,13 +35,18 @@ def main():
                             result = run(scenario, variant, project, version)
                         else:
                             print(": already done.")
-                        new_results.set(scenario, variant, project, version, result)
+                        if result is not None:
+                            new_results.set(scenario, variant, project, version, result)
     new_results.save("results.json")
+    with open("index.template.html", "r") as fp:
+        template = fp.read()
+    with open("index.html", "w") as fp:
+        fp.write(template.replace("REPLACE_ME_WITH_JSON", json.dumps(new_results.data)))
 
 
 @dataclass
 class Result:
-    user_time_ms: int
+    clock_time_ms: int
     cpu_time_ms: int
 
     def get_data(self):
@@ -76,7 +81,7 @@ class ScenarioVariant:
 
     def get_variables(self, path):
         return {
-            variable: [path / subpath for subpath in paths]
+            variable: [str(path / subpath) for subpath in paths]
             for variable, paths in self.variables.items()
         }
 
@@ -91,12 +96,16 @@ class ScenarioVariant:
 class Scenario:
     id: str
     name: str
+    description: str
     variants: List[ScenarioVariant]
 
     @staticmethod
     def from_data(id, data):
         return Scenario(
-            id, data["name"], [ScenarioVariant.from_data(v) for v in data["variants"]]
+            id,
+            data["name"],
+            data["description"],
+            [ScenarioVariant.from_data(v) for v in data["variants"]],
         )
 
     @staticmethod
@@ -119,19 +128,26 @@ class ProjectVersion:
     setup_script: List[str]
 
     def setup(self, project_path: Path):
-        venv.create(project_path)
+        venv.create(project_path, with_pip=True)
         cmd = "\n".join(["source bin/activate", *self.setup_script])
-        subprocess.call(cmd, shell=True, executable="/bin/bash", cwd=project_path)
+        print(f"    Running setup_script:")
+        print(textwrap.indent(cmd, " " * 8))
+        subprocess.check_call(cmd, shell=True, executable="/bin/bash", cwd=project_path)
 
     @staticmethod
     def from_data(data):
         return ProjectVersion(**data)
 
 
+TIME_OUTPUT_RE = re.compile(r"real (\d+\.\d+)\nuser (\d+\.\d+)\nsys (\d+\.\d+)")
+
+
 @dataclass
 class Project:
     id: str
     name: str
+    url: str
+    description: str
     scenarios: List[Dict]
     versions: List[ProjectVersion]
 
@@ -139,28 +155,60 @@ class Project:
         return any(s["id"] == scenario.id for s in self.scenarios)
 
     def run(self, project_path: Path, scenario: Scenario, variables: Dict) -> Result:
-        script = []
+        before_script = []
+        timed_script = []
+        after_script = []
         for s in self.scenarios:
             if s["id"] == scenario.id:
-                script = s["script"]
+                before_script = s.get("before_script", [])
+                timed_script = s["timed_script"]
+                after_script = s.get("after_script", [])
         cmd = "\n".join(
             [
                 "source bin/activate",
-                *(replace_variables(line, variables) for line in script),
+                *(replace_variables(line, variables) for line in before_script),
+                # Use GNU time to output the results to a file,
+                # -p for portable output for easy parsing
+                "/usr/bin/time -p -o time.txt sh -c {}".format(
+                    shlex.quote(
+                        "; ".join(
+                            [
+                                replace_variables(line, variables)
+                                for line in timed_script
+                            ]
+                        )
+                    )
+                ),
+                *(replace_variables(line, variables) for line in after_script),
             ]
         )
-        print(f"    Running cmd:")
-        print(textwrap.indent("\n".join(cmd), " " * 8))
-        subprocess.call(
-            cmd, shell=True, executable="bash", cwd=project_path, env=variables
+        print(f"    Running script:")
+        print(textwrap.indent(cmd, " " * 8))
+        subprocess.check_call(
+            cmd,
+            shell=True,
+            executable="bash",
+            cwd=project_path,
+            env={
+                variable: list_of_quoted_paths(paths)
+                for variable, paths in variables.items()
+            },
         )
-        return Result(1000, 2000)
+        with (project_path / "time.txt").open("r") as fp:
+            match = TIME_OUTPUT_RE.match(fp.read())
+            assert match is not None
+            real = float(match.group(1))
+            user = float(match.group(2))
+            sys = float(match.group(3))
+        return Result(round(real * 1000), round((user + sys) * 1000))
 
     @staticmethod
     def from_data(id, data):
         return Project(
             id,
             data["name"],
+            data["url"],
+            data["description"],
             data["scenarios"],
             [ProjectVersion.from_data(v) for v in data["versions"]],
         )
@@ -183,11 +231,15 @@ VARIABLE_RE = re.compile(r"\$([A-Z_][A-Z_0-9]*)")
 
 def replace_variables(line, variables):
     return VARIABLE_RE.sub(
-        lambda match: " ".join(
-            [shlex.quote(path) for path in variables[match.group(1)]]
-        ),
+        lambda match: list_of_quoted_paths(variables[match.group(1)])
+        if match.group(1) in variables
+        else match.group(0),
         line,
     )
+
+
+def list_of_quoted_paths(paths):
+    return " ".join([shlex.quote(path) for path in paths])
 
 
 @dataclass
@@ -231,6 +283,20 @@ class Results:
         self.data["values"][scenario.id][variant.id][project.id][
             version.id
         ] = stats.get_data()
+        # Also record scenario and project data to display nicely on web page
+        if "scenarios" not in self.data:
+            self.data["scenarios"] = {}
+        self.data["scenarios"][scenario.id] = {
+            "name": scenario.name,
+            "description": scenario.description,
+        }
+        if "projects" not in self.data:
+            self.data["projects"] = {}
+        self.data["projects"][project.id] = {
+            "name": project.name,
+            "url": project.url,
+            "description": project.description,
+        }
 
     def save(self, path):
         with open(path, "w") as fp:
@@ -250,8 +316,8 @@ def safe_dir_name(string):
     return UNSAFE_DIR_NAME_RE.sub("_", string)
 
 
-DOWNLOADS = Path("downloads/")
-VENVS = Path("venvs/")
+DOWNLOADS = Path("downloads/").resolve()
+VENVS = Path("venvs/").resolve()
 
 
 def run(
@@ -260,13 +326,19 @@ def run(
     project: Project,
     version: ProjectVersion,
 ) -> Optional[Result]:
-    sources_path = DOWNLOADS / safe_dir_name(scenario.id) / safe_dir_name(variant.id)
-    variant.sources.download(sources_path)
-    variables = variant.get_variables(sources_path)
-    project_path = VENVS / safe_dir_name(project.id) / safe_dir_name(version.id)
-    version.setup(project_path)
-    result = project.run(project_path, scenario, variables)
-    return result
+    try:
+        sources_path = (
+            DOWNLOADS / safe_dir_name(scenario.id) / safe_dir_name(variant.id)
+        )
+        variant.sources.download(sources_path)
+        variables = variant.get_variables(sources_path)
+        project_path = VENVS / safe_dir_name(project.id) / safe_dir_name(version.id)
+        version.setup(project_path)
+        result = project.run(project_path, scenario, variables)
+        return result
+    except Exception as e:
+        print(f"Could not run: {e}")
+        return None
 
 
 def git(*args):

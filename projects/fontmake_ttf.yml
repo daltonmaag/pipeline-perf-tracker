@@ -5,11 +5,11 @@ versions:
   - id: v2.3.1
     description: official release
     setup_script:
-      - pip install fontmake==2.3.1
+      - python -m pip install fontmake==2.3.1
 scenarios:
   - id: narrow_build_vf
-    script:
+    timed_script:
       - fontmake -m $DESIGNSPACE -o variable
   - id: fat_build_instances
-    script:
+    timed_script:
       - fontmake -m $DESIGNSPACE -i -o ttf

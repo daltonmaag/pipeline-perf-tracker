@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UFO Performance Tracker</title>
+    <style>
+      .variant {
+        border-left: 1px solid lightgray;
+        padding-left: 2rem;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 0.1rem 1rem 0.1rem 0;
+      }
+      .time {
+        text-align: right;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div v-for="(variants, scenario_id) in results.values">
+        <h2>{{results.scenarios[scenario_id].name}}</h2>
+        <pre>{{results.scenarios[scenario_id].description}}</pre>
+        <div class="variant" v-for="(projects, variant_id) in variants">
+          <h3>{{variant_id}}</h3>
+          <table>
+            <tr>
+              <th>Project</th>
+              <th>Version</th>
+              <td>Clock time (ms)</td>
+              <td>CPU time (ms)</td>
+            </tr>
+            <template v-for="(versions, project_id) in projects">
+              <template v-for="(result, version_id) in versions">
+                <tr>
+                  <th>
+                    <strong :title="results.projects[project_id].description">
+                      <a :href="results.projects[project_id].url">
+                        {{results.projects[project_id].name}}
+                      </a>
+                    </strong>
+                  </th>
+                  <th>{{version_id}}</th>
+                  <td class="time">{{time(result.clock_time_ms)}}</td>
+                  <td class="time">{{time(result.cpu_time_ms)}}</td>
+                </tr>
+              </template>
+            </template>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+      const results = REPLACE_ME_WITH_JSON;
+      const $vm = new Vue({
+        el: "#app",
+        data() {
+          return { results };
+        },
+        methods: {
+          time(ms) {
+            return Number(ms).toLocaleString('en-US');
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

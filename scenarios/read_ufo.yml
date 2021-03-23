@@ -1,9 +1,9 @@
 name: Read a UFO
 description: >
   Open a UFO for reading.
-goal: >
   Extract some data from the UFO, here = compute min/max y coordinates.
-use_cases: >
+
+  Use cases:
   - Previewing fonts while designing.
   - Time to first overview of a font freshly opened in a font editor.
   - ...
