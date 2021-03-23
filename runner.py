@@ -1,7 +1,9 @@
 import json
 import os
 import re
+import shlex
 import subprocess
+import textwrap
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, TypedDict
@@ -141,8 +143,17 @@ class Project:
         for s in self.scenarios:
             if s["id"] == scenario.id:
                 script = s["script"]
-        cmd = "\n".join(["source bin/activate", *script])
-        subprocess.call(cmd, shell=True, executable="bash", cwd=project_path)
+        cmd = "\n".join(
+            [
+                "source bin/activate",
+                *(replace_variables(line, variables) for line in script),
+            ]
+        )
+        print(f"    Running cmd:")
+        print(textwrap.indent("\n".join(cmd), " " * 8))
+        subprocess.call(
+            cmd, shell=True, executable="bash", cwd=project_path, env=variables
+        )
         return Result(1000, 2000)
 
     @staticmethod
@@ -165,6 +176,18 @@ class Project:
             except Exception as e:
                 print(f"Could not load {path}: {e}")
         return result
+
+
+VARIABLE_RE = re.compile(r"\$([A-Z_][A-Z_0-9]*)")
+
+
+def replace_variables(line, variables):
+    return VARIABLE_RE.sub(
+        lambda match: " ".join(
+            [shlex.quote(path) for path in variables[match.group(1)]]
+        ),
+        line,
+    )
 
 
 @dataclass
