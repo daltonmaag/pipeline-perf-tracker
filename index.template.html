@@ -37,7 +37,7 @@
             </tr>
             <template v-for="(versions, project_id) in projects">
               <template v-for="(result, version_id) in versions">
-                <tr>
+                <tr @click="alert(result.cmd + '\n\n' + result.output)">
                   <th>
                     <strong :title="results.projects[project_id].description">
                       <a :href="results.projects[project_id].url">
@@ -46,8 +46,13 @@
                     </strong>
                   </th>
                   <th>{{version_id}}</th>
-                  <td class="time">{{time(result.clock_time_ms)}}</td>
-                  <td class="time">{{time(result.cpu_time_ms)}}</td>
+                  <template v-if="result.success">
+                    <td class="time">{{time(result.clock_time_ms)}}</td>
+                    <td class="time">{{time(result.cpu_time_ms)}}</td>
+                  </template>
+                  <template v-else>
+                    <td colspan="2">error!</td>
+                  </template>
                 </tr>
               </template>
             </template>
@@ -65,7 +70,7 @@
         },
         methods: {
           time(ms) {
-            return Number(ms).toLocaleString('en-US');
+            return Number(ms).toLocaleString("en-US");
           },
         },
       });

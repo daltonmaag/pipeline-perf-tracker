@@ -7,5 +7,6 @@ arewefastyet.com
 To run:
 
 ```bash
+poetry install
 poetry run python runner.py
 ```

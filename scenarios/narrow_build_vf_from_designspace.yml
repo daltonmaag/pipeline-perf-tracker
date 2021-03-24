@@ -1,4 +1,4 @@
-name: Narrow build (VF)
+name: Narrow build (VF) from Designspace
 description: |
   Build a variable font from a designspace file that links several master UFOs.
   Read all UFOs speedily, combine outline data etc. into variable font TTF.
@@ -8,7 +8,15 @@ description: |
   - Build test variable fonts on designer's machines
   - ...
 variants:
-  - id: Noto Sans LCG (XXX glyphs)
+  - id: Source Sans Pro (3000, 2 masters)
+    sources:
+      git:
+        repository: https://github.com/adobe-fonts/source-sans
+        ref: 7419955e2c24
+    variables:
+      DESIGNSPACE:
+        - Roman/Masters/SourceSans3VF-Roman.designspace
+  - id: Noto Sans LCG (2000 glyphs, 8 masters)
     sources:
       git:
         repository: https://github.com/madig/test-generate-instances

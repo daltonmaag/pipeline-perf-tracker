@@ -30,7 +30,7 @@ def main():
                             f'Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"',
                             end="",
                         )
-                        if result is None:
+                        if result is None or not result.success:
                             print("... ")
                             result = run(scenario, variant, project, version)
                         else:
@@ -46,8 +46,11 @@ def main():
 
 @dataclass
 class Result:
-    clock_time_ms: int
-    cpu_time_ms: int
+    cmd: str
+    success: bool
+    output: str
+    clock_time_ms: float
+    cpu_time_ms: float
 
     def get_data(self):
         return asdict(self)
@@ -165,42 +168,50 @@ class Project:
                 after_script = s.get("after_script", [])
         cmd = "\n".join(
             [
+                "{",
+                "set -e",
                 "source bin/activate",
-                *(replace_variables(line, variables) for line in before_script),
+                *(
+                    f"export {variable}={list_of_quoted_paths(paths)}"
+                    for variable, paths in variables.items()
+                ),
+                *before_script,
                 # Use GNU time to output the results to a file,
                 # -p for portable output for easy parsing
                 "/usr/bin/time -p -o time.txt sh -c {}".format(
-                    shlex.quote(
-                        "; ".join(
-                            [
-                                replace_variables(line, variables)
-                                for line in timed_script
-                            ]
-                        )
-                    )
+                    shlex.quote("; ".join(timed_script))
                 ),
-                *(replace_variables(line, variables) for line in after_script),
+                *after_script,
+                "} 2>&1 | tee output.txt",
             ]
         )
         print(f"    Running script:")
         print(textwrap.indent(cmd, " " * 8))
-        subprocess.check_call(
+        code = subprocess.call(
             cmd,
             shell=True,
             executable="bash",
             cwd=project_path,
-            env={
-                variable: list_of_quoted_paths(paths)
-                for variable, paths in variables.items()
-            },
         )
-        with (project_path / "time.txt").open("r") as fp:
-            match = TIME_OUTPUT_RE.match(fp.read())
-            assert match is not None
-            real = float(match.group(1))
-            user = float(match.group(2))
-            sys = float(match.group(3))
-        return Result(round(real * 1000), round((user + sys) * 1000))
+        output = "<no output>"
+        try:
+            with (project_path / "output.txt").open("r") as fp:
+                output = fp.read()
+        except:
+            pass
+        real = user = sys = float("nan")
+        try:
+            with (project_path / "time.txt").open("r") as fp:
+                match = TIME_OUTPUT_RE.match(fp.read())
+                if match is not None:
+                    real = float(match.group(1))
+                    user = float(match.group(2))
+                    sys = float(match.group(3))
+        except:
+            pass
+        return Result(
+            cmd, code == 0, output, real * 1000, (user + sys) * 1000
+        )
 
     @staticmethod
     def from_data(id, data):

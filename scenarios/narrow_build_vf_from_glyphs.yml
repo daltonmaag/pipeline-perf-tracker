@@ -1,0 +1,19 @@
+name: Narrow build (VF) from Glyphs.app
+description: |
+  Build a variable font from a Glyphs file.
+
+  Use-cases:
+  - Build final variable fonts on CI machines
+  - Build test variable fonts on designer's machines
+  - ...
+variants:
+  - id: Nunito (Glyphs, XXX glyphs, XXX masters)
+    sources:
+      git:
+        repository: https://github.com/googlefonts/nunito
+        ref: ed889dda6d742a0495c1963898e1b3567ab61a15
+    variables:
+      GLYPHS_FILE:
+        - sources/Nunito.glyphs
+
+

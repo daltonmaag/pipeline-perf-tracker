@@ -1,0 +1,15 @@
+name: babelfont
+url: https://github.com/simoncozens/babelfont
+description: babelfont
+versions:
+  - id: nfsf-4e5fd5a17
+    description: nfsf branch, packaged with poetry
+    setup_script:
+      - python -m pip install git+git://github.com/daltonmaag/babelfont@4e5fd5a17
+scenarios:
+  - id: narrow_build_vf_from_designspace
+    timed_script:
+      - babelfont $DESIGNSPACE vf.ttf
+  - id: narrow_build_vf_from_glyphs
+    timed_script:
+      - babelfont $GLYPHS_FILE vf.ttf
