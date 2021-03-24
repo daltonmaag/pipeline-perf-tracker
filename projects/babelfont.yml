@@ -8,8 +8,12 @@ versions:
       - python -m pip install git+git://github.com/daltonmaag/babelfont@4e5fd5a17
 scenarios:
   - id: narrow_build_vf_from_designspace
+    before_script:
+      - pip list
     timed_script:
       - babelfont $DESIGNSPACE vf.ttf
   - id: narrow_build_vf_from_glyphs
+    before_script:
+      - pip list
     timed_script:
       - babelfont $GLYPHS_FILE vf.ttf

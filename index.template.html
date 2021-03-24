@@ -19,6 +19,25 @@
         text-align: right;
         font-family: monospace;
       }
+      .backdrop {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+      .modal {
+        background-color: white;
+        border: 1px solid black;
+        margin: auto auto;
+        padding: 1rem;
+        max-width: calc(100vw - 6rem - 2px);
+        max-height: calc(100vh - 6rem - 2px);
+        overflow: auto;
+      }
     </style>
   </head>
   <body>
@@ -32,12 +51,13 @@
             <tr>
               <th>Project</th>
               <th>Version</th>
-              <td>Clock time (ms)</td>
-              <td>CPU time (ms)</td>
+              <th>Clock time (ms)</th>
+              <th>CPU time (ms)</th>
+              <th></th>
             </tr>
             <template v-for="(versions, project_id) in projects">
               <template v-for="(result, version_id) in versions">
-                <tr @click="alert(result.cmd + '\n\n' + result.output)">
+                <tr>
                   <th>
                     <strong :title="results.projects[project_id].description">
                       <a :href="results.projects[project_id].url">
@@ -46,17 +66,26 @@
                     </strong>
                   </th>
                   <th>{{version_id}}</th>
-                  <template v-if="result.success">
-                    <td class="time">{{time(result.clock_time_ms)}}</td>
-                    <td class="time">{{time(result.cpu_time_ms)}}</td>
-                  </template>
-                  <template v-else>
-                    <td colspan="2">error!</td>
-                  </template>
+                  <td class="time">{{time(result.clock_time_ms)}}</td>
+                  <td class="time">{{time(result.cpu_time_ms)}}</td>
+                  <td>
+                    <button @click="alert(result.cmd, result.output)">
+                      show logs
+                    </button>
+                  </td>
                 </tr>
               </template>
             </template>
           </table>
+        </div>
+      </div>
+      <div v-show="showLogs" class="backdrop" @click="showLogs = false">
+        <div class="modal">
+          <button style="float: right" @click="showLogs = false">close</button>
+          <h2>Command</h2>
+          <pre>{{cmd}}</pre>
+          <h2>Output</h2>
+          <pre>{{output}}</pre>
         </div>
       </div>
     </div>
@@ -66,11 +95,21 @@
       const $vm = new Vue({
         el: "#app",
         data() {
-          return { results };
+          return {
+            results,
+            cmd: "",
+            output: "",
+            showLogs: false,
+          };
         },
         methods: {
           time(ms) {
-            return Number(ms).toLocaleString("en-US");
+            return Math.round(Number(ms)).toLocaleString("en-US");
+          },
+          alert(cmd, output) {
+            this.cmd = cmd;
+            this.output = output;
+            this.showLogs = true;
           },
         },
       });

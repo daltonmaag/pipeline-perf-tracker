@@ -1,4 +1,5 @@
 import json
+import math
 import os
 import re
 import shlex
@@ -13,6 +14,7 @@ import yaml
 
 
 def main():
+    NUMBER_OF_TIMES = 3
     try:
         old_results = Results.from_file("results.json")
     except OSError:
@@ -32,7 +34,9 @@ def main():
                         )
                         if result is None or not result.success:
                             print("... ")
-                            result = run(scenario, variant, project, version)
+                            result = run(
+                                scenario, variant, project, version, NUMBER_OF_TIMES
+                            )
                         else:
                             print(": already done.")
                         if result is not None:
@@ -67,7 +71,9 @@ class ScenarioSourcesGit:
 
     def download(self, path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        if not os.path.exists(path):
+        if os.path.exists(path):
+            git("-C", path, "remote", "update")
+        else:
             git("clone", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
 
@@ -131,6 +137,7 @@ class ProjectVersion:
     setup_script: List[str]
 
     def setup(self, project_path: Path):
+        # TODO: virtualenv is faster and better
         venv.create(project_path, with_pip=True)
         cmd = "\n".join(["source bin/activate", *self.setup_script])
         print(f"    Running setup_script:")
@@ -157,7 +164,9 @@ class Project:
     def can_handle(self, scenario):
         return any(s["id"] == scenario.id for s in self.scenarios)
 
-    def run(self, project_path: Path, scenario: Scenario, variables: Dict) -> Result:
+    def run(
+        self, project_path: Path, scenario: Scenario, variables: Dict, times: int
+    ) -> Result:
         before_script = []
         timed_script = []
         after_script = []
@@ -178,8 +187,19 @@ class Project:
                 *before_script,
                 # Use GNU time to output the results to a file,
                 # -p for portable output for easy parsing
+                # TODO: if we're just measuring python stuff anyway, and we want
+                # more types of data (cpu, memory, gpu...) we could use scalene instead.
                 "/usr/bin/time -p -o time.txt sh -c {}".format(
-                    shlex.quote("; ".join(timed_script))
+                    shlex.quote(
+                        "; ".join(
+                            [
+                                f"for i in $(seq {times})",
+                                "do echo '######## Run number '$i",
+                                *timed_script,
+                                "done",
+                            ]
+                        )
+                    )
                 ),
                 *after_script,
                 "} 2>&1 | tee output.txt",
@@ -210,7 +230,11 @@ class Project:
         except:
             pass
         return Result(
-            cmd, code == 0, output, real * 1000, (user + sys) * 1000
+            cmd,
+            code == 0 and not math.isnan(real),
+            output,
+            real * 1000 / times,
+            (user + sys) * 1000 / times,
         )
 
     @staticmethod
@@ -289,7 +313,7 @@ class Results:
             self.data["values"][scenario.id] = {}
         if variant.id not in self.data["values"][scenario.id]:
             self.data["values"][scenario.id][variant.id] = {}
-        if project.id not in self.data["values"][scenario.id]:
+        if project.id not in self.data["values"][scenario.id][variant.id]:
             self.data["values"][scenario.id][variant.id][project.id] = {}
         self.data["values"][scenario.id][variant.id][project.id][
             version.id
@@ -336,6 +360,7 @@ def run(
     variant: ScenarioVariant,
     project: Project,
     version: ProjectVersion,
+    times: int,
 ) -> Optional[Result]:
     try:
         sources_path = (
@@ -345,7 +370,7 @@ def run(
         variables = variant.get_variables(sources_path)
         project_path = VENVS / safe_dir_name(project.id) / safe_dir_name(version.id)
         version.setup(project_path)
-        result = project.run(project_path, scenario, variables)
+        result = project.run(project_path, scenario, variables, times)
         return result
     except Exception as e:
         print(f"Could not run: {e}")

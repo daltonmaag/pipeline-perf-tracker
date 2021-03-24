@@ -8,14 +8,15 @@ description: |
   - Build test variable fonts on designer's machines
   - ...
 variants:
-  - id: Source Sans Pro (3000, 2 masters)
-    sources:
-      git:
-        repository: https://github.com/adobe-fonts/source-sans
-        ref: 7419955e2c24
-    variables:
-      DESIGNSPACE:
-        - Roman/Masters/SourceSans3VF-Roman.designspace
+  # fontmake can't compile the STAT.fea, babelfont crashes
+  # - id: Source Sans Pro (3000, 2 masters)
+  #   sources:
+  #     git:
+  #       repository: https://github.com/adobe-fonts/source-sans
+  #       ref: 8ee1c555beecfb7e78529d6e4be2184c69ebb8cd
+  #   variables:
+  #     DESIGNSPACE:
+  #       - Roman/Masters/SourceSans3VF-Roman.designspace
   - id: Noto Sans LCG (2000 glyphs, 8 masters)
     sources:
       git:
