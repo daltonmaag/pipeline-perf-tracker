@@ -20,7 +20,6 @@
         font-family: monospace;
       }
       .backdrop {
-        display: none;
         background-color: rgba(0, 0, 0, 0.3);
         position: fixed;
         display: flex;
@@ -37,6 +36,9 @@
         max-width: calc(100vw - 6rem - 2px);
         max-height: calc(100vh - 6rem - 2px);
         overflow: auto;
+      }
+      [v-cloak] {
+        display: none;
       }
     </style>
   </head>
@@ -79,7 +81,7 @@
           </table>
         </div>
       </div>
-      <div v-show="showLogs" class="backdrop" @click="showLogs = false">
+      <div v-show="showLogs" class="backdrop" @click="showLogs = false" v-cloak>
         <div class="modal">
           <button style="float: right" @click="showLogs = false">close</button>
           <h2>Command</h2>
