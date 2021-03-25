@@ -7,7 +7,7 @@ description: |
   - Build test variable fonts on designer's machines
   - ...
 variants:
-  - id: Nunito (Glyphs, 1100 glyphs, 6 masters)
+  - id: Nunito (1100 glyphs, 6 masters)
     sources:
       git:
         repository: https://github.com/googlefonts/nunito
@@ -15,5 +15,20 @@ variants:
     variables:
       GLYPHS_FILE:
         - sources/Nunito.glyphs
+  - id: Sofia Sans (960 glyphs, 7 masters)
+    sources: bundled
+    variables:
+      GLYPHS_FILE:
+        - SofiaSans/SofiaSans-VF-New.glyphs
+  - id: Noto Sans LCG (3780 glyphs, 8 masters)
+    sources: bundled
+    variables:
+      GLYPHS_FILE:
+        - NotoSans/NotoSans-MM.glyphs
+  - id: Truculenta (1390 glyphs, 18 masters)
+    sources: bundled
+    variables:
+      GLYPHS_FILE:
+        - Truculenta/Truculenta.glyphs
 
 

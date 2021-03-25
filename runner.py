@@ -1,3 +1,4 @@
+from abc import abstractclassmethod
 import json
 import math
 import os
@@ -7,7 +8,7 @@ import subprocess
 import textwrap
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from typing import Dict, List, Optional, TypedDict
+from typing import Dict, List, Optional
 
 import venv
 import yaml
@@ -64,6 +65,34 @@ class Result:
         return Result(**data)
 
 
+class ScenarioSources:
+    @abstractclassmethod
+    def download(self, path):
+        pass
+
+    @staticmethod
+    def from_data(data):
+        if data == "bundled":
+            return ScenarioSourcesBundled()
+        elif "git" in data:
+            return ScenarioSourcesGit(data["git"]["repository"], data["git"]["ref"])
+        raise ValueError(f"Unknown scenario source data: {data}")
+
+
+BUNDLED_SOURCES = Path("bundled_sources/").resolve()
+
+
+@dataclass
+class ScenarioSourcesBundled:
+    def download(self, path: Path):
+        os.makedirs(path, exist_ok=True)
+        # Make symlinks in path to the bundled_sources folders
+        for child in BUNDLED_SOURCES.iterdir():
+            target = (path / child.name)
+            if not target.is_symlink():
+                target.symlink_to(child, child.is_dir())
+
+
 @dataclass
 class ScenarioSourcesGit:
     repository: str
@@ -76,10 +105,6 @@ class ScenarioSourcesGit:
         else:
             git("clone", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
-
-    @staticmethod
-    def from_data(data):
-        return ScenarioSourcesGit(data["git"]["repository"], data["git"]["ref"])
 
 
 @dataclass
@@ -97,7 +122,7 @@ class ScenarioVariant:
     @staticmethod
     def from_data(data):
         return ScenarioVariant(
-            data["id"], ScenarioSourcesGit.from_data(data["sources"]), data["variables"]
+            data["id"], ScenarioSources.from_data(data["sources"]), data["variables"]
         )
 
 
