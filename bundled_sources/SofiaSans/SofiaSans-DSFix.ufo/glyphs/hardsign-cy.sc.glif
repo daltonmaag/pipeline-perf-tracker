@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsign-cy.sc" format="2">
+  <advance width="500.17187"/>
+  <outline>
+    <contour>
+      <point x="24" y="395" type="curve" smooth="yes"/>
+      <point x="159" y="395" type="line"/>
+      <point x="159" y="552" type="line"/>
+      <point x="24" y="552" type="line" smooth="yes"/>
+      <point x="15" y="552"/>
+      <point x="10" y="548"/>
+      <point x="10" y="538" type="curve" smooth="yes"/>
+      <point x="10" y="409" type="line" smooth="yes"/>
+      <point x="10" y="401"/>
+      <point x="15" y="395"/>
+    </contour>
+    <component base="softsign-cy.sc" xOffset="77"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>softsign-cy.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Z_H" format="2">
+  <advance width="648"/>
+  <outline>
+    <contour>
+      <point x="372" y="0" type="curve"/>
+      <point x="375" y="34" type="line"/>
+      <point x="348" y="33"/>
+      <point x="210" y="32"/>
+      <point x="172" y="31" type="curve" smooth="yes"/>
+      <point x="142" y="30"/>
+      <point x="88" y="31"/>
+      <point x="49" y="31" type="curve"/>
+      <point x="89" y="141"/>
+      <point x="125" y="236"/>
+      <point x="159" y="325" type="curve" smooth="yes"/>
+      <point x="203" y="437"/>
+      <point x="246" y="550"/>
+      <point x="290" y="662" type="curve"/>
+      <point x="290" y="695" type="line"/>
+      <point x="264" y="694"/>
+      <point x="204" y="693"/>
+      <point x="163" y="692" type="curve" smooth="yes"/>
+      <point x="122" y="691"/>
+      <point x="57" y="692"/>
+      <point x="30" y="693" type="curve"/>
+      <point x="28" y="662" type="line"/>
+      <point x="53" y="663"/>
+      <point x="108" y="664"/>
+      <point x="145" y="664" type="curve" smooth="yes"/>
+      <point x="174" y="664"/>
+      <point x="218" y="663"/>
+      <point x="253" y="662" type="curve"/>
+      <point x="211" y="543"/>
+      <point x="173" y="438"/>
+      <point x="133" y="333" type="curve" smooth="yes"/>
+      <point x="97" y="237"/>
+      <point x="59" y="140"/>
+      <point x="15" y="31" type="curve"/>
+      <point x="16" y="1" type="line"/>
+      <point x="45" y="2"/>
+      <point x="115" y="3"/>
+      <point x="156" y="3" type="curve" smooth="yes"/>
+      <point x="197" y="3"/>
+      <point x="344" y="1"/>
+    </contour>
+    <contour>
+      <point x="559" y="-2" type="curve"/>
+      <point x="596" y="-2" type="line"/>
+      <point x="594" y="89"/>
+      <point x="592" y="256"/>
+      <point x="592" y="381" type="curve" smooth="yes"/>
+      <point x="592" y="506"/>
+      <point x="594" y="640"/>
+      <point x="596" y="707" type="curve"/>
+      <point x="558" y="705" type="line"/>
+      <point x="559" y="624"/>
+      <point x="560" y="498"/>
+      <point x="561" y="406" type="curve" smooth="yes"/>
+      <point x="561" y="378"/>
+      <point x="561" y="353"/>
+      <point x="561" y="333" type="curve"/>
+      <point x="373" y="328" type="line"/>
+      <point x="373" y="349"/>
+      <point x="373" y="376"/>
+      <point x="373" y="407" type="curve" smooth="yes"/>
+      <point x="374" y="503"/>
+      <point x="374" y="636"/>
+      <point x="376" y="727" type="curve"/>
+      <point x="336" y="729" type="line"/>
+      <point x="339" y="653"/>
+      <point x="343" y="507"/>
+      <point x="343" y="382" type="curve" smooth="yes"/>
+      <point x="343" y="257"/>
+      <point x="341" y="159"/>
+      <point x="339" y="120" type="curve"/>
+      <point x="377" y="121" type="line"/>
+      <point x="376" y="180"/>
+      <point x="375" y="238"/>
+      <point x="374" y="297" type="curve"/>
+      <point x="561" y="297" type="line"/>
+      <point x="560" y="197"/>
+      <point x="560" y="98"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>LWTimeline</key>
+      <string>H4sIAAAAAAAAE+1YTW8TMRD9K5bP22r9MV5vjhQqkAqVWqAHFKHQLG1FmqAkpYeq/52Z/YrHSTeozSHA3jJvbc/4zfjNKA/y+3x0Wyzk4MuDnNx/XRQT/DlM5Nn5KzkAncifo+V19flyMlsUYzlYzu+KRE5n43KbNBkIY8XJuw9vZCKN9cIYcXp8fPTp7DMhWqXC6BBRmRZGidIU5+9PTz++JdQimobrvKdlAWDzdh99zoWy7LvSILRxDALcg3DkTKdGWJOxOK0TACwAnafCOd16LO0cmrtqZ9G0bEdKELu/cgah+pDgulojzMKHrFwYIIb8mZV/X4ZTuwc813FXKS1gASkLJRR7z2y8UivazFNXugjur5QAy11mRKRnEObfmDrqlcs8w9wwxoESyAhXECZYOaGay+I1eA3RUr7ViTWfCp2yVcZawTg3WItp7XH4mDxZ5ZA7cbCiHrOO5cfuooUGVnoEGb9W5wRDGq3EbHAmyF+WZi0XAB7ttvQAuYOcR+CUsIplgqA2E+VlMTNYRM1bpdwpzg/VRcqyZDKMRK8iMYbsvD3E5MJBRLLBG/JDEDJ+7REQrCFaqQQ92hBCF0o3WaKIMrTb0qAAlWfskSZpXpV0M50HhCI3ZDeEulRQtTD2UpFzPjGug+Y5DB9RJu9vxstrOXDWJ/JuUcxfj5YjOXiQJxcfb24LOVDgM5uDdtmhAcyOf0zkr2K+vKj2HahEnpDSKkjkt9Hlj6v57G46phO26q4HJIHxpDSyySW0U/7Y3TS+jOhtr8kfHuaQ6Eb+8AkCz7xC3m0kELtSA6qL2nfnQ32JKnoXr9Su4qCLlj3qCl3M7KxRI8SrjI7ijXhvdXxNOyqTnYSviBdBqZs+FCB8PjmT8EYlN0CtHQtnZbJbmfhFMeGsbWrD4ZJaHjdA2/kAum0gg5RxLIsmRgDWMNBsF3eeGnXL0griK7ulihpe0C1rGyDaVfXEDVBrx22yMsMd1CZ57so2meWrQ6g1cA2plX8daRgePhId/QTdT9A8df0E/ZQm/CsTtLFcwwnKot6AGW4iCYZfrCBIOblUVPz5be0i/fi9dfw2kB+61CmVqn7+fq6W9PN3g3T0lC5mdtbm+/m7n7+3nNrP3/38XUJ7rJXJy3pFP3/XwB8qb6wJezB/O83yRxOfjUY+Ugt0FUdQKsbaSsO1ux/eKxd/+fDu1KH2zkH/3/mzdaif3Rukox91MbOzEaGf3fvZfcup/+Psju1gXlzO5uOb6VXDyGS0WB5dj6ZXG3vBb64bDiq6IgAA</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Z</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

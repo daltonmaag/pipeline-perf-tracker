@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="foursuperior" format="2">
+  <advance width="314"/>
+  <unicode hex="2074"/>
+  <outline>
+    <contour>
+      <point x="167" y="564" type="line"/>
+      <point x="243" y="565" type="line"/>
+      <point x="243" y="605" type="line"/>
+      <point x="285" y="605" type="line"/>
+      <point x="285" y="665" type="line"/>
+      <point x="242" y="664" type="line"/>
+      <point x="242" y="692" type="line" smooth="yes"/>
+      <point x="242" y="750"/>
+      <point x="243" y="800"/>
+      <point x="243" y="800" type="curve"/>
+      <point x="121" y="801" type="line"/>
+      <point x="106" y="776"/>
+      <point x="91" y="753"/>
+      <point x="69" y="722" type="curve" smooth="yes"/>
+      <point x="27" y="663" type="line"/>
+      <point x="32" y="604" type="line"/>
+      <point x="167" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="105" y="662" type="line"/>
+      <point x="168" y="747" type="line"/>
+      <point x="168" y="662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>four</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>four</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

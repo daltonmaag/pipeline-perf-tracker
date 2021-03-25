@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nacute.loclPLK.alt" format="2">
+  <advance width="615"/>
+  <outline>
+    <component base="N.alt"/>
+    <component base="acute.loclPLK.case.comb" xOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

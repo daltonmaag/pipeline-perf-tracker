@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE.alt" format="2">
+  <advance width="683"/>
+  <anchor x="420" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="15" y="-8" type="curve"/>
+      <point x="87" y="-3" type="line"/>
+      <point x="108" y="51"/>
+      <point x="129" y="105"/>
+      <point x="150" y="159" type="curve"/>
+      <point x="338" y="161" type="line"/>
+      <point x="336" y="-5" type="line"/>
+      <point x="638" y="0" type="line"/>
+      <point x="638" y="61" type="line"/>
+      <point x="413" y="61" type="line"/>
+      <point x="411" y="241" type="line"/>
+      <point x="618" y="244" type="line"/>
+      <point x="628" y="305" type="line"/>
+      <point x="410" y="308" type="line"/>
+      <point x="411" y="390" type="line"/>
+      <point x="411" y="470"/>
+      <point x="412" y="549"/>
+      <point x="412" y="629" type="curve"/>
+      <point x="629" y="627" type="line"/>
+      <point x="622" y="693" type="line"/>
+      <point x="288" y="700" type="line"/>
+      <point x="258" y="617"/>
+      <point x="210" y="489"/>
+      <point x="159" y="358" type="curve" smooth="yes"/>
+      <point x="108" y="227"/>
+      <point x="52" y="80"/>
+    </contour>
+    <contour>
+      <point x="172" y="218" type="line"/>
+      <point x="188" y="262"/>
+      <point x="205" y="305"/>
+      <point x="221" y="349" type="curve" smooth="yes"/>
+      <point x="257" y="446"/>
+      <point x="300" y="549"/>
+      <point x="337" y="640" type="curve"/>
+      <point x="338" y="584"/>
+      <point x="340" y="494"/>
+      <point x="339" y="391" type="curve" smooth="yes"/>
+      <point x="338" y="228" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

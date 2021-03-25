@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
+  <advance width="642"/>
+  <unicode hex="0398"/>
+  <outline>
+    <contour>
+      <point x="187" y="331" type="curve" smooth="yes"/>
+      <point x="455" y="331" type="line" smooth="yes"/>
+      <point x="457" y="331"/>
+      <point x="458" y="332"/>
+      <point x="458" y="334" type="curve" smooth="yes"/>
+      <point x="458" y="344" type="line" smooth="yes"/>
+      <point x="458" y="346"/>
+      <point x="457" y="347"/>
+      <point x="455" y="347" type="curve" smooth="yes"/>
+      <point x="187" y="347" type="line" smooth="yes"/>
+      <point x="185" y="347"/>
+      <point x="184" y="346"/>
+      <point x="184" y="344" type="curve" smooth="yes"/>
+      <point x="184" y="334" type="line" smooth="yes"/>
+      <point x="184" y="332"/>
+      <point x="185" y="331"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

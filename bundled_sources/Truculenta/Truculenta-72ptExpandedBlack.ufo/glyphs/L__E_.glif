@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L_E" format="2">
+  <advance width="805"/>
+  <guideline x="363" y="911" angle="90"/>
+  <guideline x="431" y="155" angle="0"/>
+  <outline>
+    <contour>
+      <point x="52" y="-3" type="curve"/>
+      <point x="233" y="3" type="line"/>
+      <point x="233" y="92"/>
+      <point x="232" y="242"/>
+      <point x="232" y="327" type="curve"/>
+      <point x="232" y="412"/>
+      <point x="232" y="591"/>
+      <point x="232" y="702" type="curve"/>
+      <point x="47" y="694" type="line"/>
+      <point x="51" y="611"/>
+      <point x="57" y="455"/>
+      <point x="57" y="330" type="curve"/>
+      <point x="57" y="207"/>
+      <point x="54" y="68"/>
+    </contour>
+    <contour>
+      <point x="52" y="-3" type="line"/>
+      <point x="616" y="-3" type="line"/>
+      <point x="616" y="122" type="line"/>
+      <point x="119" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="359" y="195" type="line"/>
+      <point x="763" y="194" type="line"/>
+      <point x="761" y="311" type="line"/>
+      <point x="425" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="359" y="195" type="curve"/>
+      <point x="539" y="196" type="line"/>
+      <point x="538" y="281"/>
+      <point x="536" y="407"/>
+      <point x="536" y="441" type="curve"/>
+      <point x="536" y="526"/>
+      <point x="538" y="672"/>
+      <point x="539" y="758" type="curve"/>
+      <point x="353" y="774" type="line"/>
+      <point x="357" y="705"/>
+      <point x="363" y="568"/>
+      <point x="363" y="443" type="curve"/>
+      <point x="363" y="374"/>
+      <point x="361" y="261"/>
+    </contour>
+    <contour>
+      <point x="424" y="384" type="line"/>
+      <point x="759" y="390" type="line"/>
+      <point x="761" y="526" type="line"/>
+      <point x="424" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="411" y="638" type="line"/>
+      <point x="751" y="639" type="line"/>
+      <point x="751" y="763" type="line"/>
+      <point x="353" y="774" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

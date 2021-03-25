@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.ss01" format="2">
+  <advance width="302"/>
+  <anchor x="177" y="0" name="bottom"/>
+  <anchor x="146" y="362" name="center"/>
+  <anchor x="198" y="555" name="topright"/>
+  <outline>
+    <contour>
+      <point x="189" y="-11" type="curve" smooth="yes"/>
+      <point x="225" y="-11"/>
+      <point x="254" y="-4"/>
+      <point x="275" y="11" type="curve"/>
+      <point x="259" y="34" type="line"/>
+      <point x="243" y="22"/>
+      <point x="222" y="16"/>
+      <point x="194" y="16" type="curve" smooth="yes"/>
+      <point x="131" y="16"/>
+      <point x="108" y="60"/>
+      <point x="108" y="155" type="curve" smooth="yes"/>
+      <point x="108" y="272"/>
+      <point x="112" y="482"/>
+      <point x="120" y="645" type="curve"/>
+      <point x="82" y="640" type="line"/>
+      <point x="82" y="554"/>
+      <point x="77" y="241"/>
+      <point x="77" y="143" type="curve" smooth="yes"/>
+      <point x="77" y="63"/>
+      <point x="98" y="-10"/>
+    </contour>
+    <contour>
+      <point x="9" y="524" type="line"/>
+      <point x="46" y="525"/>
+      <point x="117" y="527"/>
+      <point x="173" y="528" type="curve"/>
+      <point x="187" y="528"/>
+      <point x="253" y="528"/>
+      <point x="296" y="528" type="curve"/>
+      <point x="296" y="555" type="line"/>
+      <point x="258" y="554"/>
+      <point x="195" y="553"/>
+      <point x="159" y="552" type="curve"/>
+      <point x="104" y="552"/>
+      <point x="42" y="553"/>
+      <point x="11" y="553" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

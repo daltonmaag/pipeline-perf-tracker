@@ -1,0 +1,649 @@
+# automatic
+@Uppercase = [ A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M N NJ Nacute Ncaron Ncommaaccent Nhookleft Nj Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent A.alt Aacute.alt Abreve.alt Abreveacute.alt Abrevedotbelow.alt Abrevegrave.alt Abrevehookabove.alt Abrevetilde.alt Acaron.alt Acircumflex.alt Acircumflexacute.alt Acircumflexdotbelow.alt Acircumflexgrave.alt Acircumflexhookabove.alt Acircumflextilde.alt Adblgrave.alt Adieresis.alt Adotbelow.alt Agrave.alt Ahookabove.alt Ainvertedbreve.alt Amacron.alt Aogonek.alt Aring.alt Aringacute.alt Atilde.alt AE.alt AEacute.alt B.alt C.alt Cacute.alt Ccaron.alt Ccedilla.alt Ccircumflex.alt Cdotaccent.alt D.alt DZcaron.alt Eth.alt Dcaron.alt Dcroat.alt Dzcaron.alt E.alt Eacute.alt Ebreve.alt Ecaron.alt Ecircumflex.alt Ecircumflexacute.alt Ecircumflexdotbelow.alt Ecircumflexgrave.alt Ecircumflexhookabove.alt Ecircumflextilde.alt Edblgrave.alt Edieresis.alt Edotaccent.alt Edotbelow.alt Egrave.alt Ehookabove.alt Einvertedbreve.alt Emacron.alt Eogonek.alt Etilde.alt F.alt G.alt Gbreve.alt Gcaron.alt Gcircumflex.alt Gcommaaccent.alt Gdotaccent.alt H.alt Hbar.alt Hcircumflex.alt Hdotbelow.alt I.alt IJ.alt Iacute.alt Ibreve.alt Icaron.alt Icircumflex.alt Idblgrave.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Ihookabove.alt Iinvertedbreve.alt Imacron.alt Iogonek.alt Itilde.alt J.alt Jcircumflex.alt K.alt Kcommaaccent.alt L.alt LJ.alt Lacute.alt Lcaron.alt Lcommaaccent.alt Ldot.alt Lj.alt Lslash.alt M.alt N.alt NJ.alt Nacute.alt Ncaron.alt Ncommaaccent.alt Nhookleft.alt Nj.alt Ntilde.alt Eng.alt O.alt Oacute.alt Obreve.alt Ocaron.alt Ocircumflex.alt Ocircumflexacute.alt Ocircumflexdotbelow.alt Ocircumflexgrave.alt Ocircumflexhookabove.alt Ocircumflextilde.alt Odblgrave.alt Odieresis.alt Odieresismacron.alt Odotaccentmacron.alt Odotbelow.alt Ograve.alt Ohookabove.alt Ohorn.alt Ohornacute.alt Ohorndotbelow.alt Ohorngrave.alt Ohornhookabove.alt Ohorntilde.alt Ohungarumlaut.alt Oinvertedbreve.alt Omacron.alt Oogonek.alt Oslash.alt Oslashacute.alt Otilde.alt Otildemacron.alt OE.alt P.alt Thorn.alt Q.alt R.alt Racute.alt Rcaron.alt Rcommaaccent.alt Rdblgrave.alt Rinvertedbreve.alt S.alt Sacute.alt Scaron.alt Scedilla.alt Scircumflex.alt Scommaaccent.alt Sdotbelow.alt Germandbls.alt Schwa.alt T.alt Tbar.alt Tcaron.alt Tcedilla.alt Tcommaaccent.alt Tdotbelow.alt U.alt Uacute.alt Ubreve.alt Ucaron.alt Ucircumflex.alt Udblgrave.alt Udieresis.alt Udieresisacute.alt Udieresiscaron.alt Udieresisgrave.alt Udieresismacron.alt Udotbelow.alt Ugrave.alt Uhookabove.alt Uhorn.alt Uhornacute.alt Uhorndotbelow.alt Uhorngrave.alt Uhornhookabove.alt Uhorntilde.alt Uhungarumlaut.alt Uinvertedbreve.alt Umacron.alt Uogonek.alt Uring.alt Utilde.alt V.alt W.alt Wacute.alt Wcircumflex.alt Wdieresis.alt Wgrave.alt X.alt Y.alt Yacute.alt Ycircumflex.alt Ydieresis.alt Ydotbelow.alt Ygrave.alt Yhookabove.alt Ymacron.alt Ytilde.alt Z.alt Zacute.alt Zcaron.alt Zdotaccent.alt Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK Cacute.loclPLK.alt Nacute.loclPLK.alt Oacute.loclPLK.alt Sacute.loclPLK.alt Zacute.loclPLK.alt A_A A_F A_H A_I A_K A_M A_N A_Ntilde A_P A_R A_T A_X A_Y C_T E_A E_F E_F_A E_H E_I E_K E_M E_N E_Ntilde E_P E_P_A E_R E_T E_X E_Y F_A F_F F_I K_A K_H K_I K_K K_M K_Ntilde K_P K_R K_T K_Y L_A L_C L_E L_F L_F_A L_H L_I L_K L_M L_N L_O L_P L_R L_U L_Y P_A P_S R_A R_F R_H R_I R_K R_M R_N R_P R_P_A R_R R_T R_Y S_T T_A T_B T_C T_D T_E T_F T_G T_H T_I T_J T_K T_L T_M T_N T_O T_P T_Q T_R T_S T_T T_U T_V T_W T_X T_Y T_Z T_aacute T_eacute T_i T_iacute T_oacute T_uacute X_A X_F X_H X_I X_K X_M X_N X_P X_R X_T X_X X_Y Z_A Z_F Z_F_A Z_H Z_I Z_K Z_M Z_N Z_P Z_P_A Z_R Z_T Z_X Z_Y Delta Omega ];
+
+@calt1 = [  A Aacute Abreve Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Ainvertedbreve Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Adieresis Adotbelow Agrave Adblgrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute E Eacute Ebreve Einvertedbreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Edblgrave Ehookabove Emacron Eogonek Etilde I IJ IJacute Iacute Ibreve Iinvertedbreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Idblgrave Ihookabove Imacron Iogonek Itilde O Oacute Oacute.loclPLK Obreve Oinvertedbreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Odieresis Odieresismacron Odotbelow Odotaccentmacron Ograve Odblgrave Ohorn Ohornacute Ohornhookabove Ohorntilde Ohorngrave Ohookabove Ohorndotbelow Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE U Uacute Ubreve Uinvertedbreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Udblgrave Uhorn Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde a aacute abreve abreveacute abrevegrave abrevehookabove abrevetilde abrevedotbelow ainvertedbreve acaron acircumflex acircumflexgrave acircumflexacute acircumflexhookabove acircumflextilde acircumflexdotbelow adieresis adotbelow agrave adblgrave ahookabove amacron aogonek aring aringacute atilde ae aeacute e eacute ebreve einvertedbreve ecaron ecircumflex ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde ecircumflexdotbelow edieresis edotaccent edotbelow egrave edblgrave ehookabove emacron eogonek etilde i idotless iacute ibreve iinvertedbreve icaron icircumflex idieresis idotaccent idotbelow igrave idblgrave ihookabove ij ijacute imacron iogonek itilde o oacute oacute.loclPLK obreve oinvertedbreve ocaron ocircumflex ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde ocircumflexdotbelow odieresis odieresismacron odotbelow odotaccentmacron ograve odblgrave ohorn ohornacute ohornhookabove ohorntilde ohorngrave ohorndotbelow ohookabove ohungarumlaut omacron oogonek oslash oslashacute otilde otildemacron oe u uacute ubreve uinvertedbreve ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave udblgrave uhorn uhornacute uhorngrave uhornhookabove uhorntilde uhorndotbelow uhookabove uhungarumlaut umacron uogonek uring utilde ];
+
+@calt2 = [  A.alt Aacute.alt Abreve.alt Abreveacute.alt Abrevegrave.alt Abrevehookabove.alt Abrevetilde.alt Abrevedotbelow.alt Ainvertedbreve.alt Acaron.alt Acircumflex.alt Acircumflexacute.alt Acircumflexgrave.alt Acircumflexhookabove.alt Acircumflextilde.alt Acircumflexdotbelow.alt Adieresis.alt Adotbelow.alt Agrave.alt Adblgrave.alt Ahookabove.alt Amacron.alt Aogonek.alt Aring.alt Aringacute.alt Atilde.alt AE.alt AEacute.alt E.alt Eacute.alt Ebreve.alt Einvertedbreve.alt Ecaron.alt Ecircumflex.alt Ecircumflexacute.alt Ecircumflexgrave.alt Ecircumflexhookabove.alt Ecircumflextilde.alt Ecircumflexdotbelow.alt Edieresis.alt Edotaccent.alt Edotbelow.alt Egrave.alt Edblgrave.alt Ehookabove.alt Emacron.alt Eogonek.alt Etilde.alt I.alt IJ.alt IJacute.alt Iacute.alt Ibreve.alt Iinvertedbreve.alt Icaron.alt Icircumflex.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Idblgrave.alt Ihookabove.alt Imacron.alt Iogonek.alt Itilde.alt O.alt Oacute.alt Oacute.loclPLK.alt Obreve.alt Oinvertedbreve.alt Ocaron.alt Ocircumflex.alt Ocircumflexacute.alt Ocircumflexgrave.alt Ocircumflexhookabove.alt Ocircumflextilde.alt Ocircumflexdotbelow.alt Odieresis.alt Odieresismacron.alt Odotbelow.alt Odotaccentmacron.alt Ograve.alt Odblgrave.alt Ohorn.alt Ohornacute.alt Ohornhookabove.alt Ohorntilde.alt Ohorngrave.alt Ohookabove.alt Ohorndotbelow.alt Ohungarumlaut.alt Omacron.alt Oogonek.alt Oslash.alt Oslashacute.alt Otilde.alt Otildemacron.alt OE.alt U.alt Uacute.alt Ubreve.alt Uinvertedbreve.alt Ucaron.alt Ucircumflex.alt Udieresis.alt Udieresisacute.alt Udieresiscaron.alt Udieresisgrave.alt Udieresismacron.alt Udotbelow.alt Ugrave.alt Udblgrave.alt Uhorn.alt Uhornacute.alt Uhorngrave.alt Uhornhookabove.alt Uhorntilde.alt Uhorndotbelow.alt Uhookabove.alt Uhungarumlaut.alt Umacron.alt Uogonek.alt Uring.alt Utilde.alt a.alt aacute.alt abreve.alt abreveacute.alt abrevegrave.alt abrevehookabove.alt abrevetilde.alt abrevedotbelow.alt ainvertedbreve.alt acaron.alt acircumflex.alt acircumflexgrave.alt acircumflexacute.alt acircumflexhookabove.alt acircumflextilde.alt acircumflexdotbelow.alt adieresis.alt adotbelow.alt agrave.alt adblgrave.alt ahookabove.alt amacron.alt aogonek.alt aring.alt aringacute.alt atilde.alt ae.alt aeacute.alt e.alt eacute.alt ebreve.alt einvertedbreve.alt ecaron.alt ecircumflex.alt ecircumflexacute.alt ecircumflexgrave.alt ecircumflexhookabove.alt ecircumflextilde.alt ecircumflexdotbelow.alt edieresis.alt edotaccent.alt edotbelow.alt egrave.alt edblgrave.alt ehookabove.alt emacron.alt eogonek.alt etilde.alt i.alt idotless.alt iacute.alt ibreve.alt iinvertedbreve.alt icaron.alt icircumflex.alt idieresis.alt idotaccent.alt idotbelow.alt igrave.alt idblgrave.alt ihookabove.alt ij.alt ijacute.alt imacron.alt iogonek.alt itilde.alt o.alt oacute.alt oacute.loclPLK.alt obreve.alt oinvertedbreve.alt ocaron.alt ocircumflex.alt ocircumflexacute.alt ocircumflexgrave.alt ocircumflexhookabove.alt ocircumflextilde.alt ocircumflexdotbelow.alt odieresis.alt odieresismacron.alt odotbelow.alt odotaccentmacron ograve.alt odblgrave.alt ohorn.alt ohornacute.alt ohornhookabove.alt ohorntilde.alt ohorngrave.alt ohorndotbelow.alt ohookabove.alt ohungarumlaut.alt omacron.alt oogonek.alt oslash.alt oslashacute.alt otilde.alt otildemacron.alt oe.alt u.alt uacute.alt ubreve.alt uinvertedbreve.alt ucaron.alt ucircumflex.alt udieresis.alt udieresisacute.alt udieresiscaron.alt udieresisgrave.alt udieresismacron.alt udotbelow.alt ugrave.alt udblgrave.alt uhorn.alt uhornacute.alt uhorngrave.alt uhornhookabove.alt uhorntilde.alt uhorndotbelow.alt uhookabove.alt uhungarumlaut.alt umacron.alt uogonek.alt uring.alt utilde.alt ];
+
+@calt3 = [  B C Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron DZcaron Dzcaron Dcroat F G Gbreve Gcaron Gcommaaccent Gcircumflex Gdotaccent H Hbar Hcircumflex Hdotbelow J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron L Lacute Lcaron Lcommaaccent Ldot Lslash LJ Lj M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Nhookleft Eng Ntilde NJ Nj P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Sacute.loclPLK Scaron Scedilla Scommaaccent Scircumflex Sdotbelow Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zacute.loclPLK Zcaron Zdotaccent b c cacute cacute.loclPLK ccaron ccedilla ccircumflex cdotaccent d eth dcaron dzcaron dcroat f g gbreve gcaron gcommaaccent gcircumflex gdotaccent h hbar hcircumflex hdotbelow j jdotless jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash lj m n nacute nacute.loclPLK napostrophe ncaron ncommaaccent nhookleft eng ntilde nj p thorn q r racute rcaron rcommaaccent rdblgrave rinvertedbreve s sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdotbelow v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde z zacute zacute.loclPLK zcaron zdotaccent ];
+
+@calt4 = [  B.alt C.alt Cacute.alt Cacute.loclPLK.alt Ccaron.alt Ccedilla.alt Ccircumflex.alt Cdotaccent.alt D.alt Eth.alt Dcaron.alt DZcaron.alt Dzcaron.alt Dcroat.alt F.alt G.alt Gbreve.alt Gcaron.alt Gcommaaccent.alt Gcircumflex.alt Gdotaccent.alt H.alt Hbar.alt Hcircumflex.alt Hdotbelow.alt J.alt Jcircumflex.alt K.alt Kcommaaccent.alt L.alt LJ.alt Lacute.alt Lcaron.alt L.alt Lacute.alt Lcaron.alt Lcommaaccent.alt Ldot.alt Lslash.alt LJ.alt Lj.alt M.alt N.alt Nacute.alt Nacute.loclPLK.alt Ncaron.alt Ncommaaccent.alt Nhookleft.alt Eng.alt Ntilde.alt NJ.alt Nj.alt P.alt Thorn.alt Q.alt R.alt Racute.alt Rcaron.alt Rcommaaccent.alt Rdblgrave.alt Rinvertedbreve.alt S.alt Sacute.alt Sacute.loclPLK.alt Scaron.alt Scedilla.alt Scommaaccent.alt Scircumflex.alt Sdotbelow.alt Germandbls.alt Schwa.alt T.alt Tbar.alt Tcaron.alt Tcedilla.alt Tcommaaccent.alt Tdotbelow.alt V.alt W.alt Wacute.alt Wcircumflex.alt Wdieresis.alt Wgrave.alt X.alt Y.alt Yacute.alt Ycircumflex.alt Ydieresis.alt Ydotbelow.alt Ygrave.alt Yhookabove.alt Ymacron.alt Ytilde.alt Z.alt Zacute.alt Zacute.loclPLK.alt Zcaron.alt Zdotaccent.alt b.alt c.alt cacute.alt cacute.loclPLK.alt ccaron.alt ccedilla.alt ccircumflex.alt cdotaccent.alt d.alt eth.alt dcaron.alt dzcaron.alt dcroat.alt f.alt g.alt gbreve.alt gcaron.alt gcommaaccent.alt gcircumflex.alt gdotaccent.alt h.alt hbar.alt hcircumflex.alt hdotbelow.alt j.alt jdotless.alt jcircumflex.alt k.alt kcommaaccent.alt kgreenlandic.alt l.alt lacute.alt lcaron.alt lcommaaccent.alt ldot.alt lslash.alt lj.alt m.alt n.alt nacute.alt nacute.loclPLK.alt napostrophe.alt ncaron.alt ncommaaccent.alt nhookleft.alt eng.alt ntilde.alt nj.alt p.alt thorn.alt q.alt r.alt racute.alt rcaron.alt rcommaaccent.alt rdblgrave.alt rinvertedbreve.alt s.alt sacute.alt sacute.loclPLK.alt scaron.alt scedilla.alt scircumflex.alt scommaaccent.alt germandbls.alt longs.alt t.alt tbar.alt tcaron.alt tcedilla.alt tcommaaccent.alt tdotbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt x.alt y.alt yacute.alt ycircumflex.alt ydieresis.alt ydotbelow.alt ygrave.alt yhookabove.alt ymacron.alt ytilde.alt z.alt zacute.alt zacute.loclPLK.alt zcaron.alt zdotaccent.alt ];
+
+@calt5 = [  A Aacute Abreve Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Ainvertedbreve Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Adieresis Adotbelow Agrave Adblgrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute E Eacute Ebreve Einvertedbreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Edblgrave Ehookabove Emacron Eogonek Etilde I IJ IJacute Iacute Ibreve Iinvertedbreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Idblgrave Ihookabove Imacron Iogonek Itilde O Oacute Oacute.loclPLK Obreve Oinvertedbreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Odieresis Odieresismacron Odotbelow Odotaccentmacron Ograve Odblgrave Ohorn Ohornacute Ohornhookabove Ohorntilde Ohorngrave Ohookabove Ohorndotbelow Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE U Uacute Ubreve Uinvertedbreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Udblgrave Uhorn Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde a aacute abreve abreveacute abrevegrave abrevehookabove abrevetilde abrevedotbelow ainvertedbreve acaron acircumflex acircumflexgrave acircumflexacute acircumflexhookabove acircumflextilde acircumflexdotbelow adieresis adotbelow agrave adblgrave ahookabove amacron aogonek aring aringacute atilde ae aeacute e eacute ebreve einvertedbreve ecaron ecircumflex ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde ecircumflexdotbelow edieresis edotaccent edotbelow egrave edblgrave ehookabove emacron eogonek etilde i idotless iacute ibreve iinvertedbreve icaron icircumflex idieresis idotaccent idotbelow igrave idblgrave ihookabove ij ijacute imacron iogonek itilde o oacute oacute.loclPLK obreve oinvertedbreve ocaron ocircumflex ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde ocircumflexdotbelow odieresis odieresismacron odotbelow odotaccentmacron ograve odblgrave ohorn ohornacute ohornhookabove ohorntilde ohorngrave ohorndotbelow ohookabove ohungarumlaut omacron oogonek oslash oslashacute otilde otildemacron oe u uacute ubreve uinvertedbreve ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave udblgrave uhorn uhornacute uhorngrave uhornhookabove uhorntilde uhorndotbelow uhookabove uhungarumlaut umacron uogonek uring utilde fi fl f_f Delta Omega mu pi fraction onehalf onequarter threequarters ordfeminine ordmasculine onesuperior twosuperior threesuperior asterisk backslash bullet colon comma ellipsis exclam exclamdown numbersign period periodcentered question questiondown quotedbl quotesingle semicolon slash underscore braceleft braceright bracketleft bracketright parenleft parenright emdash endash hyphen softhyphen guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase space florin cent currency dollar euro guarani sterling yen approxequal asciitilde divide divisionslash equal greater greaterequal increment infinity integral less lessequal logicalnot minus multiply notequal partialdiff percent perthousand plus plusminus product radical summation ampersand at bar brokenbar copyright dagger daggerdbl degree paragraph registered section trademark asciicircum lozenge acutecomb brevecomb caroncomb cedillacomb circumflexcomb commaaccentcomb dieresiscomb dotaccentcomb dotbelowcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb apostrophemod acute breve caron cedilla circumflex dieresis dotaccent grave hungarumlaut macron ogonek ring tilde caron.alt acute.loclPLK A.alt Aacute.alt Abreve.alt Abreveacute.alt Abrevegrave.alt Abrevehookabove.alt Abrevetilde.alt Abrevedotbelow.alt Ainvertedbreve.alt Acaron.alt Acircumflex.alt Acircumflexacute.alt Acircumflexgrave.alt Acircumflexhookabove.alt Acircumflextilde.alt Acircumflexdotbelow.alt Adieresis.alt Adotbelow.alt Agrave.alt Adblgrave.alt Ahookabove.alt Amacron.alt Aogonek.alt Aring.alt Aringacute.alt Atilde.alt AE.alt AEacute.alt E.alt Eacute.alt Ebreve.alt Einvertedbreve.alt Ecaron.alt Ecircumflex.alt Ecircumflexacute.alt Ecircumflexgrave.alt Ecircumflexhookabove.alt Ecircumflextilde.alt Ecircumflexdotbelow.alt Edieresis.alt Edotaccent.alt Edotbelow.alt Egrave.alt Edblgrave.alt Ehookabove.alt Emacron.alt Eogonek.alt Etilde.alt I.alt IJ.alt IJacute.alt Iacute.alt Ibreve.alt Iinvertedbreve.alt Icaron.alt Icircumflex.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Idblgrave.alt Ihookabove.alt Imacron.alt Iogonek.alt Itilde.alt O.alt Oacute.alt Oacute.loclPLK.alt Obreve.alt Oinvertedbreve.alt Ocaron.alt Ocircumflex.alt Ocircumflexacute.alt Ocircumflexgrave.alt Ocircumflexhookabove.alt Ocircumflextilde.alt Ocircumflexdotbelow.alt Odieresis.alt Odieresismacron.alt Odotbelow.alt Odotaccentmacron.alt Ograve.alt Odblgrave.alt Ohorn.alt Ohornacute.alt Ohornhookabove.alt Ohorntilde.alt Ohorngrave.alt Ohookabove.alt Ohorndotbelow.alt Ohungarumlaut.alt Omacron.alt Oogonek.alt Oslash.alt Oslashacute.alt Otilde.alt Otildemacron.alt OE.alt U.alt Uacute.alt Ubreve.alt Uinvertedbreve.alt Ucaron.alt Ucircumflex.alt Udieresis.alt Udieresisacute.alt Udieresiscaron.alt Udieresisgrave.alt Udieresismacron.alt Udotbelow.alt Ugrave.alt Udblgrave.alt Uhorn.alt Uhornacute.alt Uhorngrave.alt Uhornhookabove.alt Uhorntilde.alt Uhorndotbelow.alt Uhookabove.alt Uhungarumlaut.alt Umacron.alt Uogonek.alt Uring.alt Utilde.alt a.alt aacute.alt abreve.alt abreveacute.alt abrevegrave.alt abrevehookabove.alt abrevetilde.alt abrevedotbelow.alt ainvertedbreve.alt acaron.alt acircumflex.alt acircumflexgrave.alt acircumflexacute.alt acircumflexhookabove.alt acircumflextilde.alt acircumflexdotbelow.alt adieresis.alt adotbelow.alt agrave.alt adblgrave.alt ahookabove.alt amacron.alt aogonek.alt aring.alt aringacute.alt atilde.alt ae.alt aeacute.alt e.alt eacute.alt ebreve.alt einvertedbreve.alt ecaron.alt ecircumflex.alt ecircumflexacute.alt ecircumflexgrave.alt ecircumflexhookabove.alt ecircumflextilde.alt ecircumflexdotbelow.alt edieresis.alt edotaccent.alt edotbelow.alt egrave.alt edblgrave.alt ehookabove.alt emacron.alt eogonek.alt etilde.alt i.alt idotless.alt iacute.alt ibreve.alt iinvertedbreve.alt icaron.alt icircumflex.alt idieresis.alt idotaccent.alt idotbelow.alt igrave.alt idblgrave.alt ihookabove.alt ij.alt ijacute.alt imacron.alt iogonek.alt itilde.alt o.alt oacute.alt oacute.loclPLK.alt obreve.alt oinvertedbreve.alt ocaron.alt ocircumflex.alt ocircumflexacute.alt ocircumflexgrave.alt ocircumflexhookabove.alt ocircumflextilde.alt ocircumflexdotbelow.alt odieresis.alt odieresismacron.alt odotbelow.alt odotaccentmacron ograve.alt odblgrave.alt ohorn.alt ohornacute.alt ohornhookabove.alt ohorntilde.alt ohorngrave.alt ohorndotbelow.alt ohookabove.alt ohungarumlaut.alt omacron.alt oogonek.alt oslash.alt oslashacute.alt otilde.alt otildemacron.alt oe.alt u.alt uacute.alt ubreve.alt uinvertedbreve.alt ucaron.alt ucircumflex.alt udieresis.alt udieresisacute.alt udieresiscaron.alt udieresisgrave.alt udieresismacron.alt udotbelow.alt ugrave.alt udblgrave.alt uhorn.alt uhornacute.alt uhorngrave.alt uhornhookabove.alt uhorntilde.alt uhorndotbelow.alt uhookabove.alt uhungarumlaut.alt umacron.alt uogonek.alt uring.alt utilde.alt Delta Omega mu pi fraction onehalf onequarter threequarters ordfeminine ordmasculine onesuperior twosuperior threesuperior asterisk backslash bullet colon comma ellipsis exclam exclamdown numbersign period periodcentered question questiondown quotedbl quotesingle semicolon slash underscore braceleft braceright bracketleft bracketright parenleft parenright emdash endash hyphen softhyphen guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase space florin cent currency dollar euro guarani sterling yen approxequal asciitilde divide divisionslash equal greater greaterequal increment infinity integral less lessequal logicalnot minus multiply notequal partialdiff percent perthousand plus plusminus product radical summation ampersand at bar brokenbar copyright dagger daggerdbl degree paragraph registered section trademark asciicircum lozenge acutecomb brevecomb caroncomb cedillacomb circumflexcomb commaaccentcomb dieresiscomb dotaccentcomb dotbelowcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb apostrophemod acute breve caron cedilla circumflex dieresis dotaccent grave hungarumlaut macron ogonek ring tilde caron.alt acute.loclPLK  ];
+
+@calt6 = [  B C Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron DZcaron Dzcaron Dcroat F G Gbreve Gcaron Gcommaaccent Gcircumflex Gdotaccent H Hbar Hcircumflex Hdotbelow J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron L Lacute Lcaron Lcommaaccent Ldot Lslash LJ Lj M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Nhookleft Eng Ntilde NJ Nj P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Sacute.loclPLK Scaron Scedilla Scommaaccent Scircumflex Sdotbelow Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zacute.loclPLK Zcaron Zdotaccent b c cacute cacute.loclPLK ccaron ccedilla ccircumflex cdotaccent d eth dcaron dzcaron dcroat f g gbreve gcaron gcommaaccent gcircumflex gdotaccent h hbar hcircumflex hdotbelow j jdotless jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash lj m n nacute nacute.loclPLK napostrophe ncaron ncommaaccent nhookleft eng ntilde nj p thorn q r racute rcaron rcommaaccent rdblgrave rinvertedbreve s sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent germandbls longs t tbar tcaron tcedilla tcommaaccent tdotbelow v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde z zacute zacute.loclPLK zcaron zdotaccent fi fl f_f Delta Omega mu pi fraction onehalf onequarter threequarters ordfeminine ordmasculine onesuperior twosuperior threesuperior asterisk backslash bullet colon comma ellipsis exclam exclamdown numbersign period periodcentered question questiondown quotedbl quotesingle semicolon slash underscore braceleft braceright bracketleft bracketright parenleft parenright emdash endash hyphen softhyphen guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase space florin cent currency dollar euro guarani sterling yen approxequal asciitilde divide divisionslash equal greater greaterequal increment infinity integral less lessequal logicalnot minus multiply notequal partialdiff percent perthousand plus plusminus product radical summation ampersand at bar brokenbar copyright dagger daggerdbl degree paragraph registered section trademark asciicircum lozenge acutecomb brevecomb caroncomb cedillacomb circumflexcomb commaaccentcomb dieresiscomb dotaccentcomb dotbelowcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb apostrophemod acute breve caron cedilla circumflex dieresis dotaccent grave hungarumlaut macron ogonek ring tilde caron.alt acute.loclPLK B.alt C.alt Cacute.alt Cacute.loclPLK.alt Ccaron.alt Ccedilla.alt Ccircumflex.alt Cdotaccent.alt D.alt Eth.alt Dcaron.alt DZcaron.alt Dzcaron.alt Dcroat.alt F.alt G.alt Gbreve.alt Gcaron.alt Gcommaaccent.alt Gcircumflex.alt Gdotaccent.alt H.alt Hbar.alt Hcircumflex.alt Hdotbelow.alt J.alt Jcircumflex.alt K.alt Kcommaaccent.alt L.alt Lacute.alt Lcaron.alt Lcommaaccent.alt Ldot.alt Lslash.alt LJ.alt Lj.alt M.alt N.alt Nacute.alt Nacute.loclPLK.alt Ncaron.alt Ncommaaccent.alt Nhookleft.alt Eng.alt Ntilde.alt NJ.alt Nj.alt P.alt Thorn.alt Q.alt R.alt Racute.alt Rcaron.alt Rcommaaccent.alt Rdblgrave.alt Rinvertedbreve.alt S.alt Sacute.alt Sacute.loclPLK.alt Scaron.alt Scedilla.alt Scommaaccent.alt Scircumflex.alt Sdotbelow.alt Germandbls.alt Schwa.alt T.alt Tbar.alt Tcaron.alt Tcedilla.alt Tcommaaccent.alt Tdotbelow.alt V.alt W.alt Wacute.alt Wcircumflex.alt Wdieresis.alt Wgrave.alt X.alt Y.alt Yacute.alt Ycircumflex.alt Ydieresis.alt Ydotbelow.alt Ygrave.alt Yhookabove.alt Ymacron.alt Ytilde.alt Z.alt Zacute.alt Zacute.loclPLK.alt Zcaron.alt Zdotaccent.alt b.alt c.alt cacute.alt cacute.loclPLK.alt ccaron.alt ccedilla.alt ccircumflex.alt cdotaccent.alt d.alt eth.alt dcaron.alt dzcaron.alt dcroat.alt f.alt g.alt gbreve.alt gcaron.alt gcommaaccent.alt gcircumflex.alt gdotaccent.alt h.alt hbar.alt hcircumflex.alt hdotbelow.alt j.alt jdotless.alt jcircumflex.alt k.alt kcommaaccent.alt kgreenlandic.alt l.alt lacute.alt lcaron.alt lcommaaccent.alt ldot.alt lslash.alt lj.alt m.alt n.alt nacute.alt nacute.loclPLK.alt napostrophe.alt ncaron.alt ncommaaccent.alt nhookleft.alt eng.alt ntilde.alt nj.alt p.alt thorn.alt q.alt r.alt racute.alt rcaron.alt rcommaaccent.alt rdblgrave.alt rinvertedbreve.alt s.alt sacute.alt sacute.loclPLK.alt scaron.alt scedilla.alt scircumflex.alt scommaaccent.alt germandbls.alt longs.alt t.alt tbar.alt tcaron.alt tcedilla.alt tcommaaccent.alt tdotbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt x.alt y.alt yacute.alt ycircumflex.alt ydieresis.alt ydotbelow.alt ygrave.alt yhookabove.alt ymacron.alt ytilde.alt z.alt zacute.alt zacute.loclPLK.alt zcaron.alt zdotaccent.alt Delta Omega mu pi fraction onehalf onequarter threequarters ordfeminine ordmasculine onesuperior twosuperior threesuperior asterisk backslash bullet colon comma ellipsis exclam exclamdown numbersign period periodcentered question questiondown quotedbl quotesingle semicolon slash underscore braceleft braceright bracketleft bracketright parenleft parenright emdash endash hyphen softhyphen guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase space florin cent currency dollar euro guarani sterling yen approxequal asciitilde divide divisionslash equal greater greaterequal increment infinity integral less lessequal logicalnot minus multiply notequal partialdiff percent perthousand plus plusminus product radical summation ampersand at bar brokenbar copyright dagger daggerdbl degree paragraph registered section trademark asciicircum lozenge acutecomb brevecomb caroncomb cedillacomb circumflexcomb commaaccentcomb dieresiscomb dotaccentcomb dotbelowcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb apostrophemod acute breve caron cedilla circumflex dieresis dotaccent grave hungarumlaut macron ogonek ring tilde caron.alt acute.loclPLK  ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn PLK;
+languagesystem latn CAT;
+languagesystem latn ESP;
+languagesystem latn NLD;
+
+languagesystem grek dflt;
+
+
+feature aalt {
+# automatic
+feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature lnum;
+feature pnum;
+feature tnum;
+feature onum;
+feature case;
+feature zero;
+feature calt;
+feature ss01;
+
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	@Markscomb = [dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_caroncomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb caroncomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_macroncomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb horncomb slashshortcomb slashlongcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron acute.loclPLK tildecomb.narrow];
+	@MarkscombCase = [dieresiscomb.case dieresiscomb_gravecomb.case dieresiscomb_acutecomb.case dieresiscomb_caroncomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case caroncomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case tildecomb_macroncomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case horncomb.case slashshortcomb.case slashlongcomb.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case acute.loclPLK.case tildecomb.narrow.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	lookupflag 0;
+	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
+	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
+	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
+	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
+	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
+	sub ringcomb acutecomb by ringcomb_acutecomb;
+	sub tildecomb macroncomb by tildecomb_macroncomb;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub lj by l j;
+	sub Lj by L j;
+	sub LJ by L J;
+	sub nj by n j;
+	sub Nj by N j;
+	sub NJ by N J;
+	sub dzcaron by d zcaron;
+	sub Dzcaron by D zcaron;
+	sub DZcaron by D Zcaron;
+} ccmp_latn_1;
+
+lookup ccmp_latn_2 {
+	lookupflag 0;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+} ccmp_latn_2;
+
+script latn;
+lookup ccmp_latn_1;
+lookup ccmp_latn_2;
+
+} ccmp;
+
+feature locl {
+# automatic
+lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language PLK;
+	sub Cacute by Cacute.loclPLK;
+	sub Nacute by Nacute.loclPLK;
+	sub Oacute by Oacute.loclPLK;
+	sub Sacute by Sacute.loclPLK;
+	sub Zacute by Zacute.loclPLK;
+	sub cacute by cacute.loclPLK;
+	sub nacute by nacute.loclPLK;
+	sub oacute by oacute.loclPLK;
+	sub sacute by sacute.loclPLK;
+	sub zacute by zacute.loclPLK;
+	sub acute by acute.loclPLK;
+} locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_3;
+
+} locl;
+
+feature subs {
+# automatic
+sub n by ninferior;
+
+} subs;
+
+feature sinf {
+# automatic
+sub n by ninferior;
+
+} sinf;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+
+} sups;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+
+} ordn;
+
+feature lnum {
+# automatic
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+
+} lnum;
+
+feature pnum {
+# automatic
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub zero.tosf by zero.osf;
+sub one.tosf by one.osf;
+sub two.tosf by two.osf;
+sub three.tosf by three.osf;
+sub four.tosf by four.osf;
+sub five.tosf by five.osf;
+sub six.tosf by six.osf;
+sub seven.tosf by seven.osf;
+sub eight.tosf by eight.osf;
+sub nine.tosf by nine.osf;
+
+} pnum;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub zero.osf by zero.tosf;
+sub one.osf by one.tosf;
+sub two.osf by two.tosf;
+sub three.osf by three.tosf;
+sub four.osf by four.tosf;
+sub five.osf by five.tosf;
+sub six.osf by six.tosf;
+sub seven.osf by seven.tosf;
+sub eight.osf by eight.tosf;
+sub nine.osf by nine.tosf;
+
+} tnum;
+
+feature onum {
+# automatic
+sub zero.tf by zero.tosf;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+
+} onum;
+
+feature case {
+# automatic
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub hyphen by hyphen.case;
+sub softhyphen by softhyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub nonbreakinghyphen by nonbreakinghyphen.case;
+sub hook by hook.case;
+sub dieresiscomb by dieresiscomb.case;
+sub dieresiscomb_gravecomb by dieresiscomb_gravecomb.case;
+sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;
+sub dieresiscomb_caroncomb by dieresiscomb_caroncomb.case;
+sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;
+sub dotaccentcomb by dotaccentcomb.case;
+sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub hungarumlautcomb by hungarumlautcomb.case;
+sub circumflexcomb by circumflexcomb.case;
+sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
+sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
+sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
+sub caroncomb by caroncomb.case;
+sub brevecomb by brevecomb.case;
+sub brevecomb_gravecomb by brevecomb_gravecomb.case;
+sub brevecomb_acutecomb by brevecomb_acutecomb.case;
+sub brevecomb_tildecomb by brevecomb_tildecomb.case;
+sub ringcomb by ringcomb.case;
+sub ringcomb_acutecomb by ringcomb_acutecomb.case;
+sub tildecomb by tildecomb.case;
+sub tildecomb_macroncomb by tildecomb_macroncomb.case;
+sub macroncomb by macroncomb.case;
+sub hookabovecomb by hookabovecomb.case;
+sub dblgravecomb by dblgravecomb.case;
+sub breveinvertedcomb by breveinvertedcomb.case;
+sub horncomb by horncomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+sub dieresis by dieresis.case;
+sub dotaccent by dotaccent.case;
+sub grave by grave.case;
+sub acute by acute.case;
+sub hungarumlaut by hungarumlaut.case;
+sub circumflex by circumflex.case;
+sub caron by caron.case;
+sub breve by breve.case;
+sub ring by ring.case;
+sub tilde by tilde.case;
+sub macron by macron.case;
+sub acute.loclPLK by acute.loclPLK.case;
+sub tildecomb.narrow by tildecomb.narrow.case;
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+sub zero.tosf by zero.lf;
+sub one.tosf by one.lf;
+sub two.tosf by two.lf;
+sub three.tosf by three.lf;
+sub four.tosf by four.lf;
+sub five.tosf by five.lf;
+sub six.tosf by six.lf;
+sub seven.tosf by seven.lf;
+sub eight.tosf by eight.lf;
+sub nine.tosf by nine.lf;
+
+} case;
+
+feature dlig {
+# automatic
+lookupflag IgnoreMarks;
+sub E F A by E_F_A;
+sub E P A by E_P_A;
+sub L F A by L_F_A;
+sub R P A by R_P_A;
+sub Z F A by Z_F_A;
+sub Z P A by Z_P_A;
+sub A A by A_A;
+sub A F by A_F;
+sub A H by A_H;
+sub A I by A_I;
+sub A K by A_K;
+sub A M by A_M;
+sub A N by A_N;
+sub A Ntilde by A_Ntilde;
+sub A P by A_P;
+sub A R by A_R;
+sub A T by A_T;
+sub A X by A_X;
+sub A Y by A_Y;
+sub C T by C_T;
+sub E A by E_A;
+sub E F by E_F;
+sub E H by E_H;
+sub E I by E_I;
+sub E K by E_K;
+sub E M by E_M;
+sub E N by E_N;
+sub E Ntilde by E_Ntilde;
+sub E P by E_P;
+sub E R by E_R;
+sub E T by E_T;
+sub E X by E_X;
+sub E Y by E_Y;
+sub F A by F_A;
+sub F F by F_F;
+sub F I by F_I;
+sub K A by K_A;
+sub K H by K_H;
+sub K I by K_I;
+sub K K by K_K;
+sub K M by K_M;
+sub K Ntilde by K_Ntilde;
+sub K P by K_P;
+sub K R by K_R;
+sub K T by K_T;
+sub K Y by K_Y;
+sub L A by L_A;
+sub L C by L_C;
+sub L E by L_E;
+sub L F by L_F;
+sub L H by L_H;
+sub L I by L_I;
+sub L K by L_K;
+sub L M by L_M;
+sub L N by L_N;
+sub L O by L_O;
+sub L P by L_P;
+sub L R by L_R;
+sub L U by L_U;
+sub L Y by L_Y;
+sub P A by P_A;
+sub P S by P_S;
+sub R A by R_A;
+sub R F by R_F;
+sub R H by R_H;
+sub R I by R_I;
+sub R K by R_K;
+sub R M by R_M;
+sub R N by R_N;
+sub R P by R_P;
+sub R R by R_R;
+sub R T by R_T;
+sub R Y by R_Y;
+sub S T by S_T;
+sub T A by T_A;
+sub T B by T_B;
+sub T C by T_C;
+sub T D by T_D;
+sub T E by T_E;
+sub T F by T_F;
+sub T G by T_G;
+sub T H by T_H;
+sub T I by T_I;
+sub T J by T_J;
+sub T K by T_K;
+sub T L by T_L;
+sub T M by T_M;
+sub T N by T_N;
+sub T O by T_O;
+sub T P by T_P;
+sub T Q by T_Q;
+sub T R by T_R;
+sub T S by T_S;
+sub T T by T_T;
+sub T U by T_U;
+sub T V by T_V;
+sub T W by T_W;
+sub T X by T_X;
+sub T Y by T_Y;
+sub T Z by T_Z;
+sub T aacute by T_aacute;
+sub T eacute by T_eacute;
+sub T i by T_i;
+sub T iacute by T_iacute;
+sub T oacute by T_oacute;
+sub T uacute by T_uacute;
+sub X A by X_A;
+sub X F by X_F;
+sub X H by X_H;
+sub X I by X_I;
+sub X K by X_K;
+sub X M by X_M;
+sub X N by X_N;
+sub X P by X_P;
+sub X R by X_R;
+sub X T by X_T;
+sub X X by X_X;
+sub X Y by X_Y;
+sub Z A by Z_A;
+sub Z F by Z_F;
+sub Z H by Z_H;
+sub Z I by Z_I;
+sub Z K by Z_K;
+sub Z M by Z_M;
+sub Z N by Z_N;
+sub Z P by Z_P;
+sub Z R by Z_R;
+sub Z T by Z_T;
+sub Z X by Z_X;
+sub Z Y by Z_Y;
+
+} dlig;
+
+feature liga {
+# automatic
+lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f l by f_f_l;
+sub f f by f_f;
+sub f i by fi;
+sub f l by fl;
+
+} liga;
+
+feature zero {
+# automatic
+sub zero by zero.zero;
+sub zero.lf by zero.lf.zero;
+sub zero.tf by zero.tf.zero;
+sub zero.tosf by zero.tosf.zero;
+
+} zero;
+
+feature calt {
+ # Contextual Alternates
+ # DEFAULT
+    sub @calt3 @calt3' by @calt4;
+    sub @calt4 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt5 @calt4' by @calt3;
+    sub @calt1 @calt1' by @calt2;
+    sub @calt2 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt6 @calt2' by @calt1;
+ script grek; # Greek
+ # DEFAULT
+    sub @calt3 @calt3' by @calt4;
+    sub @calt4 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt5 @calt4' by @calt3;
+    sub @calt1 @calt1' by @calt2;
+    sub @calt2 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt6 @calt2' by @calt1;
+ script latn; # Latin
+ # DEFAULT
+    sub @calt3 @calt3' by @calt4;
+    sub @calt4 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt4' by @calt3;
+    sub @calt3 @calt5 @calt5 @calt3' by @calt4;
+    sub @calt4 @calt5 @calt5 @calt4' by @calt3;
+    sub @calt1 @calt1' by @calt2;
+    sub @calt2 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt2' by @calt1;
+    sub @calt1 @calt6 @calt6 @calt6 @calt1' by @calt2;
+    sub @calt2 @calt6 @calt6 @calt6 @calt2' by @calt1;
+ language PLK ; # Polish
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language ESP ; # Spanish
+ language CAT ; # Catalan
+ language NLD ; # Deutsch
+} calt;
+
+feature ss01 {
+# notes:
+# Name: 
+# automatic
+sub a by a.ss01;
+sub aacute by aacute.ss01;
+sub abreve by abreve.ss01;
+sub abreveacute by abreveacute.ss01;
+sub abrevedotbelow by abrevedotbelow.ss01;
+sub abrevegrave by abrevegrave.ss01;
+sub abrevehookabove by abrevehookabove.ss01;
+sub abrevetilde by abrevetilde.ss01;
+sub acaron by acaron.ss01;
+sub acircumflex by acircumflex.ss01;
+sub acircumflexacute by acircumflexacute.ss01;
+sub acircumflexdotbelow by acircumflexdotbelow.ss01;
+sub acircumflexgrave by acircumflexgrave.ss01;
+sub acircumflexhookabove by acircumflexhookabove.ss01;
+sub acircumflextilde by acircumflextilde.ss01;
+sub adblgrave by adblgrave.ss01;
+sub adieresis by adieresis.ss01;
+sub adotbelow by adotbelow.ss01;
+sub agrave by agrave.ss01;
+sub ahookabove by ahookabove.ss01;
+sub ainvertedbreve by ainvertedbreve.ss01;
+sub amacron by amacron.ss01;
+sub aogonek by aogonek.ss01;
+sub aring by aring.ss01;
+sub aringacute by aringacute.ss01;
+sub atilde by atilde.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub gbreve by gbreve.ss01;
+sub gcaron by gcaron.ss01;
+sub gcircumflex by gcircumflex.ss01;
+sub gcommaaccent by gcommaaccent.ss01;
+sub gdotaccent by gdotaccent.ss01;
+sub r by r.ss01;
+sub racute by racute.ss01;
+sub rcaron by rcaron.ss01;
+sub rcommaaccent by rcommaaccent.ss01;
+sub rdblgrave by rdblgrave.ss01;
+sub rinvertedbreve by rinvertedbreve.ss01;
+sub t by t.ss01;
+sub tbar by tbar.ss01;
+sub tcaron by tcaron.ss01;
+sub tcedilla by tcedilla.ss01;
+sub tcommaaccent by tcommaaccent.ss01;
+sub tdotbelow by tdotbelow.ss01;
+sub y by y.ss01;
+sub yacute by yacute.ss01;
+sub ycircumflex by ycircumflex.ss01;
+sub ydieresis by ydieresis.ss01;
+sub ydotbelow by ydotbelow.ss01;
+sub ygrave by ygrave.ss01;
+sub yhookabove by yhookabove.ss01;
+sub ymacron by ymacron.ss01;
+sub ytilde by ytilde.ss01;
+
+} ss01;

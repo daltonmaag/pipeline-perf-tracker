@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="xi.sc" format="2">
+  <advance width="503"/>
+  <outline>
+    <contour>
+      <point x="37" y="0" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="466" y="145" type="line"/>
+      <point x="37" y="145" type="line"/>
+    </contour>
+    <contour>
+      <point x="97" y="228" type="line"/>
+      <point x="406" y="228" type="line"/>
+      <point x="406" y="371" type="line"/>
+      <point x="97" y="371" type="line"/>
+    </contour>
+    <contour>
+      <point x="57" y="446" type="line"/>
+      <point x="446" y="446" type="line"/>
+      <point x="446" y="591" type="line"/>
+      <point x="57" y="591" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|e.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=e.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:43:44</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

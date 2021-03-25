@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="305"/>
+  <unicode hex="02C7"/>
+  <anchor x="153" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="181" y="626" type="line"/>
+      <point x="247" y="692" type="line"/>
+      <point x="217" y="715" type="line"/>
+      <point x="154" y="674" type="line"/>
+      <point x="89" y="717" type="line"/>
+      <point x="59" y="690" type="line"/>
+      <point x="127" y="628" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

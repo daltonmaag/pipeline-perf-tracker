@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kappaSymbol" format="2">
+  <advance width="663"/>
+  <unicode hex="03F0"/>
+  <outline>
+    <contour>
+      <point x="38" y="0" type="curve"/>
+      <point x="196" y="0" type="line"/>
+      <point x="397" y="248" type="line"/>
+      <point x="391" y="225"/>
+      <point x="387" y="203"/>
+      <point x="387" y="160" type="curve"/>
+      <point x="387" y="22"/>
+      <point x="480" y="-10"/>
+      <point x="570" y="-10" type="curve"/>
+      <point x="606" y="-10"/>
+      <point x="640" y="-5"/>
+      <point x="658" y="2" type="curve"/>
+      <point x="658" y="130" type="line"/>
+      <point x="648" y="126"/>
+      <point x="630" y="122"/>
+      <point x="614" y="122" type="curve"/>
+      <point x="561" y="122"/>
+      <point x="541" y="144"/>
+      <point x="541" y="216" type="curve"/>
+      <point x="541" y="342"/>
+      <point x="611" y="478"/>
+      <point x="653" y="552" type="curve"/>
+      <point x="494" y="552" type="line"/>
+      <point x="273" y="296" type="line"/>
+      <point x="275" y="312"/>
+      <point x="277" y="326"/>
+      <point x="277" y="357" type="curve"/>
+      <point x="277" y="522"/>
+      <point x="197" y="565"/>
+      <point x="93" y="565" type="curve"/>
+      <point x="56" y="565"/>
+      <point x="24" y="557"/>
+      <point x="5" y="549" type="curve"/>
+      <point x="27" y="423" type="line"/>
+      <point x="36" y="427"/>
+      <point x="45" y="430"/>
+      <point x="63" y="430" type="curve" smooth="yes"/>
+      <point x="105" y="430"/>
+      <point x="123" y="389"/>
+      <point x="123" y="320" type="curve" smooth="yes"/>
+      <point x="123" y="194"/>
+      <point x="79" y="74"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=x</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=x</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:48:50</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

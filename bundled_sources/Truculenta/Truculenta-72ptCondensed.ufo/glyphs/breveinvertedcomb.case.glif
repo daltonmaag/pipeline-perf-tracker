@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinvertedcomb.case" format="2">
+  <anchor x="-152" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-238" y="754" type="line"/>
+      <point x="-217" y="770"/>
+      <point x="-189" y="783"/>
+      <point x="-151" y="783" type="curve"/>
+      <point x="-117" y="783"/>
+      <point x="-96" y="774"/>
+      <point x="-69" y="755" type="curve"/>
+      <point x="-40" y="790" type="line"/>
+      <point x="-73" y="819"/>
+      <point x="-108" y="833"/>
+      <point x="-154" y="833" type="curve"/>
+      <point x="-199" y="833"/>
+      <point x="-243" y="810"/>
+      <point x="-265" y="786" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

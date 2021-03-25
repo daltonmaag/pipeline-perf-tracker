@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaiSymbol.sc" format="2">
+  <advance width="567"/>
+  <outline>
+    <contour>
+      <point x="278" y="-196" type="curve" smooth="yes"/>
+      <point x="437" y="-196"/>
+      <point x="552" y="-112"/>
+      <point x="567" y="0" type="curve"/>
+      <point x="367" y="323" type="line"/>
+      <point x="568" y="582" type="line"/>
+      <point x="411" y="582" type="line"/>
+      <point x="264" y="394" type="line"/>
+      <point x="248" y="370"/>
+      <point x="228" y="346"/>
+      <point x="214" y="322" type="curve"/>
+      <point x="214" y="582" type="line"/>
+      <point x="70" y="582" type="line"/>
+      <point x="70" y="0" type="line"/>
+      <point x="214" y="0" type="line"/>
+      <point x="214" y="202" type="line"/>
+      <point x="265" y="236" type="line"/>
+      <point x="414.396" y="-13.969" type="line"/>
+      <point x="397.557" y="-61.016"/>
+      <point x="336.438" y="-91"/>
+      <point x="247" y="-91" type="curve" smooth="yes"/>
+      <point x="182" y="-91"/>
+      <point x="114" y="-74"/>
+      <point x="74" y="-60" type="curve"/>
+      <point x="74" y="-159" type="line"/>
+      <point x="104" y="-171"/>
+      <point x="180" y="-196"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=kappa.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=kappa.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:44:26</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

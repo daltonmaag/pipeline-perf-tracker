@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="527"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="125" y="1" type="line"/>
+      <point x="125" y="104" type="line"/>
+      <point x="83" y="99" type="line"/>
+      <point x="86" y="1" type="line"/>
+    </contour>
+    <contour>
+      <point x="285" y="1" type="line"/>
+      <point x="285" y="104" type="line"/>
+      <point x="243" y="99" type="line"/>
+      <point x="246" y="1" type="line"/>
+    </contour>
+    <contour>
+      <point x="445" y="1" type="line"/>
+      <point x="445" y="104" type="line"/>
+      <point x="403" y="99" type="line"/>
+      <point x="406" y="1" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

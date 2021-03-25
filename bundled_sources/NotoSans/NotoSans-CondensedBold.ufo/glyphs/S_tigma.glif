@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Stigma" format="2">
+  <advance width="507"/>
+  <unicode hex="03DA"/>
+  <outline>
+    <contour>
+      <point x="247" y="0" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="392" y="269" type="line"/>
+      <point x="368" y="269" type="line" smooth="yes"/>
+      <point x="253" y="269"/>
+      <point x="216" y="315"/>
+      <point x="216" y="419" type="curve" smooth="yes"/>
+      <point x="216" y="517"/>
+      <point x="253" y="578"/>
+      <point x="320" y="578" type="curve" smooth="yes"/>
+      <point x="363" y="578"/>
+      <point x="400" y="562"/>
+      <point x="438" y="534" type="curve"/>
+      <point x="483" y="674" type="line"/>
+      <point x="426" y="707"/>
+      <point x="368" y="724"/>
+      <point x="305" y="724" type="curve" smooth="yes"/>
+      <point x="140" y="724"/>
+      <point x="39" y="601"/>
+      <point x="39" y="419" type="curve" smooth="yes"/>
+      <point x="39" y="251"/>
+      <point x="111" y="147"/>
+      <point x="247" y="126" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=C</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:46:45</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

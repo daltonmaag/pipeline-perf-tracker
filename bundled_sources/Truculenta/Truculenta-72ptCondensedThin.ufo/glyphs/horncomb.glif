@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncomb" format="2">
+  <unicode hex="031B"/>
+  <anchor x="-174" y="555" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="-130" y="478" type="line"/>
+      <point x="-81" y="491"/>
+      <point x="-47" y="529"/>
+      <point x="-44" y="584" type="curve"/>
+      <point x="-43" y="610"/>
+      <point x="-42" y="634"/>
+      <point x="-42" y="645" type="curve"/>
+      <point x="-86" y="648" type="line"/>
+      <point x="-83" y="583" type="line"/>
+      <point x="-64" y="582" type="line"/>
+      <point x="-64" y="527"/>
+      <point x="-113" y="502"/>
+      <point x="-135" y="496" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

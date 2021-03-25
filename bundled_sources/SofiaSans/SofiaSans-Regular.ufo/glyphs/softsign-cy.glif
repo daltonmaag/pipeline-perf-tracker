@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="softsign-cy" format="2">
+  <advance width="509"/>
+  <unicode hex="044C"/>
+  <outline>
+    <contour>
+      <point x="255" y="-12" type="curve" smooth="yes"/>
+      <point x="384" y="-12"/>
+      <point x="454" y="49"/>
+      <point x="454" y="166" type="curve" smooth="yes"/>
+      <point x="454" y="209" type="line" smooth="yes"/>
+      <point x="454" y="310"/>
+      <point x="404" y="363"/>
+      <point x="312" y="363" type="curve" smooth="yes"/>
+      <point x="245" y="363"/>
+      <point x="194" y="334"/>
+      <point x="148" y="280" type="curve"/>
+      <point x="149" y="197" type="line"/>
+      <point x="188" y="256"/>
+      <point x="234" y="288"/>
+      <point x="289" y="288" type="curve" smooth="yes"/>
+      <point x="340" y="288"/>
+      <point x="367" y="260"/>
+      <point x="367" y="206" type="curve" smooth="yes"/>
+      <point x="367" y="157" type="line" smooth="yes"/>
+      <point x="367" y="94"/>
+      <point x="327" y="59"/>
+      <point x="261" y="59" type="curve" smooth="yes"/>
+      <point x="194" y="59"/>
+      <point x="160" y="92.28"/>
+      <point x="160" y="157" type="curve" smooth="yes"/>
+      <point x="160" y="478" type="line" smooth="yes"/>
+      <point x="160" y="484"/>
+      <point x="156" y="488"/>
+      <point x="150" y="488" type="curve" smooth="yes"/>
+      <point x="85" y="488" type="line" smooth="yes"/>
+      <point x="79" y="488"/>
+      <point x="75" y="484"/>
+      <point x="75" y="478" type="curve" smooth="yes"/>
+      <point x="75" y="171" type="line" smooth="yes"/>
+      <point x="75" y="43"/>
+      <point x="128" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="537"/>
+  <outline>
+    <contour>
+      <point x="95" y="0" type="curve" smooth="yes"/>
+      <point x="442" y="0" type="line" smooth="yes"/>
+      <point x="450" y="0"/>
+      <point x="457" y="7"/>
+      <point x="457" y="15" type="curve" smooth="yes"/>
+      <point x="457" y="640" type="line" smooth="yes"/>
+      <point x="457" y="648"/>
+      <point x="450" y="655"/>
+      <point x="442" y="655" type="curve" smooth="yes"/>
+      <point x="95" y="655" type="line" smooth="yes"/>
+      <point x="87" y="655"/>
+      <point x="80" y="648"/>
+      <point x="80" y="640" type="curve" smooth="yes"/>
+      <point x="80" y="15" type="line" smooth="yes"/>
+      <point x="80" y="7"/>
+      <point x="87" y="0"/>
+    </contour>
+    <contour>
+      <point x="217" y="137" type="line"/>
+      <point x="217" y="518" type="line"/>
+      <point x="320" y="518" type="line"/>
+      <point x="320" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

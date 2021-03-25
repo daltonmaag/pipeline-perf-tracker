@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AEacute.alt" format="2">
+  <advance width="798"/>
+  <outline>
+    <component base="AE.alt"/>
+    <component base="acutecomb.case" xOffset="596"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

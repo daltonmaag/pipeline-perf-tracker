@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="171" y="500" name="_top"/>
+  <anchor x="204" y="725" name="top"/>
+  <outline>
+    <contour>
+      <point x="42" y="557" type="curve" smooth="yes"/>
+      <point x="123" y="557" type="line" smooth="yes"/>
+      <point x="132" y="557"/>
+      <point x="136" y="559"/>
+      <point x="140" y="567" type="curve" smooth="yes"/>
+      <point x="214" y="708" type="line" smooth="yes"/>
+      <point x="220" y="719"/>
+      <point x="214" y="725"/>
+      <point x="206" y="725" type="curve" smooth="yes"/>
+      <point x="102" y="725" type="line" smooth="yes"/>
+      <point x="95" y="725"/>
+      <point x="89" y="722"/>
+      <point x="86" y="714" type="curve" smooth="yes"/>
+      <point x="32" y="574" type="line" smooth="yes"/>
+      <point x="28" y="564"/>
+      <point x="32" y="557"/>
+    </contour>
+    <contour>
+      <point x="204" y="557" type="curve" smooth="yes"/>
+      <point x="285" y="557" type="line" smooth="yes"/>
+      <point x="294" y="557"/>
+      <point x="298" y="559"/>
+      <point x="302" y="567" type="curve" smooth="yes"/>
+      <point x="376" y="708" type="line" smooth="yes"/>
+      <point x="382" y="719"/>
+      <point x="376" y="725"/>
+      <point x="368" y="725" type="curve" smooth="yes"/>
+      <point x="264" y="725" type="line" smooth="yes"/>
+      <point x="257" y="725"/>
+      <point x="251" y="722"/>
+      <point x="248" y="714" type="curve" smooth="yes"/>
+      <point x="194" y="574" type="line" smooth="yes"/>
+      <point x="190" y="564"/>
+      <point x="194" y="557"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>408</integer>
+    </dict>
+  </lib>
+</glyph>

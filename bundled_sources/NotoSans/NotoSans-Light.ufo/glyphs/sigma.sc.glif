@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sigma.sc" format="2">
+  <advance width="454"/>
+  <outline>
+    <contour>
+      <point x="32" y="0" type="line"/>
+      <point x="421" y="0" type="line"/>
+      <point x="421" y="25" type="line"/>
+      <point x="145" y="25" type="line" smooth="yes"/>
+      <point x="117" y="25"/>
+      <point x="90" y="25"/>
+      <point x="62" y="25" type="curve"/>
+      <point x="275" y="290" type="line"/>
+      <point x="275" y="294" type="line"/>
+      <point x="74" y="537" type="line"/>
+      <point x="103" y="536"/>
+      <point x="122" y="535"/>
+      <point x="149" y="535" type="curve" smooth="yes"/>
+      <point x="415" y="535" type="line"/>
+      <point x="415" y="559" type="line"/>
+      <point x="40" y="559" type="line"/>
+      <point x="40" y="544" type="line"/>
+      <point x="251" y="291" type="line"/>
+      <point x="32" y="16" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=z.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=z.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:43:44</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

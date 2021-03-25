@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_hookcomb.case" format="2">
+  <anchor x="-148" y="704" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-147" y="763" type="curve" smooth="yes"/>
+      <point x="-78" y="763"/>
+      <point x="-12" y="784"/>
+      <point x="36" y="827" type="curve"/>
+      <point x="-5" y="888" type="line"/>
+      <point x="-44" y="864"/>
+      <point x="-95" y="850"/>
+      <point x="-147" y="850" type="curve" smooth="yes"/>
+      <point x="-196" y="850"/>
+      <point x="-246" y="862"/>
+      <point x="-290" y="887" type="curve"/>
+      <point x="-333" y="822" type="line"/>
+      <point x="-279" y="783"/>
+      <point x="-211" y="763"/>
+    </contour>
+    <contour>
+      <point x="-186" y="897" type="line"/>
+      <point x="-83" y="900"/>
+      <point x="-17" y="928"/>
+      <point x="-17" y="988" type="curve" smooth="yes"/>
+      <point x="-17" y="1052"/>
+      <point x="-84" y="1067"/>
+      <point x="-176" y="1067" type="curve" smooth="yes"/>
+      <point x="-199" y="1067"/>
+      <point x="-225" y="1066"/>
+      <point x="-250" y="1065" type="curve"/>
+      <point x="-250" y="993" type="line"/>
+      <point x="-221" y="997"/>
+      <point x="-195" y="999"/>
+      <point x="-174" y="999" type="curve" smooth="yes"/>
+      <point x="-123" y="999"/>
+      <point x="-100" y="993"/>
+      <point x="-100" y="980" type="curve" smooth="yes"/>
+      <point x="-100" y="961"/>
+      <point x="-129" y="955"/>
+      <point x="-194" y="954" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

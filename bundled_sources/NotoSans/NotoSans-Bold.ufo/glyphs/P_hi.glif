@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phi" format="2">
+  <advance width="943"/>
+  <unicode hex="03A6"/>
+  <outline>
+    <contour>
+      <point x="378" y="-10" type="line"/>
+      <point x="564" y="-10" type="line"/>
+      <point x="564" y="90" type="line"/>
+      <point x="815" y="90"/>
+      <point x="901" y="226"/>
+      <point x="901" y="369" type="curve" smooth="yes"/>
+      <point x="901" y="510"/>
+      <point x="809" y="646"/>
+      <point x="564" y="646" type="curve"/>
+      <point x="564" y="724" type="line"/>
+      <point x="378" y="724" type="line"/>
+      <point x="378" y="646" type="line"/>
+      <point x="119" y="646"/>
+      <point x="41" y="504"/>
+      <point x="41" y="370" type="curve" smooth="yes"/>
+      <point x="41" y="219"/>
+      <point x="124" y="90"/>
+      <point x="378" y="90" type="curve"/>
+    </contour>
+    <contour>
+      <point x="378" y="236" type="line"/>
+      <point x="249" y="236"/>
+      <point x="229" y="300"/>
+      <point x="229" y="370" type="curve" smooth="yes"/>
+      <point x="229" y="442"/>
+      <point x="254" y="499"/>
+      <point x="378" y="499" type="curve"/>
+    </contour>
+    <contour>
+      <point x="564" y="236" type="curve"/>
+      <point x="564" y="499" type="line"/>
+      <point x="683" y="499"/>
+      <point x="713" y="434"/>
+      <point x="713" y="370" type="curve" smooth="yes"/>
+      <point x="713" y="300"/>
+      <point x="689" y="236"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=O-10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=O-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:56:38</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

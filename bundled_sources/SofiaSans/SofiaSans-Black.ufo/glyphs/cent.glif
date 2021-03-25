@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <advance width="630"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="228" y="544" type="line"/>
+      <point x="384" y="539" type="line"/>
+      <point x="384" y="627" type="line" smooth="yes"/>
+      <point x="384" y="633"/>
+      <point x="380" y="637"/>
+      <point x="374" y="637" type="curve" smooth="yes"/>
+      <point x="238" y="637" type="line" smooth="yes"/>
+      <point x="232" y="637"/>
+      <point x="228" y="633"/>
+      <point x="228" y="627" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="238" y="-37" type="curve" smooth="yes"/>
+      <point x="374" y="-37" type="line" smooth="yes"/>
+      <point x="380" y="-37"/>
+      <point x="384" y="-33"/>
+      <point x="384" y="-27" type="curve" smooth="yes"/>
+      <point x="384" y="61" type="line"/>
+      <point x="228" y="56" type="line"/>
+      <point x="228" y="-27" type="line" smooth="yes"/>
+      <point x="228" y="-33"/>
+      <point x="232" y="-37"/>
+    </contour>
+    <component base="c" xOffset="28" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

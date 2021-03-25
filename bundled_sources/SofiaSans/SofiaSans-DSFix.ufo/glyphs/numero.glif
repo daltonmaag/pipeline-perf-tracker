@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numero" format="2">
+  <advance width="763.20536"/>
+  <unicode hex="2116"/>
+  <outline>
+    <contour>
+      <point x="39" y="0" type="curve" smooth="yes"/>
+      <point x="189" y="0" type="line" smooth="yes"/>
+      <point x="196" y="0"/>
+      <point x="202" y="7"/>
+      <point x="202" y="15" type="curve" smooth="yes"/>
+      <point x="202" y="113" type="line" smooth="yes"/>
+      <point x="202" y="151"/>
+      <point x="191" y="320"/>
+      <point x="185" y="379" type="curve"/>
+      <point x="187" y="379" type="line"/>
+      <point x="194" y="334"/>
+      <point x="204" y="297"/>
+      <point x="207" y="274" type="curve" smooth="yes"/>
+      <point x="264" y="11" type="line" smooth="yes"/>
+      <point x="266" y="3"/>
+      <point x="270" y="0"/>
+      <point x="278" y="0" type="curve" smooth="yes"/>
+      <point x="452" y="0" type="line" smooth="yes"/>
+      <point x="460" y="0"/>
+      <point x="464" y="7"/>
+      <point x="464" y="15" type="curve" smooth="yes"/>
+      <point x="464" y="640" type="line" smooth="yes"/>
+      <point x="464" y="648"/>
+      <point x="460" y="655"/>
+      <point x="452" y="655" type="curve" smooth="yes"/>
+      <point x="300" y="655" type="line" smooth="yes"/>
+      <point x="293" y="655"/>
+      <point x="287" y="648"/>
+      <point x="287" y="640" type="curve" smooth="yes"/>
+      <point x="287" y="518" type="line" smooth="yes"/>
+      <point x="287" y="478"/>
+      <point x="296" y="317"/>
+      <point x="302" y="267" type="curve"/>
+      <point x="300" y="267" type="line"/>
+      <point x="292" y="309"/>
+      <point x="285" y="346"/>
+      <point x="285" y="360" type="curve" smooth="yes"/>
+      <point x="225" y="644" type="line" smooth="yes"/>
+      <point x="224" y="652"/>
+      <point x="220" y="655"/>
+      <point x="212" y="655" type="curve" smooth="yes"/>
+      <point x="39" y="655" type="line" smooth="yes"/>
+      <point x="31" y="655"/>
+      <point x="25" y="648"/>
+      <point x="25" y="640" type="curve" smooth="yes"/>
+      <point x="25" y="15" type="line" smooth="yes"/>
+      <point x="25" y="7"/>
+      <point x="31" y="0"/>
+    </contour>
+    <component base="ordmasculine" xOffset="471"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ordmasculine</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

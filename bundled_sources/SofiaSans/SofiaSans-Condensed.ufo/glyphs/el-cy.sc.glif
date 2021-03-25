@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="el-cy.sc" format="2">
+  <advance width="315"/>
+  <outline>
+    <contour>
+      <point x="6" y="0" type="curve" smooth="yes"/>
+      <point x="69" y="0" type="line" smooth="yes"/>
+      <point x="73" y="0"/>
+      <point x="75" y="2"/>
+      <point x="76" y="7" type="curve" smooth="yes"/>
+      <point x="135" y="340" type="line" smooth="yes"/>
+      <point x="142" y="380"/>
+      <point x="149" y="419"/>
+      <point x="156" y="459" type="curve"/>
+      <point x="158" y="459" type="line"/>
+      <point x="165" y="419"/>
+      <point x="172" y="380"/>
+      <point x="179" y="340" type="curve" smooth="yes"/>
+      <point x="238" y="7" type="line" smooth="yes"/>
+      <point x="239" y="2"/>
+      <point x="242" y="0"/>
+      <point x="246" y="0" type="curve" smooth="yes"/>
+      <point x="309" y="0" type="line" smooth="yes"/>
+      <point x="314" y="0"/>
+      <point x="316" y="4"/>
+      <point x="315" y="10" type="curve" smooth="yes"/>
+      <point x="205" y="530" type="line" smooth="yes"/>
+      <point x="204" y="535"/>
+      <point x="201" y="537"/>
+      <point x="197" y="537" type="curve" smooth="yes"/>
+      <point x="116" y="537" type="line" smooth="yes"/>
+      <point x="112" y="537"/>
+      <point x="109" y="535"/>
+      <point x="108" y="530" type="curve" smooth="yes"/>
+      <point x="0" y="8" type="line" smooth="yes"/>
+      <point x="-1" y="4"/>
+      <point x="1" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

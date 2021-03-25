@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="halfringleftcomb.case" format="2">
+  <advance width="134"/>
+  <anchor x="78" y="655" name="_top"/>
+  <anchor x="78" y="862" name="top"/>
+  <outline>
+    <contour>
+      <point x="93" y="670" type="curve" smooth="yes"/>
+      <point x="101" y="669"/>
+      <point x="104" y="671"/>
+      <point x="104" y="678" type="curve" smooth="yes"/>
+      <point x="104" y="708" type="line" smooth="yes"/>
+      <point x="104" y="715"/>
+      <point x="103" y="717"/>
+      <point x="97" y="719" type="curve" smooth="yes"/>
+      <point x="82" y="724"/>
+      <point x="79" y="740"/>
+      <point x="79" y="764" type="curve" smooth="yes"/>
+      <point x="79" y="788"/>
+      <point x="82" y="804"/>
+      <point x="97" y="809" type="curve" smooth="yes"/>
+      <point x="103" y="811"/>
+      <point x="104" y="813"/>
+      <point x="104" y="820" type="curve" smooth="yes"/>
+      <point x="104" y="850" type="line" smooth="yes"/>
+      <point x="104" y="857"/>
+      <point x="101" y="859"/>
+      <point x="93" y="858" type="curve" smooth="yes"/>
+      <point x="51" y="853"/>
+      <point x="30" y="820"/>
+      <point x="30" y="764" type="curve" smooth="yes"/>
+      <point x="30" y="708"/>
+      <point x="51" y="675"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

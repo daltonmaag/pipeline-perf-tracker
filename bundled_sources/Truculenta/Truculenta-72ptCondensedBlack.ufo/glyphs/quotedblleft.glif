@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="351"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="212" y="473" type="line"/>
+      <point x="327" y="480" type="line"/>
+      <point x="325" y="641" type="line"/>
+      <point x="275" y="644" type="line"/>
+      <point x="275" y="685"/>
+      <point x="281" y="724"/>
+      <point x="320" y="770" type="curve"/>
+      <point x="271" y="804" type="line"/>
+      <point x="221" y="754"/>
+      <point x="212" y="697"/>
+      <point x="212" y="626" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="41" y="473" type="line"/>
+      <point x="156" y="480" type="line"/>
+      <point x="154" y="641" type="line"/>
+      <point x="104" y="644" type="line"/>
+      <point x="104" y="685"/>
+      <point x="110" y="724"/>
+      <point x="149" y="770" type="curve"/>
+      <point x="100" y="804" type="line"/>
+      <point x="50" y="754"/>
+      <point x="41" y="697"/>
+      <point x="41" y="626" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

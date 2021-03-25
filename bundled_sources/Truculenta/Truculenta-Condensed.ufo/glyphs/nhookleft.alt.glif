@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nhookleft.alt" format="2">
+  <advance width="354"/>
+  <outline>
+    <contour>
+      <point x="236" y="-17" type="curve"/>
+      <point x="303" y="-10" type="line"/>
+      <point x="302" y="38"/>
+      <point x="298" y="107"/>
+      <point x="298" y="239" type="curve" smooth="yes"/>
+      <point x="298" y="294"/>
+      <point x="298" y="349"/>
+      <point x="298" y="404" type="curve" smooth="yes"/>
+      <point x="298" y="478"/>
+      <point x="274" y="527"/>
+      <point x="213" y="527" type="curve" smooth="yes"/>
+      <point x="83" y="527"/>
+      <point x="82" y="331"/>
+      <point x="82" y="239" type="curve"/>
+      <point x="117" y="281" type="line"/>
+      <point x="117" y="402"/>
+      <point x="146" y="474"/>
+      <point x="198" y="474" type="curve" smooth="yes"/>
+      <point x="228" y="474"/>
+      <point x="243" y="459"/>
+      <point x="243" y="410" type="curve" smooth="yes"/>
+      <point x="243" y="353"/>
+      <point x="243" y="295"/>
+      <point x="243" y="238" type="curve" smooth="yes"/>
+      <point x="243" y="134"/>
+      <point x="239" y="31"/>
+    </contour>
+    <contour>
+      <point x="5" y="-148" type="curve" smooth="yes"/>
+      <point x="82" y="-148"/>
+      <point x="116" y="-96"/>
+      <point x="116" y="-17" type="curve" smooth="yes"/>
+      <point x="116" y="74"/>
+      <point x="117" y="135"/>
+      <point x="117" y="281" type="curve"/>
+      <point x="112" y="390"/>
+      <point x="110" y="458"/>
+      <point x="109" y="512" type="curve"/>
+      <point x="58" y="512" type="line"/>
+      <point x="60" y="461"/>
+      <point x="62" y="359"/>
+      <point x="62" y="267" type="curve" smooth="yes"/>
+      <point x="62" y="96"/>
+      <point x="62" y="15"/>
+      <point x="61" y="-9" type="curve" smooth="yes"/>
+      <point x="59" y="-60"/>
+      <point x="56" y="-98"/>
+      <point x="7" y="-98" type="curve" smooth="yes"/>
+      <point x="-3" y="-98"/>
+      <point x="-15" y="-96"/>
+      <point x="-30" y="-93" type="curve"/>
+      <point x="-34" y="-144" type="line"/>
+      <point x="-20" y="-147"/>
+      <point x="-7" y="-148"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

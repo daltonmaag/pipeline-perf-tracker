@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus" format="2">
+  <advance width="600"/>
+  <unicode hex="2212"/>
+  <outline>
+    <contour>
+      <point x="97" y="229" type="curve" smooth="yes"/>
+      <point x="503" y="229" type="line" smooth="yes"/>
+      <point x="513" y="229"/>
+      <point x="518" y="234"/>
+      <point x="518" y="244" type="curve" smooth="yes"/>
+      <point x="518" y="356" type="line" smooth="yes"/>
+      <point x="518" y="366"/>
+      <point x="513" y="371"/>
+      <point x="503" y="371" type="curve" smooth="yes"/>
+      <point x="97" y="371" type="line" smooth="yes"/>
+      <point x="87" y="371"/>
+      <point x="82" y="366"/>
+      <point x="82" y="356" type="curve" smooth="yes"/>
+      <point x="82" y="244" type="line" smooth="yes"/>
+      <point x="82" y="234"/>
+      <point x="87" y="229"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

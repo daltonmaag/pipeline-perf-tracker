@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis.case" format="2">
+  <advance width="305"/>
+  <anchor x="153" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="58" y="820" type="line"/>
+      <point x="61" y="758" type="line"/>
+      <point x="96" y="757" type="line"/>
+      <point x="96" y="822" type="line"/>
+    </contour>
+    <contour>
+      <point x="206" y="820" type="line"/>
+      <point x="209" y="758" type="line"/>
+      <point x="244" y="757" type="line"/>
+      <point x="244" y="822" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

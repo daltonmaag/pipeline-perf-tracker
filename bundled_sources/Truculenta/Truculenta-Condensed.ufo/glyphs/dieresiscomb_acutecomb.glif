@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb_acutecomb" format="2">
+  <anchor x="-152" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-158" y="741" type="line"/>
+      <point x="-158" y="741"/>
+      <point x="-127" y="760"/>
+      <point x="-105" y="772" type="curve"/>
+      <point x="-82" y="785"/>
+      <point x="-56" y="796"/>
+      <point x="-56" y="796" type="curve"/>
+      <point x="-94" y="842" type="line"/>
+      <point x="-94" y="842"/>
+      <point x="-116" y="822"/>
+      <point x="-140" y="804" type="curve"/>
+      <point x="-166" y="784"/>
+      <point x="-188" y="768"/>
+      <point x="-188" y="768" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-204" y="631" type="line"/>
+      <point x="-201" y="709" type="line"/>
+      <point x="-265" y="716" type="line"/>
+      <point x="-263" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="-44" y="631" type="line"/>
+      <point x="-41" y="709" type="line"/>
+      <point x="-105" y="716" type="line"/>
+      <point x="-103" y="630" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

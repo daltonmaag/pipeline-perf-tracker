@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="291"/>
+  <unicode hex="013E"/>
+  <outline>
+    <contour>
+      <point x="81" y="2" type="curve"/>
+      <point x="160" y="10" type="line"/>
+      <point x="156" y="97"/>
+      <point x="150" y="251"/>
+      <point x="150" y="358" type="curve"/>
+      <point x="150" y="465"/>
+      <point x="156" y="615"/>
+      <point x="160" y="698" type="curve"/>
+      <point x="82" y="697" type="line"/>
+      <point x="83" y="612"/>
+      <point x="84" y="461"/>
+      <point x="84" y="357" type="curve"/>
+      <point x="84" y="221"/>
+      <point x="84" y="63"/>
+    </contour>
+    <contour>
+      <point x="263" y="489" type="line"/>
+      <point x="295" y="520"/>
+      <point x="306" y="571"/>
+      <point x="306" y="603" type="curve"/>
+      <point x="307" y="637"/>
+      <point x="307" y="670"/>
+      <point x="308" y="704" type="curve"/>
+      <point x="225" y="698" type="line"/>
+      <point x="230" y="611" type="line"/>
+      <point x="263" y="610" type="line"/>
+      <point x="263" y="580"/>
+      <point x="249" y="537"/>
+      <point x="229" y="509" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

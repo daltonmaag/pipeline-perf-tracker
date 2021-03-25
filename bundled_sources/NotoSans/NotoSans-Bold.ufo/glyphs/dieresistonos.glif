@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresistonos" format="2">
+  <advance width="822"/>
+  <unicode hex="0385"/>
+  <anchor x="371" y="553" name="_top"/>
+  <outline>
+    <contour>
+      <point x="309" y="606" type="line"/>
+      <point x="426" y="606" type="line"/>
+      <point x="545" y="766" type="line"/>
+      <point x="545" y="776" type="line"/>
+      <point x="346" y="776" type="line"/>
+      <point x="309" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="614" type="curve" smooth="yes"/>
+      <point x="237" y="614"/>
+      <point x="276" y="638"/>
+      <point x="276" y="690" type="curve" smooth="yes"/>
+      <point x="276" y="743"/>
+      <point x="237" y="767"/>
+      <point x="192" y="767" type="curve" smooth="yes"/>
+      <point x="145" y="767"/>
+      <point x="109" y="743"/>
+      <point x="109" y="690" type="curve"/>
+      <point x="109" y="638"/>
+      <point x="145" y="614"/>
+    </contour>
+    <contour>
+      <point x="647" y="614" type="curve" smooth="yes"/>
+      <point x="692" y="614"/>
+      <point x="731" y="638"/>
+      <point x="731" y="690" type="curve" smooth="yes"/>
+      <point x="731" y="743"/>
+      <point x="692" y="767"/>
+      <point x="647" y="767" type="curve" smooth="yes"/>
+      <point x="599" y="767"/>
+      <point x="563" y="743"/>
+      <point x="563" y="690" type="curve"/>
+      <point x="563" y="638"/>
+      <point x="599" y="614"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=dieresis</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=dieresis</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 10:04:23</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

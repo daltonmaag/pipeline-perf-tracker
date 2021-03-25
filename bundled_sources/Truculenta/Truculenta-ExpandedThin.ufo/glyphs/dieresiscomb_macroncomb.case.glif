@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb_macroncomb.case" format="2">
+  <anchor x="-154" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-272" y="869" type="line"/>
+      <point x="-28" y="872" type="line"/>
+      <point x="-30" y="898" type="line"/>
+      <point x="-272" y="901" type="line"/>
+    </contour>
+    <contour>
+      <point x="-209" y="757" type="line"/>
+      <point x="-209" y="822" type="line"/>
+      <point x="-247" y="820" type="line"/>
+      <point x="-244" y="758" type="line"/>
+    </contour>
+    <contour>
+      <point x="-61" y="757" type="line"/>
+      <point x="-61" y="822" type="line"/>
+      <point x="-99" y="820" type="line"/>
+      <point x="-96" y="758" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="-156" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="-149" y="-337" type="line"/>
+      <point x="-116" y="-301"/>
+      <point x="-105" y="-227"/>
+      <point x="-105" y="-175" type="curve"/>
+      <point x="-106" y="-131"/>
+      <point x="-107" y="-88"/>
+      <point x="-107" y="-68" type="curve"/>
+      <point x="-208" y="-65" type="line"/>
+      <point x="-205" y="-179" type="line"/>
+      <point x="-161" y="-180" type="line"/>
+      <point x="-159" y="-226"/>
+      <point x="-171" y="-287"/>
+      <point x="-192" y="-316" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

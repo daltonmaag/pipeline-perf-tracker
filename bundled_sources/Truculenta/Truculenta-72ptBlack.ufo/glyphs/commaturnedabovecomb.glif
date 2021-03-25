@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <anchor x="-179" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-232" y="631" type="curve"/>
+      <point x="-123" y="628" type="line"/>
+      <point x="-126" y="744" type="line"/>
+      <point x="-178" y="745" type="line"/>
+      <point x="-178" y="788"/>
+      <point x="-158" y="832"/>
+      <point x="-132" y="869" type="curve"/>
+      <point x="-174" y="900" type="line"/>
+      <point x="-209" y="860"/>
+      <point x="-234" y="802"/>
+      <point x="-234" y="740" type="curve"/>
+      <point x="-233" y="704"/>
+      <point x="-233" y="667"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

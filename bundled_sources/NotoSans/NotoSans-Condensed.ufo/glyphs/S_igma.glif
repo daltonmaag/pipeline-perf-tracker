@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sigma" format="2">
+  <advance width="362"/>
+  <unicode hex="03A3"/>
+  <outline>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="342" y="0" type="line"/>
+      <point x="342" y="76" type="line"/>
+      <point x="181" y="76" type="line" smooth="yes"/>
+      <point x="159" y="76"/>
+      <point x="136" y="74"/>
+      <point x="111" y="72" type="curve"/>
+      <point x="256" y="371" type="line"/>
+      <point x="256" y="389" type="line"/>
+      <point x="128" y="642" type="line"/>
+      <point x="149" y="640"/>
+      <point x="171" y="639"/>
+      <point x="198" y="639" type="curve" smooth="yes"/>
+      <point x="336" y="639" type="line"/>
+      <point x="336" y="714" type="line"/>
+      <point x="33" y="714" type="line"/>
+      <point x="33" y="646" type="line"/>
+      <point x="171" y="367" type="line"/>
+      <point x="26" y="70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Z</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Z</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 10:06:23</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

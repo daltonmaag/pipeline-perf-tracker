@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L_F" format="2">
+  <advance width="777"/>
+  <guideline x="409" y="800" angle="90"/>
+  <outline>
+    <contour>
+      <point x="107" y="-5" type="curve"/>
+      <point x="149" y="1" type="line"/>
+      <point x="147" y="101"/>
+      <point x="145" y="265"/>
+      <point x="145" y="350" type="curve"/>
+      <point x="145" y="435"/>
+      <point x="147" y="602"/>
+      <point x="148" y="704" type="curve"/>
+      <point x="104" y="700" type="line"/>
+      <point x="107" y="624"/>
+      <point x="111" y="477"/>
+      <point x="111" y="352" type="curve"/>
+      <point x="111" y="227"/>
+      <point x="109" y="75"/>
+    </contour>
+    <contour>
+      <point x="107" y="-5" type="line"/>
+      <point x="584" y="0" type="line"/>
+      <point x="584" y="28" type="line"/>
+      <point x="142" y="31" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="114" type="curve"/>
+      <point x="429" y="108" type="line"/>
+      <point x="428" y="181"/>
+      <point x="427" y="292"/>
+      <point x="427" y="350" type="curve"/>
+      <point x="427" y="435"/>
+      <point x="429" y="595"/>
+      <point x="430" y="693" type="curve"/>
+      <point x="387" y="705" type="line"/>
+      <point x="390" y="627"/>
+      <point x="394" y="477"/>
+      <point x="394" y="352" type="curve"/>
+      <point x="394" y="275"/>
+      <point x="393" y="178"/>
+    </contour>
+    <contour>
+      <point x="409" y="329" type="line"/>
+      <point x="705" y="333" type="line"/>
+      <point x="704" y="363" type="line"/>
+      <point x="409" y="366" type="line"/>
+    </contour>
+    <contour>
+      <point x="415" y="668" type="line"/>
+      <point x="702" y="669" type="line"/>
+      <point x="704" y="699" type="line"/>
+      <point x="387" y="705" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

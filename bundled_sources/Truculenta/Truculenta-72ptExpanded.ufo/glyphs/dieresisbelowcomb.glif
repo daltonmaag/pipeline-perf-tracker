@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisbelowcomb" format="2">
+  <unicode hex="0324"/>
+  <anchor x="-157" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="-298" y="-62" type="line"/>
+      <point x="-295" y="-154" type="line"/>
+      <point x="-217" y="-153" type="line"/>
+      <point x="-213" y="-69" type="line"/>
+    </contour>
+    <contour>
+      <point x="-92" y="-62" type="line"/>
+      <point x="-89" y="-154" type="line"/>
+      <point x="-11" y="-153" type="line"/>
+      <point x="-7" y="-69" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

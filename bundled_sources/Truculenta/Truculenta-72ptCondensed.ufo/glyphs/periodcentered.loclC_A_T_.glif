@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.loclCAT" format="2">
+  <advance width="210"/>
+  <anchor x="18" y="359" name="_center"/>
+  <outline>
+    <contour>
+      <point x="132" y="310" type="line"/>
+      <point x="130" y="402" type="line"/>
+      <point x="66" y="397" type="line"/>
+      <point x="70" y="312" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

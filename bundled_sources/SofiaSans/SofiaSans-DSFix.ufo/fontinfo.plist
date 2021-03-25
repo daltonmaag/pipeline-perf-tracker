@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>capHeight</key>
+    <integer>655</integer>
+    <key>copyright</key>
+    <string>Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)</string>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Sofia Sans</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2020/11/12 20:54:41</string>
+    <key>openTypeHheaAscender</key>
+    <integer>800</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-200</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Botio Nikoltchev, Ani Petrova</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>http://lettersoup.de</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>lettersoup</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>http://lettersoup.de</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>800</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-200</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>LS</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1000</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>300</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-12</integer>
+      <integer>0</integer>
+      <integer>503</integer>
+      <integer>515</integer>
+      <integer>552</integer>
+      <integer>564</integer>
+      <integer>655</integer>
+      <integer>667</integer>
+      <integer>683</integer>
+      <integer>695</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-197</integer>
+      <integer>-185</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>153</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>180</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleName</key>
+    <string>DSFix</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>4</integer>
+    <key>versionMinor</key>
+    <integer>100</integer>
+    <key>xHeight</key>
+    <integer>503</integer>
+  </dict>
+</plist>

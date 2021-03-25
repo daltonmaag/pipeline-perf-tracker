@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ge-cy.sc" format="2">
+  <advance width="250"/>
+  <anchor x="148" y="527" name="top"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="curve" smooth="yes"/>
+      <point x="76" y="0" type="line" smooth="yes"/>
+      <point x="78" y="0"/>
+      <point x="79" y="1"/>
+      <point x="79" y="3" type="curve" smooth="yes"/>
+      <point x="79" y="511" type="line"/>
+      <point x="235" y="511" type="line" smooth="yes"/>
+      <point x="237" y="511"/>
+      <point x="238" y="512"/>
+      <point x="238" y="514" type="curve" smooth="yes"/>
+      <point x="238" y="524" type="line" smooth="yes"/>
+      <point x="238" y="526"/>
+      <point x="237" y="527"/>
+      <point x="235" y="527" type="curve" smooth="yes"/>
+      <point x="66" y="527" type="line" smooth="yes"/>
+      <point x="64" y="527"/>
+      <point x="63" y="526"/>
+      <point x="63" y="524" type="curve" smooth="yes"/>
+      <point x="63" y="3" type="line" smooth="yes"/>
+      <point x="63" y="1"/>
+      <point x="64" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

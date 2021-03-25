@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f" format="2">
+  <advance width="841"/>
+  <unicode hex="FB00"/>
+  <anchor x="399" y="0" name="caret_1"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="433"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/02 23:07:06</string>
+    </dict>
+  </lib>
+</glyph>

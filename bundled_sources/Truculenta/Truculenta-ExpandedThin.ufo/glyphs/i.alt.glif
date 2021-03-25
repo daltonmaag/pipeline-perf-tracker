@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.alt" format="2">
+  <advance width="275"/>
+  <anchor x="131" y="0" name="bottom"/>
+  <anchor x="160" y="7" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="116" y="-8" type="curve"/>
+      <point x="154" y="0" type="line"/>
+      <point x="153" y="52"/>
+      <point x="152" y="161"/>
+      <point x="152" y="265" type="curve"/>
+      <point x="152" y="370"/>
+      <point x="154" y="470"/>
+      <point x="156" y="516" type="curve"/>
+      <point x="119" y="526" type="line"/>
+      <point x="119" y="477"/>
+      <point x="120" y="373"/>
+      <point x="120" y="266" type="curve"/>
+      <point x="120" y="160"/>
+      <point x="118" y="47"/>
+    </contour>
+    <contour>
+      <point x="118" y="613" type="line"/>
+      <point x="161" y="621" type="line"/>
+      <point x="157" y="685" type="line"/>
+      <point x="119" y="689" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

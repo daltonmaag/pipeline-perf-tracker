@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless" format="2">
+  <advance width="208"/>
+  <unicode hex="0237"/>
+  <anchor x="107" y="0" name="bottom"/>
+  <anchor x="107" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="75" y="-188" type="curve" smooth="yes"/>
+      <point x="163" y="-122"/>
+      <point x="184" y="-55"/>
+      <point x="184" y="87" type="curve" smooth="yes"/>
+      <point x="184" y="487" type="line" smooth="yes"/>
+      <point x="184" y="495"/>
+      <point x="179" y="500"/>
+      <point x="172" y="500" type="curve" smooth="yes"/>
+      <point x="36" y="500" type="line" smooth="yes"/>
+      <point x="29" y="500"/>
+      <point x="24" y="495"/>
+      <point x="24" y="487" type="curve" smooth="yes"/>
+      <point x="24" y="85" type="line" smooth="yes"/>
+      <point x="24" y="-3"/>
+      <point x="16" y="-43"/>
+      <point x="-18" y="-77" type="curve" smooth="yes"/>
+      <point x="-24" y="-83"/>
+      <point x="-22" y="-89"/>
+      <point x="-17" y="-95" type="curve" smooth="yes"/>
+      <point x="62" y="-184" type="line" smooth="yes"/>
+      <point x="66" y="-189"/>
+      <point x="71" y="-191"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.sc" format="2">
+  <advance width="301"/>
+  <anchor x="167" y="0" name="bottom"/>
+  <anchor x="159" y="527" name="top"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="curve" smooth="yes"/>
+      <point x="76" y="0" type="line" smooth="yes"/>
+      <point x="78" y="0"/>
+      <point x="79" y="1"/>
+      <point x="79" y="3" type="curve" smooth="yes"/>
+      <point x="79" y="168" type="line"/>
+      <point x="149" y="291" type="line"/>
+      <point x="278" y="2" type="line" smooth="yes"/>
+      <point x="279" y="0"/>
+      <point x="280" y="0"/>
+      <point x="282" y="0" type="curve" smooth="yes"/>
+      <point x="294" y="0" type="line" smooth="yes"/>
+      <point x="296" y="0"/>
+      <point x="296" y="2"/>
+      <point x="295" y="4" type="curve" smooth="yes"/>
+      <point x="159" y="309" type="line"/>
+      <point x="282" y="523" type="line" smooth="yes"/>
+      <point x="283" y="525"/>
+      <point x="283" y="527"/>
+      <point x="280" y="527" type="curve" smooth="yes"/>
+      <point x="270" y="527" type="line" smooth="yes"/>
+      <point x="268" y="527"/>
+      <point x="267" y="527"/>
+      <point x="266" y="525" type="curve" smooth="yes"/>
+      <point x="130" y="288" type="line" smooth="yes"/>
+      <point x="113" y="258"/>
+      <point x="95" y="227"/>
+      <point x="79" y="197" type="curve"/>
+      <point x="79" y="198" type="line"/>
+      <point x="79" y="234"/>
+      <point x="79" y="271"/>
+      <point x="79" y="307" type="curve" smooth="yes"/>
+      <point x="79" y="524" type="line" smooth="yes"/>
+      <point x="79" y="526"/>
+      <point x="78" y="527"/>
+      <point x="76" y="527" type="curve" smooth="yes"/>
+      <point x="66" y="527" type="line" smooth="yes"/>
+      <point x="64" y="527"/>
+      <point x="63" y="526"/>
+      <point x="63" y="524" type="curve" smooth="yes"/>
+      <point x="63" y="3" type="line" smooth="yes"/>
+      <point x="63" y="1"/>
+      <point x="64" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

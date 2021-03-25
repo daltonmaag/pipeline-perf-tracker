@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K_I" format="2">
+  <advance width="692"/>
+  <guideline x="907" y="586" angle="0"/>
+  <outline>
+    <contour>
+      <point x="530" y="135" type="curve"/>
+      <point x="610" y="133" type="line"/>
+      <point x="608" y="210"/>
+      <point x="605" y="325"/>
+      <point x="605" y="359" type="curve" smooth="yes"/>
+      <point x="605" y="444"/>
+      <point x="611" y="618"/>
+      <point x="615" y="726" type="curve"/>
+      <point x="534" y="724" type="line"/>
+      <point x="536" y="682"/>
+      <point x="535" y="516"/>
+      <point x="535" y="357" type="curve" smooth="yes"/>
+      <point x="535" y="283"/>
+      <point x="532" y="187"/>
+    </contour>
+    <contour>
+      <point x="609" y="-23" type="curve"/>
+      <point x="609" y="42" type="line"/>
+      <point x="403" y="42"/>
+      <point x="313" y="134"/>
+      <point x="241" y="235" type="curve" smooth="yes"/>
+      <point x="226" y="257"/>
+      <point x="212" y="279"/>
+      <point x="197" y="301" type="curve"/>
+      <point x="256" y="405"/>
+      <point x="374" y="605"/>
+      <point x="436" y="704" type="curve"/>
+      <point x="354" y="702" type="line"/>
+      <point x="313" y="620"/>
+      <point x="233" y="475"/>
+      <point x="153" y="336" type="curve"/>
+      <point x="153" y="449"/>
+      <point x="155" y="602"/>
+      <point x="159" y="702" type="curve"/>
+      <point x="80" y="703" type="line"/>
+      <point x="81" y="615"/>
+      <point x="83" y="460"/>
+      <point x="83" y="356" type="curve" smooth="yes"/>
+      <point x="83" y="252"/>
+      <point x="80" y="92"/>
+      <point x="77" y="0" type="curve"/>
+      <point x="157" y="0" type="line"/>
+      <point x="156" y="60"/>
+      <point x="154" y="149"/>
+      <point x="154" y="233" type="curve"/>
+      <point x="165" y="216"/>
+      <point x="177" y="199"/>
+      <point x="189" y="182" type="curve" smooth="yes"/>
+      <point x="267" y="70"/>
+      <point x="365" y="-23"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>K</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

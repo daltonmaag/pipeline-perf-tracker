@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ge-cy.loclRUS" format="2">
+  <advance width="233"/>
+  <anchor x="226" y="0" name="bottomright"/>
+  <anchor x="144" y="478" name="top"/>
+  <outline>
+    <contour>
+      <point x="63" y="0" type="curve" smooth="yes"/>
+      <point x="73" y="0" type="line" smooth="yes"/>
+      <point x="75" y="0"/>
+      <point x="76" y="1"/>
+      <point x="76" y="3" type="curve" smooth="yes"/>
+      <point x="76" y="462" type="line"/>
+      <point x="215" y="462" type="line" smooth="yes"/>
+      <point x="217" y="462"/>
+      <point x="218" y="463"/>
+      <point x="218" y="465" type="curve" smooth="yes"/>
+      <point x="218" y="475" type="line" smooth="yes"/>
+      <point x="218" y="477"/>
+      <point x="217" y="478"/>
+      <point x="215" y="478" type="curve" smooth="yes"/>
+      <point x="63" y="478" type="line" smooth="yes"/>
+      <point x="61" y="478"/>
+      <point x="60" y="477"/>
+      <point x="60" y="475" type="curve" smooth="yes"/>
+      <point x="60" y="3" type="line" smooth="yes"/>
+      <point x="60" y="1"/>
+      <point x="61" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

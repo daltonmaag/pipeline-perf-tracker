@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T_L" format="2">
+  <advance width="653"/>
+  <guideline x="394" y="260" angle="90"/>
+  <outline>
+    <contour>
+      <point x="79" y="2" type="curve"/>
+      <point x="216" y="6" type="line"/>
+      <point x="216" y="115"/>
+      <point x="215" y="281"/>
+      <point x="215" y="339" type="curve" smooth="yes"/>
+      <point x="215" y="419"/>
+      <point x="216" y="499"/>
+      <point x="216" y="579" type="curve"/>
+      <point x="321" y="583"/>
+      <point x="438" y="586"/>
+      <point x="496" y="586" type="curve"/>
+      <point x="493" y="713" type="line"/>
+      <point x="409" y="710"/>
+      <point x="252" y="705"/>
+      <point x="131" y="702" type="curve" smooth="yes"/>
+      <point x="90" y="702"/>
+      <point x="16" y="701"/>
+      <point x="-29" y="701" type="curve"/>
+      <point x="-32" y="570" type="line"/>
+      <point x="4" y="571"/>
+      <point x="39" y="573"/>
+      <point x="75" y="574" type="curve"/>
+      <point x="77" y="512"/>
+      <point x="78" y="429"/>
+      <point x="78" y="333" type="curve" smooth="yes"/>
+      <point x="78" y="115"/>
+      <point x="77" y="79"/>
+    </contour>
+    <contour>
+      <point x="325" y="-4" type="curve"/>
+      <point x="653" y="-2" type="line"/>
+      <point x="653" y="97" type="line"/>
+      <point x="466" y="99" type="line"/>
+      <point x="466" y="127"/>
+      <point x="466" y="155"/>
+      <point x="466" y="183" type="curve" smooth="yes"/>
+      <point x="466" y="268"/>
+      <point x="467" y="412"/>
+      <point x="467" y="497" type="curve"/>
+      <point x="325" y="500" type="line"/>
+      <point x="327" y="439"/>
+      <point x="329" y="311"/>
+      <point x="329" y="186" type="curve" smooth="yes"/>
+      <point x="329" y="63"/>
+      <point x="327" y="5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>L</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

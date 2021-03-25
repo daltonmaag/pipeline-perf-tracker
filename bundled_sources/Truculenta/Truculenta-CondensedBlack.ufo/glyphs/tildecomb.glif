@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="-152" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-212" y="618" type="line"/>
+      <point x="-211" y="631"/>
+      <point x="-205" y="636"/>
+      <point x="-194" y="636" type="curve" smooth="yes"/>
+      <point x="-179" y="636"/>
+      <point x="-145" y="618"/>
+      <point x="-116" y="618" type="curve" smooth="yes"/>
+      <point x="-80" y="618"/>
+      <point x="-43" y="634"/>
+      <point x="-43" y="706" type="curve"/>
+      <point x="-102" y="706" type="line"/>
+      <point x="-102" y="693"/>
+      <point x="-113" y="688"/>
+      <point x="-123" y="688" type="curve" smooth="yes"/>
+      <point x="-143" y="688"/>
+      <point x="-165" y="706"/>
+      <point x="-203" y="706" type="curve" smooth="yes"/>
+      <point x="-245" y="706"/>
+      <point x="-272" y="675"/>
+      <point x="-272" y="618" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

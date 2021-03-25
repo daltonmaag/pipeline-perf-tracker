@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F" format="2">
+  <advance width="403"/>
+  <unicode hex="0046"/>
+  <anchor x="213" y="0" name="bottom"/>
+  <anchor x="213" y="655" name="top"/>
+  <outline>
+    <contour>
+      <point x="42" y="0" type="curve" smooth="yes"/>
+      <point x="185" y="0" type="line" smooth="yes"/>
+      <point x="191" y="0"/>
+      <point x="196" y="6"/>
+      <point x="196" y="14" type="curve" smooth="yes"/>
+      <point x="196" y="247" type="line"/>
+      <point x="344" y="247" type="line" smooth="yes"/>
+      <point x="352" y="247"/>
+      <point x="357" y="252"/>
+      <point x="357" y="260" type="curve" smooth="yes"/>
+      <point x="357" y="376" type="line" smooth="yes"/>
+      <point x="357" y="384"/>
+      <point x="352" y="390"/>
+      <point x="344" y="390" type="curve" smooth="yes"/>
+      <point x="196" y="390" type="line"/>
+      <point x="196" y="509" type="line"/>
+      <point x="371" y="509" type="line" smooth="yes"/>
+      <point x="378" y="509"/>
+      <point x="383" y="515"/>
+      <point x="383" y="523" type="curve" smooth="yes"/>
+      <point x="383" y="641" type="line" smooth="yes"/>
+      <point x="383" y="649"/>
+      <point x="378" y="655"/>
+      <point x="371" y="655" type="curve" smooth="yes"/>
+      <point x="42" y="655" type="line" smooth="yes"/>
+      <point x="35" y="655"/>
+      <point x="30" y="649"/>
+      <point x="30" y="641" type="curve" smooth="yes"/>
+      <point x="30" y="14" type="line" smooth="yes"/>
+      <point x="30" y="6"/>
+      <point x="35" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

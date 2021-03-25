@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleprimemod" format="2">
+  <advance width="626"/>
+  <unicode hex="02BA"/>
+  <outline>
+    <contour>
+      <point x="374" y="529" type="line"/>
+      <point x="374" y="529"/>
+      <point x="416" y="588"/>
+      <point x="444" y="619" type="curve"/>
+      <point x="471" y="652"/>
+      <point x="504" y="684"/>
+      <point x="504" y="684" type="curve"/>
+      <point x="422" y="731" type="line"/>
+      <point x="422" y="731"/>
+      <point x="399" y="690"/>
+      <point x="373" y="648" type="curve"/>
+      <point x="345" y="603"/>
+      <point x="313" y="554"/>
+      <point x="313" y="554" type="curve"/>
+    </contour>
+    <contour>
+      <point x="184" y="529" type="line"/>
+      <point x="184" y="529"/>
+      <point x="226" y="588"/>
+      <point x="254" y="619" type="curve"/>
+      <point x="281" y="652"/>
+      <point x="314" y="684"/>
+      <point x="314" y="684" type="curve"/>
+      <point x="232" y="731" type="line"/>
+      <point x="232" y="731"/>
+      <point x="209" y="690"/>
+      <point x="183" y="648" type="curve"/>
+      <point x="155" y="603"/>
+      <point x="123" y="554"/>
+      <point x="123" y="554" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

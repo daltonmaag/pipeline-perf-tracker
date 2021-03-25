@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="214"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="37" y="93" type="curve" smooth="yes"/>
+      <point x="96" y="93" type="line" smooth="yes"/>
+      <point x="99" y="93"/>
+      <point x="102" y="96"/>
+      <point x="104" y="100" type="curve" smooth="yes"/>
+      <point x="180" y="256" type="line" smooth="yes"/>
+      <point x="182" y="260"/>
+      <point x="181" y="266"/>
+      <point x="180" y="269" type="curve" smooth="yes"/>
+      <point x="104" y="425" type="line" smooth="yes"/>
+      <point x="102" y="429"/>
+      <point x="99" y="432"/>
+      <point x="96" y="432" type="curve" smooth="yes"/>
+      <point x="37" y="432" type="line" smooth="yes"/>
+      <point x="32" y="432"/>
+      <point x="29" y="428"/>
+      <point x="32" y="421" type="curve" smooth="yes"/>
+      <point x="105" y="262" type="line"/>
+      <point x="32" y="105" type="line" smooth="yes"/>
+      <point x="29" y="98"/>
+      <point x="32" y="93"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

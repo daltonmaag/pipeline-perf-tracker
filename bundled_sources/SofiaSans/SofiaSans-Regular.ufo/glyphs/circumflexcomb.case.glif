@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb.case" format="2">
+  <anchor x="170" y="655" name="_top"/>
+  <anchor x="170" y="843" name="top"/>
+  <outline>
+    <contour>
+      <point x="41" y="718" type="curve" smooth="yes"/>
+      <point x="170" y="764" type="line"/>
+      <point x="299" y="718" type="line" smooth="yes"/>
+      <point x="306" y="715"/>
+      <point x="310" y="717"/>
+      <point x="310" y="724" type="curve" smooth="yes"/>
+      <point x="310" y="774" type="line" smooth="yes"/>
+      <point x="310" y="780"/>
+      <point x="308" y="782"/>
+      <point x="303" y="784" type="curve" smooth="yes"/>
+      <point x="177" y="840" type="line" smooth="yes"/>
+      <point x="173" y="842"/>
+      <point x="167" y="842"/>
+      <point x="163" y="840" type="curve" smooth="yes"/>
+      <point x="37" y="784" type="line" smooth="yes"/>
+      <point x="32" y="782"/>
+      <point x="30" y="780"/>
+      <point x="30" y="774" type="curve" smooth="yes"/>
+      <point x="30" y="724" type="line" smooth="yes"/>
+      <point x="30" y="717"/>
+      <point x="34" y="715"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>340</integer>
+    </dict>
+  </lib>
+</glyph>

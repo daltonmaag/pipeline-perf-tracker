@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.circled" format="2">
+  <advance width="904"/>
+  <unicode hex="2461"/>
+  <outline>
+    <contour>
+      <point x="277" y="100" type="curve" smooth="yes"/>
+      <point x="620" y="100" type="line" smooth="yes"/>
+      <point x="629" y="100"/>
+      <point x="635" y="106"/>
+      <point x="635" y="115" type="curve" smooth="yes"/>
+      <point x="635" y="207" type="line" smooth="yes"/>
+      <point x="635" y="216"/>
+      <point x="629" y="222"/>
+      <point x="620" y="222" type="curve" smooth="yes"/>
+      <point x="428" y="222" type="line"/>
+      <point x="428" y="272"/>
+      <point x="637" y="298"/>
+      <point x="637" y="441" type="curve" smooth="yes"/>
+      <point x="637" y="538"/>
+      <point x="575" y="580"/>
+      <point x="458" y="580" type="curve" smooth="yes"/>
+      <point x="348" y="580"/>
+      <point x="265" y="535"/>
+      <point x="276" y="435" type="curve" smooth="yes"/>
+      <point x="277" y="426"/>
+      <point x="282" y="420"/>
+      <point x="291" y="420" type="curve" smooth="yes"/>
+      <point x="397" y="420" type="line" smooth="yes"/>
+      <point x="406" y="420"/>
+      <point x="412" y="426"/>
+      <point x="412" y="435" type="curve" smooth="yes"/>
+      <point x="412" y="452"/>
+      <point x="423" y="459"/>
+      <point x="452" y="459" type="curve" smooth="yes"/>
+      <point x="482" y="459"/>
+      <point x="490" y="452"/>
+      <point x="490" y="437" type="curve" smooth="yes"/>
+      <point x="490" y="429" type="line" smooth="yes"/>
+      <point x="490" y="370"/>
+      <point x="262" y="339"/>
+      <point x="262" y="187" type="curve" smooth="yes"/>
+      <point x="262" y="115" type="line" smooth="yes"/>
+      <point x="262" y="106"/>
+      <point x="268" y="100"/>
+    </contour>
+    <component base="whiteCircle" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

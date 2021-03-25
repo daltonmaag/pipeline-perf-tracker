@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psili.sc" format="2">
+  <advance width="329"/>
+  <outline>
+    <contour>
+      <point x="158" y="648" type="line"/>
+      <point x="234" y="672"/>
+      <point x="270" y="704"/>
+      <point x="270" y="754" type="curve" smooth="yes"/>
+      <point x="270" y="797"/>
+      <point x="230" y="828"/>
+      <point x="154" y="828" type="curve" smooth="yes"/>
+      <point x="120" y="828"/>
+      <point x="90" y="823"/>
+      <point x="69" y="816" type="curve"/>
+      <point x="59" y="736" type="line"/>
+      <point x="65" y="739"/>
+      <point x="74" y="742"/>
+      <point x="85" y="742" type="curve" smooth="yes"/>
+      <point x="103" y="742"/>
+      <point x="113" y="735"/>
+      <point x="113" y="723" type="curve" smooth="yes"/>
+      <point x="113" y="711"/>
+      <point x="103" y="702"/>
+      <point x="80" y="689" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=comma</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 10:59:43</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

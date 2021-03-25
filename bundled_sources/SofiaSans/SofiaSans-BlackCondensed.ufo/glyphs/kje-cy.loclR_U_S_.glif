@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kje-cy.loclRUS" format="2">
+  <advance width="430"/>
+  <outline>
+    <component base="ka-cy.loclRUS"/>
+    <component base="acutecomb" xOffset="84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

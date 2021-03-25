@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F_I" format="2">
+  <advance width="716"/>
+  <guideline x="64" y="774" angle="90"/>
+  <guideline x="519" y="775" angle="90"/>
+  <outline>
+    <contour>
+      <point x="45" y="9" type="curve"/>
+      <point x="225" y="6" type="line"/>
+      <point x="224" y="74"/>
+      <point x="224" y="170"/>
+      <point x="223" y="254" type="curve"/>
+      <point x="428" y="255" type="line"/>
+      <point x="426" y="403" type="line"/>
+      <point x="223" y="405" type="line"/>
+      <point x="223" y="451"/>
+      <point x="224" y="507"/>
+      <point x="224" y="562" type="curve"/>
+      <point x="513" y="561" type="line"/>
+      <point x="514" y="502"/>
+      <point x="514" y="448"/>
+      <point x="514" y="425" type="curve" smooth="yes"/>
+      <point x="514" y="373"/>
+      <point x="508" y="152"/>
+      <point x="504" y="0" type="curve"/>
+      <point x="687" y="2" type="line"/>
+      <point x="685" y="92"/>
+      <point x="683" y="270"/>
+      <point x="683" y="426" type="curve" smooth="yes"/>
+      <point x="686" y="620"/>
+      <point x="686" y="687"/>
+      <point x="686" y="696" type="curve"/>
+      <point x="39" y="707" type="line"/>
+      <point x="43" y="639"/>
+      <point x="49" y="502"/>
+      <point x="49" y="377" type="curve" smooth="yes"/>
+      <point x="49" y="254"/>
+      <point x="47" y="95"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>F</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_l" format="2">
+  <advance width="568"/>
+  <anchor x="305" y="0" name="caret_1"/>
+  <outline>
+    <component base="fl"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/02 22:05:39</string>
+    </dict>
+  </lib>
+</glyph>

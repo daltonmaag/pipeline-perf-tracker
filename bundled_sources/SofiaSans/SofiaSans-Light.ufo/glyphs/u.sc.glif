@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u.sc" format="2">
+  <advance width="556"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="378" y="10" name="ogonek"/>
+  <anchor x="278" y="527" name="top"/>
+  <anchor x="61" y="527" name="topleft"/>
+  <anchor x="540" y="527" name="topright"/>
+  <outline>
+    <contour>
+      <point x="278" y="-12" type="curve" smooth="yes"/>
+      <point x="408" y="-12"/>
+      <point x="471" y="52"/>
+      <point x="471" y="184" type="curve" smooth="yes"/>
+      <point x="471" y="524" type="line" smooth="yes"/>
+      <point x="471" y="526"/>
+      <point x="470" y="527"/>
+      <point x="468" y="527" type="curve" smooth="yes"/>
+      <point x="458" y="527" type="line" smooth="yes"/>
+      <point x="456" y="527"/>
+      <point x="455" y="526"/>
+      <point x="455" y="524" type="curve" smooth="yes"/>
+      <point x="455" y="184" type="line" smooth="yes"/>
+      <point x="455" y="63"/>
+      <point x="399" y="4"/>
+      <point x="278" y="4" type="curve" smooth="yes"/>
+      <point x="157" y="4"/>
+      <point x="101" y="63"/>
+      <point x="101" y="184" type="curve" smooth="yes"/>
+      <point x="101" y="524" type="line" smooth="yes"/>
+      <point x="101" y="526"/>
+      <point x="100" y="527"/>
+      <point x="98" y="527" type="curve" smooth="yes"/>
+      <point x="88" y="527" type="line" smooth="yes"/>
+      <point x="86" y="527"/>
+      <point x="85" y="526"/>
+      <point x="85" y="524" type="curve" smooth="yes"/>
+      <point x="85" y="184" type="line" smooth="yes"/>
+      <point x="85" y="52"/>
+      <point x="148" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=h.sc-5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=h.sc-5</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

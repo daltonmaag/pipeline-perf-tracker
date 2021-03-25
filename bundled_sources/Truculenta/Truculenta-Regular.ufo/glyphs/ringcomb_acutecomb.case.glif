@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb_acutecomb.case" format="2">
+  <anchor x="-153" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-152" y="738" type="curve"/>
+      <point x="-107" y="738"/>
+      <point x="-76" y="762"/>
+      <point x="-76" y="796" type="curve"/>
+      <point x="-76" y="826"/>
+      <point x="-107" y="847"/>
+      <point x="-154" y="847" type="curve"/>
+      <point x="-201" y="847"/>
+      <point x="-231" y="824"/>
+      <point x="-231" y="788" type="curve"/>
+      <point x="-231" y="756"/>
+      <point x="-201" y="738"/>
+    </contour>
+    <contour>
+      <point x="-152" y="768" type="curve"/>
+      <point x="-176" y="768"/>
+      <point x="-190" y="776"/>
+      <point x="-190" y="794" type="curve"/>
+      <point x="-190" y="809"/>
+      <point x="-175" y="817"/>
+      <point x="-154" y="817" type="curve"/>
+      <point x="-136" y="817"/>
+      <point x="-117" y="811"/>
+      <point x="-117" y="794" type="curve"/>
+      <point x="-117" y="775"/>
+      <point x="-135" y="768"/>
+    </contour>
+    <contour>
+      <point x="-188" y="873" type="line"/>
+      <point x="-188" y="873"/>
+      <point x="-147" y="892"/>
+      <point x="-119" y="904" type="curve"/>
+      <point x="-89" y="917"/>
+      <point x="-55" y="928"/>
+      <point x="-55" y="928" type="curve"/>
+      <point x="-91" y="982" type="line"/>
+      <point x="-91" y="982"/>
+      <point x="-119" y="962"/>
+      <point x="-150" y="944" type="curve"/>
+      <point x="-184" y="924"/>
+      <point x="-213" y="908"/>
+      <point x="-213" y="908" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

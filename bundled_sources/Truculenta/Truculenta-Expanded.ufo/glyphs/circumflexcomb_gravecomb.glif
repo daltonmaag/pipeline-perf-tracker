@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_gravecomb" format="2">
+  <anchor x="-152" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-58" y="619" type="line"/>
+      <point x="-32" y="649" type="line"/>
+      <point x="-115" y="716" type="line"/>
+      <point x="-191" y="718" type="line"/>
+      <point x="-272" y="647" type="line"/>
+      <point x="-244" y="621" type="line"/>
+      <point x="-153" y="670" type="line"/>
+    </contour>
+    <contour>
+      <point x="-133" y="741" type="curve"/>
+      <point x="-106" y="776" type="line"/>
+      <point x="-106" y="776"/>
+      <point x="-137" y="792"/>
+      <point x="-173" y="812" type="curve"/>
+      <point x="-207" y="830"/>
+      <point x="-237" y="850"/>
+      <point x="-237" y="850" type="curve"/>
+      <point x="-275" y="796" type="line"/>
+      <point x="-275" y="796"/>
+      <point x="-239" y="785"/>
+      <point x="-207" y="772" type="curve"/>
+      <point x="-177" y="760"/>
+      <point x="-133" y="741"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

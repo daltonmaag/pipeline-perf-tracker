@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb.case" format="2">
+  <anchor x="141" y="655" name="_top"/>
+  <anchor x="141" y="861" name="top"/>
+  <outline>
+    <contour>
+      <point x="141" y="669" type="curve" smooth="yes"/>
+      <point x="209" y="669"/>
+      <point x="252" y="703"/>
+      <point x="252" y="765" type="curve" smooth="yes"/>
+      <point x="252" y="828"/>
+      <point x="208" y="861"/>
+      <point x="141" y="861" type="curve" smooth="yes"/>
+      <point x="73" y="861"/>
+      <point x="30" y="827"/>
+      <point x="30" y="765" type="curve" smooth="yes"/>
+      <point x="30" y="703"/>
+      <point x="74" y="669"/>
+    </contour>
+    <contour>
+      <point x="141" y="719" type="curve" smooth="yes"/>
+      <point x="104" y="719"/>
+      <point x="90" y="738"/>
+      <point x="90" y="765" type="curve" smooth="yes"/>
+      <point x="90" y="792"/>
+      <point x="104" y="811"/>
+      <point x="141" y="811" type="curve" smooth="yes"/>
+      <point x="178" y="811"/>
+      <point x="192" y="792"/>
+      <point x="192" y="765" type="curve" smooth="yes"/>
+      <point x="192" y="738"/>
+      <point x="178" y="719"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>282</integer>
+    </dict>
+  </lib>
+</glyph>

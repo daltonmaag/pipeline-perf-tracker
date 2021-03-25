@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="halfringleftcomb.sc" format="2">
+  <advance width="109"/>
+  <anchor x="61" y="478" name="_top"/>
+  <anchor x="61" y="686" name="top"/>
+  <outline>
+    <contour>
+      <point x="77" y="540" type="curve" smooth="yes"/>
+      <point x="78" y="540"/>
+      <point x="79" y="541"/>
+      <point x="79" y="542" type="curve" smooth="yes"/>
+      <point x="79" y="554" type="line" smooth="yes"/>
+      <point x="79" y="555"/>
+      <point x="78" y="556"/>
+      <point x="77" y="556" type="curve" smooth="yes"/>
+      <point x="54" y="556"/>
+      <point x="46" y="581"/>
+      <point x="46" y="613" type="curve" smooth="yes"/>
+      <point x="46" y="645"/>
+      <point x="54" y="670"/>
+      <point x="77" y="670" type="curve" smooth="yes"/>
+      <point x="78" y="670"/>
+      <point x="79" y="671"/>
+      <point x="79" y="672" type="curve" smooth="yes"/>
+      <point x="79" y="684" type="line" smooth="yes"/>
+      <point x="79" y="685"/>
+      <point x="78" y="686"/>
+      <point x="77" y="686" type="curve" smooth="yes"/>
+      <point x="46" y="686"/>
+      <point x="30" y="658"/>
+      <point x="30" y="613" type="curve" smooth="yes"/>
+      <point x="30" y="568"/>
+      <point x="46" y="540"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

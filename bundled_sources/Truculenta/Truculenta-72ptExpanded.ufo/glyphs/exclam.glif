@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="306"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="123" y="238" type="curve"/>
+      <point x="183" y="240" type="line"/>
+      <point x="183" y="240"/>
+      <point x="185" y="349"/>
+      <point x="186" y="425" type="curve"/>
+      <point x="188" y="500"/>
+      <point x="196" y="709"/>
+      <point x="196" y="709" type="curve"/>
+      <point x="110" y="704" type="line"/>
+      <point x="110" y="704"/>
+      <point x="116" y="533"/>
+      <point x="119" y="423" type="curve"/>
+      <point x="121" y="315"/>
+      <point x="123" y="238"/>
+    </contour>
+    <contour>
+      <point x="195" y="0" type="line"/>
+      <point x="188" y="135" type="line"/>
+      <point x="118" y="133" type="line"/>
+      <point x="114" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

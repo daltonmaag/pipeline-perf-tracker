@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F.alt" format="2">
+  <advance width="333"/>
+  <outline>
+    <contour>
+      <point x="54" y="7" type="curve"/>
+      <point x="164" y="4" type="line"/>
+      <point x="164" y="4"/>
+      <point x="161" y="245"/>
+      <point x="161" y="362" type="curve"/>
+      <point x="161" y="478"/>
+      <point x="164" y="692"/>
+      <point x="164" y="692" type="curve"/>
+      <point x="50" y="706" type="line"/>
+      <point x="50" y="706"/>
+      <point x="58" y="534"/>
+      <point x="58" y="363" type="curve"/>
+      <point x="58" y="193"/>
+      <point x="54" y="7"/>
+    </contour>
+    <contour>
+      <point x="107" y="286" type="line"/>
+      <point x="310" y="289" type="line"/>
+      <point x="300" y="378" type="line"/>
+      <point x="107" y="383" type="line"/>
+    </contour>
+    <contour>
+      <point x="95" y="613" type="line"/>
+      <point x="306" y="614" type="line"/>
+      <point x="304" y="699" type="line"/>
+      <point x="50" y="706" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

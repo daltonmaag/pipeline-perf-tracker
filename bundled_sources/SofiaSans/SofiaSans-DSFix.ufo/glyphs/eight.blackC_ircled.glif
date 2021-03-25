@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.blackCircled" format="2">
+  <advance width="645.73386"/>
+  <unicode hex="277D"/>
+  <outline>
+    <contour>
+      <point x="325" y="99" type="curve" smooth="yes"/>
+      <point x="435" y="99"/>
+      <point x="489" y="147"/>
+      <point x="489" y="239" type="curve" smooth="yes"/>
+      <point x="489" y="301"/>
+      <point x="470" y="338"/>
+      <point x="426" y="360" type="curve"/>
+      <point x="453" y="374"/>
+      <point x="474" y="409"/>
+      <point x="474" y="458" type="curve" smooth="yes"/>
+      <point x="474" y="540"/>
+      <point x="430" y="589"/>
+      <point x="325" y="589" type="curve" smooth="yes"/>
+      <point x="220" y="589"/>
+      <point x="176" y="540"/>
+      <point x="176" y="458" type="curve" smooth="yes"/>
+      <point x="176" y="409"/>
+      <point x="197" y="374"/>
+      <point x="224" y="360" type="curve"/>
+      <point x="180" y="338"/>
+      <point x="161" y="301"/>
+      <point x="161" y="239" type="curve" smooth="yes"/>
+      <point x="161" y="147"/>
+      <point x="214" y="99"/>
+    </contour>
+    <contour>
+      <point x="325" y="218" type="curve" smooth="yes"/>
+      <point x="310" y="218"/>
+      <point x="300" y="225"/>
+      <point x="300" y="251" type="curve" smooth="yes"/>
+      <point x="300" y="270" type="line" smooth="yes"/>
+      <point x="300" y="294"/>
+      <point x="307" y="303"/>
+      <point x="325" y="303" type="curve" smooth="yes"/>
+      <point x="343" y="303"/>
+      <point x="350" y="294"/>
+      <point x="350" y="270" type="curve" smooth="yes"/>
+      <point x="350" y="251" type="line" smooth="yes"/>
+      <point x="350" y="225"/>
+      <point x="340" y="218"/>
+    </contour>
+    <contour>
+      <point x="325" y="403" type="curve" smooth="yes"/>
+      <point x="313" y="403"/>
+      <point x="306" y="410"/>
+      <point x="306" y="431" type="curve" smooth="yes"/>
+      <point x="306" y="451" type="line" smooth="yes"/>
+      <point x="306" y="471"/>
+      <point x="310" y="480"/>
+      <point x="325" y="480" type="curve" smooth="yes"/>
+      <point x="340" y="480"/>
+      <point x="343" y="471"/>
+      <point x="343" y="451" type="curve" smooth="yes"/>
+      <point x="343" y="431" type="line" smooth="yes"/>
+      <point x="343" y="410"/>
+      <point x="337" y="403"/>
+    </contour>
+    <component base="blackCircle" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>blackCircle</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

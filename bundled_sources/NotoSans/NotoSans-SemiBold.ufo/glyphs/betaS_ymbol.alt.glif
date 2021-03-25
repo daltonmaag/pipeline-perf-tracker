@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="betaSymbol.alt" format="2">
+  <advance width="633"/>
+  <outline>
+    <contour>
+      <point x="321" y="-10" type="curve" smooth="yes"/>
+      <point x="489" y="-10"/>
+      <point x="588" y="86"/>
+      <point x="588" y="223" type="curve" smooth="yes"/>
+      <point x="588" y="332"/>
+      <point x="533" y="392"/>
+      <point x="446" y="414" type="curve"/>
+      <point x="324" y="360" type="line"/>
+      <point x="392" y="352"/>
+      <point x="436" y="314"/>
+      <point x="436" y="240" type="curve" smooth="yes"/>
+      <point x="436" y="165"/>
+      <point x="400" y="109"/>
+      <point x="322" y="109" type="curve" smooth="yes"/>
+      <point x="241" y="109"/>
+      <point x="204" y="153"/>
+      <point x="204" y="371" type="curve" smooth="yes"/>
+      <point x="204" y="602"/>
+      <point x="257" y="649"/>
+      <point x="326" y="649" type="curve" smooth="yes"/>
+      <point x="365" y="649"/>
+      <point x="402" y="631"/>
+      <point x="402" y="569" type="curve" smooth="yes"/>
+      <point x="402" y="507"/>
+      <point x="372" y="405"/>
+      <point x="146" y="405" type="curve"/>
+      <point x="146" y="301" type="line"/>
+      <point x="454" y="332"/>
+      <point x="544" y="455"/>
+      <point x="544" y="574" type="curve" smooth="yes"/>
+      <point x="544" y="701"/>
+      <point x="462" y="765"/>
+      <point x="329" y="765" type="curve" smooth="yes"/>
+      <point x="182" y="765"/>
+      <point x="55" y="696"/>
+      <point x="55" y="374" type="curve" smooth="yes"/>
+      <point x="55" y="66"/>
+      <point x="154" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o+10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=beta</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:46:45</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

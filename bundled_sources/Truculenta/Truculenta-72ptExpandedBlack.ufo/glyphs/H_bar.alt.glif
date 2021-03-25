@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar.alt" format="2">
+  <advance width="613"/>
+  <anchor x="306" y="459" name="_center"/>
+  <outline>
+    <contour>
+      <point x="9" y="404" type="line"/>
+      <point x="9" y="404"/>
+      <point x="123" y="406"/>
+      <point x="303" y="406" type="curve"/>
+      <point x="363" y="406"/>
+      <point x="605" y="404"/>
+      <point x="605" y="404" type="curve"/>
+      <point x="603" y="510" type="line"/>
+      <point x="603" y="510"/>
+      <point x="376" y="506"/>
+      <point x="309" y="507" type="curve"/>
+      <point x="215" y="508"/>
+      <point x="12" y="510"/>
+      <point x="12" y="510" type="curve"/>
+    </contour>
+    <component base="H.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

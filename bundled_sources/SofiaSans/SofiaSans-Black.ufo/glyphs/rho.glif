@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho" format="2">
+  <advance width="545"/>
+  <unicode hex="03C1"/>
+  <outline>
+    <contour>
+      <point x="57" y="-185" type="curve" smooth="yes"/>
+      <point x="207" y="-185" type="line" smooth="yes"/>
+      <point x="216" y="-185"/>
+      <point x="222" y="-179"/>
+      <point x="222" y="-170" type="curve" smooth="yes"/>
+      <point x="222" y="300" type="line" smooth="yes"/>
+      <point x="222" y="336"/>
+      <point x="241.321" y="358"/>
+      <point x="277" y="358" type="curve" smooth="yes"/>
+      <point x="313.321" y="358"/>
+      <point x="334" y="336"/>
+      <point x="334" y="300" type="curve" smooth="yes"/>
+      <point x="334" y="206" type="line" smooth="yes"/>
+      <point x="334" y="156.387"/>
+      <point x="314.96" y="132"/>
+      <point x="276.223" y="132" type="curve" smooth="yes"/>
+      <point x="252.394" y="132"/>
+      <point x="222.626" y="140.592"/>
+      <point x="200" y="154" type="curve"/>
+      <point x="202" y="20" type="line"/>
+      <point x="237.53" y="0.869"/>
+      <point x="295.983" y="-12"/>
+      <point x="347.353" y="-12" type="curve" smooth="yes"/>
+      <point x="460.035" y="-12"/>
+      <point x="514" y="54.06"/>
+      <point x="514" y="192" type="curve" smooth="yes"/>
+      <point x="514" y="327" type="line" smooth="yes"/>
+      <point x="514" y="445"/>
+      <point x="430.123" y="512"/>
+      <point x="277" y="512" type="curve" smooth="yes"/>
+      <point x="124.604" y="512"/>
+      <point x="42" y="446"/>
+      <point x="42" y="327" type="curve" smooth="yes"/>
+      <point x="42" y="-170" type="line" smooth="yes"/>
+      <point x="42" y="-179"/>
+      <point x="48" y="-185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

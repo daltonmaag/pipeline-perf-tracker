@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pe-cy.loclRUS" format="2">
+  <advance width="550"/>
+  <outline>
+    <contour>
+      <point x="57" y="0" type="curve" smooth="yes"/>
+      <point x="207" y="0" type="line" smooth="yes"/>
+      <point x="216" y="0"/>
+      <point x="222" y="6"/>
+      <point x="222" y="15" type="curve" smooth="yes"/>
+      <point x="222" y="352" type="line"/>
+      <point x="328" y="352" type="line"/>
+      <point x="328" y="15" type="line" smooth="yes"/>
+      <point x="328" y="6"/>
+      <point x="334" y="0"/>
+      <point x="343" y="0" type="curve" smooth="yes"/>
+      <point x="493" y="0" type="line" smooth="yes"/>
+      <point x="502" y="0"/>
+      <point x="508" y="6"/>
+      <point x="508" y="15" type="curve" smooth="yes"/>
+      <point x="508" y="485" type="line" smooth="yes"/>
+      <point x="508" y="494"/>
+      <point x="502" y="500"/>
+      <point x="493" y="500" type="curve"/>
+      <point x="57" y="500" type="line"/>
+      <point x="48" y="500"/>
+      <point x="42" y="494"/>
+      <point x="42" y="485" type="curve" smooth="yes"/>
+      <point x="42" y="15" type="line" smooth="yes"/>
+      <point x="42" y="6"/>
+      <point x="48" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

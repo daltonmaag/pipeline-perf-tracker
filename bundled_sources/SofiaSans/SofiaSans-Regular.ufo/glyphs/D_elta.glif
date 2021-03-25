@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="557"/>
+  <unicode hex="0394"/>
+  <outline>
+    <contour>
+      <point x="25" y="0" type="curve" smooth="yes"/>
+      <point x="532" y="0" type="line" smooth="yes"/>
+      <point x="538" y="0"/>
+      <point x="542" y="4"/>
+      <point x="542" y="10" type="curve" smooth="yes"/>
+      <point x="542" y="51" type="line" smooth="yes"/>
+      <point x="542" y="55"/>
+      <point x="541" y="59"/>
+      <point x="540" y="63" type="curve" smooth="yes"/>
+      <point x="334" y="647" type="line" smooth="yes"/>
+      <point x="332" y="653"/>
+      <point x="328" y="655"/>
+      <point x="323" y="655" type="curve" smooth="yes"/>
+      <point x="233" y="655" type="line" smooth="yes"/>
+      <point x="228" y="655"/>
+      <point x="223" y="653"/>
+      <point x="221" y="647" type="curve" smooth="yes"/>
+      <point x="17" y="61" type="line" smooth="yes"/>
+      <point x="16" y="57"/>
+      <point x="15" y="53"/>
+      <point x="15" y="49" type="curve" smooth="yes"/>
+      <point x="15" y="10" type="line" smooth="yes"/>
+      <point x="15" y="4"/>
+      <point x="19" y="0"/>
+    </contour>
+    <contour>
+      <point x="109" y="76" type="line"/>
+      <point x="242" y="481" type="line" smooth="yes"/>
+      <point x="253" y="513"/>
+      <point x="264" y="546"/>
+      <point x="275" y="578" type="curve"/>
+      <point x="276" y="578" type="line"/>
+      <point x="287" y="546"/>
+      <point x="298" y="515"/>
+      <point x="309" y="483" type="curve" smooth="yes"/>
+      <point x="445" y="76" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

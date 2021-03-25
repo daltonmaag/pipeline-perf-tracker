@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F_F" format="2">
+  <advance width="706"/>
+  <guideline x="336" y="-112" angle="0"/>
+  <outline>
+    <contour>
+      <point x="62" y="-3" type="curve"/>
+      <point x="139" y="0" type="line"/>
+      <point x="139" y="0"/>
+      <point x="135" y="206"/>
+      <point x="135" y="322" type="curve"/>
+      <point x="135" y="438"/>
+      <point x="139" y="699"/>
+      <point x="139" y="699" type="curve"/>
+      <point x="63" y="709" type="line"/>
+      <point x="63" y="709"/>
+      <point x="66" y="495"/>
+      <point x="66" y="324" type="curve"/>
+      <point x="66" y="153"/>
+      <point x="62" y="-3"/>
+    </contour>
+    <contour>
+      <point x="103" y="241" type="line"/>
+      <point x="334" y="250" type="line"/>
+      <point x="332" y="307" type="line"/>
+      <point x="103" y="309" type="line"/>
+    </contour>
+    <contour>
+      <point x="106" y="638" type="line"/>
+      <point x="666" y="640" type="line"/>
+      <point x="669" y="702" type="line"/>
+      <point x="63" y="709" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="-13" type="curve"/>
+      <point x="475" y="2" type="line"/>
+      <point x="475" y="2"/>
+      <point x="471" y="202"/>
+      <point x="471" y="318" type="curve"/>
+      <point x="471" y="434"/>
+      <point x="475" y="695"/>
+      <point x="475" y="695" type="curve"/>
+      <point x="399" y="705" type="line"/>
+      <point x="399" y="705"/>
+      <point x="402" y="491"/>
+      <point x="402" y="320" type="curve"/>
+      <point x="402" y="149"/>
+      <point x="398" y="-13"/>
+    </contour>
+    <contour>
+      <point x="439" y="241" type="line"/>
+      <point x="670" y="250" type="line"/>
+      <point x="668" y="307" type="line"/>
+      <point x="439" y="309" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>F</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

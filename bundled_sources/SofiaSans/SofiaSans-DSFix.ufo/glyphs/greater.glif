@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="420"/>
+  <unicode hex="003E"/>
+  <outline>
+    <contour>
+      <point x="65" y="69" type="curve" smooth="yes"/>
+      <point x="359" y="233" type="line" smooth="yes"/>
+      <point x="367" y="237"/>
+      <point x="370" y="244"/>
+      <point x="370" y="252" type="curve" smooth="yes"/>
+      <point x="370" y="343" type="line" smooth="yes"/>
+      <point x="370" y="352"/>
+      <point x="367" y="357"/>
+      <point x="359" y="362" type="curve" smooth="yes"/>
+      <point x="65" y="525" type="line" smooth="yes"/>
+      <point x="57" y="531"/>
+      <point x="51" y="523"/>
+      <point x="51" y="512" type="curve" smooth="yes"/>
+      <point x="51" y="381" type="line" smooth="yes"/>
+      <point x="51" y="374"/>
+      <point x="55" y="367"/>
+      <point x="61" y="364" type="curve" smooth="yes"/>
+      <point x="201" y="298" type="line"/>
+      <point x="61" y="230" type="line" smooth="yes"/>
+      <point x="55" y="227"/>
+      <point x="51" y="221"/>
+      <point x="51" y="212" type="curve" smooth="yes"/>
+      <point x="51" y="81" type="line" smooth="yes"/>
+      <point x="51" y="70"/>
+      <point x="57" y="63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

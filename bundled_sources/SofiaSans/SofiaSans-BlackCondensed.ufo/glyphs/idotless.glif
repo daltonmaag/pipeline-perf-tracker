@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="208"/>
+  <unicode hex="0131"/>
+  <anchor x="104" y="0" name="bottom"/>
+  <anchor x="172" y="10" name="ogonek"/>
+  <anchor x="104" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="36" y="0" type="curve" smooth="yes"/>
+      <point x="172" y="0" type="line" smooth="yes"/>
+      <point x="179" y="0"/>
+      <point x="184" y="6"/>
+      <point x="184" y="14" type="curve" smooth="yes"/>
+      <point x="184" y="487" type="line" smooth="yes"/>
+      <point x="184" y="495"/>
+      <point x="179" y="500"/>
+      <point x="172" y="500" type="curve" smooth="yes"/>
+      <point x="36" y="500" type="line" smooth="yes"/>
+      <point x="29" y="500"/>
+      <point x="24" y="495"/>
+      <point x="24" y="487" type="curve" smooth="yes"/>
+      <point x="24" y="14" type="line" smooth="yes"/>
+      <point x="24" y="6"/>
+      <point x="29" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shcha-cy.loclRUS" format="2">
+  <advance width="797"/>
+  <outline>
+    <contour>
+      <point x="98" y="0" type="curve" smooth="yes"/>
+      <point x="696" y="0" type="line" smooth="yes"/>
+      <point x="698" y="0"/>
+      <point x="699" y="1"/>
+      <point x="699" y="3" type="curve" smooth="yes"/>
+      <point x="699" y="475" type="line" smooth="yes"/>
+      <point x="699" y="477"/>
+      <point x="698" y="478"/>
+      <point x="696" y="478" type="curve" smooth="yes"/>
+      <point x="686" y="478" type="line" smooth="yes"/>
+      <point x="684" y="478"/>
+      <point x="683" y="477"/>
+      <point x="683" y="475" type="curve" smooth="yes"/>
+      <point x="683" y="16" type="line"/>
+      <point x="405" y="16" type="line"/>
+      <point x="405" y="475" type="line" smooth="yes"/>
+      <point x="405" y="477"/>
+      <point x="404" y="478"/>
+      <point x="402" y="478" type="curve" smooth="yes"/>
+      <point x="392" y="478" type="line" smooth="yes"/>
+      <point x="390" y="478"/>
+      <point x="389" y="477"/>
+      <point x="389" y="475" type="curve" smooth="yes"/>
+      <point x="389" y="16" type="line"/>
+      <point x="111" y="16" type="line"/>
+      <point x="111" y="475" type="line" smooth="yes"/>
+      <point x="111" y="477"/>
+      <point x="110" y="478"/>
+      <point x="108" y="478" type="curve" smooth="yes"/>
+      <point x="98" y="478" type="line" smooth="yes"/>
+      <point x="96" y="478"/>
+      <point x="95" y="477"/>
+      <point x="95" y="475" type="curve" smooth="yes"/>
+      <point x="95" y="3" type="line" smooth="yes"/>
+      <point x="95" y="1"/>
+      <point x="96" y="0"/>
+    </contour>
+    <contour>
+      <point x="753" y="-144" type="curve" smooth="yes"/>
+      <point x="763" y="-144" type="line" smooth="yes"/>
+      <point x="765" y="-144"/>
+      <point x="766" y="-143"/>
+      <point x="766" y="-141" type="curve" smooth="yes"/>
+      <point x="766" y="13" type="line" smooth="yes"/>
+      <point x="766" y="15"/>
+      <point x="765" y="16"/>
+      <point x="763" y="16" type="curve" smooth="yes"/>
+      <point x="699" y="16" type="line"/>
+      <point x="690" y="0" type="line"/>
+      <point x="750" y="0" type="line"/>
+      <point x="750" y="-141" type="line" smooth="yes"/>
+      <point x="750" y="-143"/>
+      <point x="751" y="-144"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy.loclRUS</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:20:39</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

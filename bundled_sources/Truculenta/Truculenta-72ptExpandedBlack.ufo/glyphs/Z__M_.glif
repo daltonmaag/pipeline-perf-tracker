@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Z_M" format="2">
+  <advance width="1288"/>
+  <guideline x="511" y="800" angle="90"/>
+  <outline>
+    <contour>
+      <point x="-1" y="1" type="line"/>
+      <point x="35" y="2"/>
+      <point x="266" y="3"/>
+      <point x="323" y="3" type="curve" smooth="yes"/>
+      <point x="443" y="3"/>
+      <point x="614" y="0"/>
+      <point x="682" y="0" type="curve"/>
+      <point x="682" y="139" type="line"/>
+      <point x="581" y="134"/>
+      <point x="448" y="133"/>
+      <point x="366" y="133" type="curve" smooth="yes"/>
+      <point x="291" y="133"/>
+      <point x="225" y="134"/>
+      <point x="173" y="136" type="curve"/>
+      <point x="201" y="184"/>
+      <point x="238" y="248"/>
+      <point x="276" y="313" type="curve" smooth="yes"/>
+      <point x="328" y="402"/>
+      <point x="381" y="495"/>
+      <point x="419" y="556" type="curve"/>
+      <point x="422" y="695" type="line"/>
+      <point x="336" y="692"/>
+      <point x="289" y="692"/>
+      <point x="196" y="692" type="curve" smooth="yes"/>
+      <point x="147" y="692"/>
+      <point x="80" y="692"/>
+      <point x="0" y="693" type="curve"/>
+      <point x="-5" y="556" type="line"/>
+      <point x="43" y="559"/>
+      <point x="70" y="560"/>
+      <point x="129" y="560" type="curve" smooth="yes"/>
+      <point x="173" y="560"/>
+      <point x="213" y="560"/>
+      <point x="234" y="560" type="curve"/>
+      <point x="196" y="493"/>
+      <point x="165" y="439"/>
+      <point x="131" y="380" type="curve" smooth="yes"/>
+      <point x="92" y="313"/>
+      <point x="50" y="240"/>
+      <point x="-10" y="136" type="curve"/>
+    </contour>
+    <contour>
+      <point x="962" y="0" type="line"/>
+      <point x="977" y="56"/>
+      <point x="1000" y="143"/>
+      <point x="1023" y="226" type="curve" smooth="yes"/>
+      <point x="1044" y="301"/>
+      <point x="1064" y="374"/>
+      <point x="1077" y="419" type="curve"/>
+      <point x="1078" y="347"/>
+      <point x="1079" y="286"/>
+      <point x="1078" y="233" type="curve" smooth="yes"/>
+      <point x="1076" y="139"/>
+      <point x="1076" y="69"/>
+      <point x="1076" y="1" type="curve"/>
+      <point x="1240" y="-1" type="line"/>
+      <point x="1240" y="48"/>
+      <point x="1238" y="160"/>
+      <point x="1237" y="275" type="curve" smooth="yes"/>
+      <point x="1235" y="451"/>
+      <point x="1237" y="645"/>
+      <point x="1239" y="697" type="curve"/>
+      <point x="1014" y="697" type="line"/>
+      <point x="992" y="607"/>
+      <point x="970" y="530"/>
+      <point x="946" y="453" type="curve" smooth="yes"/>
+      <point x="924" y="383"/>
+      <point x="901" y="313"/>
+      <point x="875" y="233" type="curve"/>
+      <point x="858" y="295"/>
+      <point x="835" y="380"/>
+      <point x="811" y="471" type="curve" smooth="yes"/>
+      <point x="787" y="562"/>
+      <point x="762" y="659"/>
+      <point x="741" y="744" type="curve"/>
+      <point x="512" y="742" type="line"/>
+      <point x="511" y="656"/>
+      <point x="511" y="560"/>
+      <point x="512" y="455" type="curve" smooth="yes"/>
+      <point x="513" y="339"/>
+      <point x="514" y="237"/>
+      <point x="514" y="192" type="curve"/>
+      <point x="670" y="194" type="line"/>
+      <point x="669" y="226"/>
+      <point x="668" y="261"/>
+      <point x="668" y="296" type="curve" smooth="yes"/>
+      <point x="668" y="339"/>
+      <point x="668" y="381"/>
+      <point x="669" y="419" type="curve"/>
+      <point x="688" y="358"/>
+      <point x="705" y="298"/>
+      <point x="721" y="241" type="curve" smooth="yes"/>
+      <point x="745" y="157"/>
+      <point x="765" y="78"/>
+      <point x="782" y="8" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Z</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>M</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

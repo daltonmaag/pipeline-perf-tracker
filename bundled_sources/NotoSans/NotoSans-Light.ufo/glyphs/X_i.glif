@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
+  <advance width="594"/>
+  <unicode hex="039E"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="532" y="0" type="line"/>
+      <point x="532" y="27" type="line"/>
+      <point x="62" y="27" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="362" type="line"/>
+      <point x="472" y="362" type="line"/>
+      <point x="472" y="389" type="line"/>
+      <point x="122" y="389" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="687" type="line"/>
+      <point x="512" y="687" type="line"/>
+      <point x="512" y="714" type="line"/>
+      <point x="82" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|E</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=E</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 10:06:04</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

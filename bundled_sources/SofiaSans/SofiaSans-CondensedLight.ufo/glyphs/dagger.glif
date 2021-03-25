@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
+  <advance width="293"/>
+  <unicode hex="2020"/>
+  <outline>
+    <contour>
+      <point x="141" y="0" type="curve" smooth="yes"/>
+      <point x="151" y="0" type="line" smooth="yes"/>
+      <point x="153" y="0"/>
+      <point x="154" y="1"/>
+      <point x="154" y="3" type="curve" smooth="yes"/>
+      <point x="154" y="452" type="line"/>
+      <point x="266" y="452" type="line" smooth="yes"/>
+      <point x="268" y="452"/>
+      <point x="269" y="453"/>
+      <point x="269" y="455" type="curve" smooth="yes"/>
+      <point x="269" y="465" type="line" smooth="yes"/>
+      <point x="269" y="467"/>
+      <point x="268" y="468"/>
+      <point x="266" y="468" type="curve" smooth="yes"/>
+      <point x="154" y="468" type="line"/>
+      <point x="154" y="652" type="line" smooth="yes"/>
+      <point x="154" y="654"/>
+      <point x="153" y="655"/>
+      <point x="151" y="655" type="curve" smooth="yes"/>
+      <point x="141" y="655" type="line" smooth="yes"/>
+      <point x="139" y="655"/>
+      <point x="138" y="654"/>
+      <point x="138" y="652" type="curve" smooth="yes"/>
+      <point x="138" y="468" type="line"/>
+      <point x="27" y="468" type="line" smooth="yes"/>
+      <point x="25" y="468"/>
+      <point x="24" y="467"/>
+      <point x="24" y="465" type="curve" smooth="yes"/>
+      <point x="24" y="455" type="line" smooth="yes"/>
+      <point x="24" y="453"/>
+      <point x="25" y="452"/>
+      <point x="27" y="452" type="curve" smooth="yes"/>
+      <point x="138" y="452" type="line"/>
+      <point x="138" y="3" type="line" smooth="yes"/>
+      <point x="138" y="1"/>
+      <point x="139" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

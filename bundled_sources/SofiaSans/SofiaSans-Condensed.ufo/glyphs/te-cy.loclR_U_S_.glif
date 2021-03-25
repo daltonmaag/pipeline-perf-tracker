@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="te-cy.loclRUS" format="2">
+  <advance width="287"/>
+  <outline>
+    <contour>
+      <point x="114" y="0" type="curve" smooth="yes"/>
+      <point x="173" y="0" type="line" smooth="yes"/>
+      <point x="178" y="0"/>
+      <point x="181" y="4"/>
+      <point x="181" y="10" type="curve" smooth="yes"/>
+      <point x="181" y="416" type="line"/>
+      <point x="264" y="416" type="line" smooth="yes"/>
+      <point x="269" y="416"/>
+      <point x="272" y="420"/>
+      <point x="272" y="426" type="curve" smooth="yes"/>
+      <point x="272" y="478" type="line" smooth="yes"/>
+      <point x="272" y="484"/>
+      <point x="269" y="488"/>
+      <point x="264" y="488" type="curve" smooth="yes"/>
+      <point x="23" y="488" type="line" smooth="yes"/>
+      <point x="18" y="488"/>
+      <point x="15" y="484"/>
+      <point x="15" y="478" type="curve" smooth="yes"/>
+      <point x="15" y="426" type="line" smooth="yes"/>
+      <point x="15" y="420"/>
+      <point x="18" y="416"/>
+      <point x="23" y="416" type="curve" smooth="yes"/>
+      <point x="106" y="416" type="line"/>
+      <point x="106" y="10" type="line" smooth="yes"/>
+      <point x="106" y="4"/>
+      <point x="109" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

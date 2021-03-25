@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E_Ntilde" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="98" y="-5" type="curve"/>
+      <point x="666" y="0" type="line"/>
+      <point x="666" y="63" type="line"/>
+      <point x="179" y="68" type="line"/>
+      <point x="178" y="110"/>
+      <point x="178" y="157"/>
+      <point x="177" y="202" type="curve"/>
+      <point x="462" y="206" type="line"/>
+      <point x="464" y="269" type="line"/>
+      <point x="177" y="272" type="line"/>
+      <point x="176" y="332"/>
+      <point x="177" y="514"/>
+      <point x="178" y="623" type="curve"/>
+      <point x="455" y="624" type="line"/>
+      <point x="455" y="693" type="line"/>
+      <point x="98" y="699" type="line"/>
+      <point x="99" y="639"/>
+      <point x="101" y="514"/>
+      <point x="101" y="391" type="curve" smooth="yes"/>
+      <point x="101" y="266"/>
+      <point x="99" y="92"/>
+    </contour>
+    <contour>
+      <point x="1027" y="8" type="line"/>
+      <point x="1025" y="95"/>
+      <point x="1024" y="225"/>
+      <point x="1024" y="354" type="curve" smooth="yes"/>
+      <point x="1024" y="478"/>
+      <point x="1026" y="619"/>
+      <point x="1028" y="703" type="curve"/>
+      <point x="950" y="703" type="line"/>
+      <point x="951" y="636"/>
+      <point x="952" y="481"/>
+      <point x="953" y="351" type="curve" smooth="yes"/>
+      <point x="954" y="245"/>
+      <point x="954" y="144"/>
+      <point x="954" y="89" type="curve"/>
+      <point x="928" y="146"/>
+      <point x="889" y="244"/>
+      <point x="846" y="347" type="curve" smooth="yes"/>
+      <point x="790" y="482"/>
+      <point x="730" y="643"/>
+      <point x="700" y="720" type="curve"/>
+      <point x="580" y="720" type="line"/>
+      <point x="583" y="628"/>
+      <point x="583" y="492"/>
+      <point x="585" y="354" type="curve" smooth="yes"/>
+      <point x="586" y="275"/>
+      <point x="585" y="194"/>
+      <point x="584" y="121" type="curve"/>
+      <point x="658" y="121" type="line"/>
+      <point x="657" y="186"/>
+      <point x="657" y="270"/>
+      <point x="656" y="352" type="curve" smooth="yes"/>
+      <point x="655" y="466"/>
+      <point x="655" y="576"/>
+      <point x="655" y="629" type="curve"/>
+      <point x="680" y="572"/>
+      <point x="725" y="451"/>
+      <point x="772" y="338" type="curve" smooth="yes"/>
+      <point x="821" y="221"/>
+      <point x="872" y="94"/>
+      <point x="911" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="680" y="758" type="curve"/>
+      <point x="728" y="758" type="line"/>
+      <point x="735" y="774"/>
+      <point x="743" y="779"/>
+      <point x="765" y="779" type="curve" smooth="yes"/>
+      <point x="801" y="779"/>
+      <point x="843" y="758"/>
+      <point x="885" y="758" type="curve" smooth="yes"/>
+      <point x="929" y="758"/>
+      <point x="965" y="776"/>
+      <point x="969" y="828" type="curve"/>
+      <point x="921" y="828" type="line"/>
+      <point x="917" y="812"/>
+      <point x="906" y="807"/>
+      <point x="884" y="807" type="curve" smooth="yes"/>
+      <point x="848" y="807"/>
+      <point x="806" y="828"/>
+      <point x="764" y="828" type="curve" smooth="yes"/>
+      <point x="720" y="828"/>
+      <point x="684" y="810"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Ntilde</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

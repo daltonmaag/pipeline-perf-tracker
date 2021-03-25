@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambda.sc" format="2">
+  <advance width="304"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="26" y="0" type="line"/>
+      <point x="135" y="434" type="line"/>
+      <point x="140" y="455"/>
+      <point x="147" y="483"/>
+      <point x="152" y="507" type="curve"/>
+      <point x="157" y="483"/>
+      <point x="163" y="453"/>
+      <point x="168" y="433" type="curve"/>
+      <point x="278" y="0" type="line"/>
+      <point x="304" y="0" type="line"/>
+      <point x="160" y="561" type="line"/>
+      <point x="143" y="561" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=a.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=a.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:43:44</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psi.sc" format="2">
+  <advance width="418"/>
+  <outline>
+    <contour>
+      <point x="196" y="0" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="222" y="154" type="line"/>
+      <point x="312" y="157"/>
+      <point x="370" y="187"/>
+      <point x="370" y="318" type="curve" smooth="yes"/>
+      <point x="370" y="560" type="line"/>
+      <point x="344" y="560" type="line"/>
+      <point x="344" y="318" type="line" smooth="yes"/>
+      <point x="344" y="231"/>
+      <point x="320" y="178"/>
+      <point x="222" y="178" type="curve"/>
+      <point x="222" y="560" type="line"/>
+      <point x="196" y="560" type="line"/>
+      <point x="196" y="178" type="line"/>
+      <point x="98" y="178"/>
+      <point x="74" y="231"/>
+      <point x="74" y="318" type="curve" smooth="yes"/>
+      <point x="74" y="560" type="line"/>
+      <point x="48" y="560" type="line"/>
+      <point x="48" y="318" type="line" smooth="yes"/>
+      <point x="48" y="187"/>
+      <point x="106" y="157"/>
+      <point x="196" y="154" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:43:08</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="egrave.sc" format="2">
+  <advance width="478"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="gravecomb.sc" xOffset="125" yOffset="49"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

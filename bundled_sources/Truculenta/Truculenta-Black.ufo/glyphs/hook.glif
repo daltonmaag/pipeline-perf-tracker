@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hook" format="2">
+  <advance width="305"/>
+  <unicode hex="1FA9D"/>
+  <anchor x="148" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="116" y="626" type="line"/>
+      <point x="204" y="629"/>
+      <point x="260" y="655"/>
+      <point x="260" y="709" type="curve" smooth="yes"/>
+      <point x="260" y="767"/>
+      <point x="203" y="781"/>
+      <point x="125" y="781" type="curve" smooth="yes"/>
+      <point x="105" y="781"/>
+      <point x="84" y="780"/>
+      <point x="62" y="779" type="curve"/>
+      <point x="62" y="714" type="line"/>
+      <point x="87" y="717"/>
+      <point x="109" y="719"/>
+      <point x="127" y="719" type="curve" smooth="yes"/>
+      <point x="169" y="719"/>
+      <point x="189" y="714"/>
+      <point x="189" y="702" type="curve" smooth="yes"/>
+      <point x="189" y="685"/>
+      <point x="165" y="679"/>
+      <point x="110" y="678" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

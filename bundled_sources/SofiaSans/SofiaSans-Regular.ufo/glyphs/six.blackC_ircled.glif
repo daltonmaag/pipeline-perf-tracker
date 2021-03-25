@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.blackCircled" format="2">
+  <advance width="914"/>
+  <unicode hex="277B"/>
+  <outline>
+    <contour>
+      <point x="461" y="90" type="curve" smooth="yes"/>
+      <point x="572" y="90"/>
+      <point x="632" y="150"/>
+      <point x="632" y="259" type="curve" smooth="yes"/>
+      <point x="632" y="349"/>
+      <point x="589" y="395"/>
+      <point x="502" y="395" type="curve" smooth="yes"/>
+      <point x="455" y="395"/>
+      <point x="411" y="379"/>
+      <point x="373" y="353" type="curve"/>
+      <point x="373" y="414" type="line" smooth="yes"/>
+      <point x="373" y="475"/>
+      <point x="404" y="499"/>
+      <point x="465" y="499" type="curve" smooth="yes"/>
+      <point x="509" y="499"/>
+      <point x="536" y="485"/>
+      <point x="536" y="464" type="curve" smooth="yes"/>
+      <point x="536" y="458"/>
+      <point x="540" y="454"/>
+      <point x="546" y="454" type="curve" smooth="yes"/>
+      <point x="607" y="454" type="line" smooth="yes"/>
+      <point x="613" y="454"/>
+      <point x="617" y="458"/>
+      <point x="617" y="464" type="curve" smooth="yes"/>
+      <point x="617" y="536"/>
+      <point x="556" y="569"/>
+      <point x="464" y="569" type="curve" smooth="yes"/>
+      <point x="351" y="569"/>
+      <point x="289" y="511"/>
+      <point x="289" y="409" type="curve" smooth="yes"/>
+      <point x="289" y="252" type="line" smooth="yes"/>
+      <point x="289" y="144"/>
+      <point x="348" y="90"/>
+    </contour>
+    <contour>
+      <point x="460" y="160" type="curve" smooth="yes"/>
+      <point x="403" y="160"/>
+      <point x="373" y="194"/>
+      <point x="373" y="247" type="curve" smooth="yes"/>
+      <point x="373" y="292" type="line"/>
+      <point x="405" y="314"/>
+      <point x="442" y="326"/>
+      <point x="475" y="326" type="curve" smooth="yes"/>
+      <point x="522" y="326"/>
+      <point x="547" y="306"/>
+      <point x="547" y="261" type="curve" smooth="yes"/>
+      <point x="547" y="246" type="line" smooth="yes"/>
+      <point x="547" y="191"/>
+      <point x="516" y="160"/>
+    </contour>
+    <component base="blackCircle" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>whiteCircle</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb_caroncomb.case" format="2">
+  <anchor x="-152" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-125" y="853" type="line"/>
+      <point x="-59" y="919" type="line"/>
+      <point x="-89" y="942" type="line"/>
+      <point x="-152" y="901" type="line"/>
+      <point x="-217" y="944" type="line"/>
+      <point x="-247" y="917" type="line"/>
+      <point x="-179" y="855" type="line"/>
+    </contour>
+    <contour>
+      <point x="-204" y="753" type="line"/>
+      <point x="-201" y="831" type="line"/>
+      <point x="-265" y="838" type="line"/>
+      <point x="-263" y="752" type="line"/>
+    </contour>
+    <contour>
+      <point x="-44" y="753" type="line"/>
+      <point x="-41" y="831" type="line"/>
+      <point x="-105" y="838" type="line"/>
+      <point x="-103" y="752" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

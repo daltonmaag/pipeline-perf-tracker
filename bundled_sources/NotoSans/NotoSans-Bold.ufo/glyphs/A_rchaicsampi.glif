@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Archaicsampi" format="2">
+  <advance width="700"/>
+  <unicode hex="0372"/>
+  <outline>
+    <contour>
+      <point x="254" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="446" y="557" type="line"/>
+      <point x="619" y="557" type="line"/>
+      <point x="619" y="714" type="line"/>
+      <point x="79" y="714" type="line"/>
+      <point x="79" y="557" type="line"/>
+      <point x="254" y="557" type="line"/>
+    </contour>
+    <contour>
+      <point x="48" y="322" type="line"/>
+      <point x="184" y="322" type="line"/>
+      <point x="184" y="714" type="line"/>
+      <point x="48" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="516" y="322" type="line"/>
+      <point x="652" y="322" type="line"/>
+      <point x="652" y="714" type="line"/>
+      <point x="516" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|E</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=E</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:56:38</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

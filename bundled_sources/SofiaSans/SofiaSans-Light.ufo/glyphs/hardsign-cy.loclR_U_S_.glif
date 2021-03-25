@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsign-cy.loclRUS" format="2">
+  <advance width="523"/>
+  <outline>
+    <contour>
+      <point x="3" y="462" type="curve" smooth="yes"/>
+      <point x="152" y="462" type="line"/>
+      <point x="152" y="478" type="line"/>
+      <point x="3" y="478" type="line" smooth="yes"/>
+      <point x="1" y="478"/>
+      <point x="0" y="477"/>
+      <point x="0" y="475" type="curve" smooth="yes"/>
+      <point x="0" y="465" type="line" smooth="yes"/>
+      <point x="0" y="463"/>
+      <point x="1" y="462"/>
+    </contour>
+    <component base="softsign-cy.loclRUS" xOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hardsign-cy.loclRUS</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy.loclRUS</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

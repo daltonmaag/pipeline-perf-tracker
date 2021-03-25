@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="apostrophemod" format="2">
+  <advance width="215"/>
+  <unicode hex="02BC"/>
+  <anchor x="107" y="488" name="_apo"/>
+  <outline>
+    <contour>
+      <point x="60" y="463" type="curve" smooth="yes"/>
+      <point x="135" y="463" type="line" smooth="yes"/>
+      <point x="143" y="463"/>
+      <point x="146" y="465"/>
+      <point x="149" y="473" type="curve" smooth="yes"/>
+      <point x="175" y="549" type="line" smooth="yes"/>
+      <point x="183" y="572"/>
+      <point x="185" y="586"/>
+      <point x="185" y="605" type="curve" smooth="yes"/>
+      <point x="185" y="626" type="line" smooth="yes"/>
+      <point x="185" y="672"/>
+      <point x="157" y="695"/>
+      <point x="107" y="695" type="curve" smooth="yes"/>
+      <point x="58" y="695"/>
+      <point x="30" y="672"/>
+      <point x="30" y="626" type="curve" smooth="yes"/>
+      <point x="30" y="607" type="line" smooth="yes"/>
+      <point x="30" y="578"/>
+      <point x="44" y="556"/>
+      <point x="62" y="548" type="curve"/>
+      <point x="51" y="477" type="line" smooth="yes"/>
+      <point x="49" y="467"/>
+      <point x="52" y="463"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

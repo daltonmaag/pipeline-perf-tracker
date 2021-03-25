@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="346"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="2" y="296" type="line"/>
+      <point x="22" y="297"/>
+      <point x="68" y="298"/>
+      <point x="120" y="298" type="curve"/>
+      <point x="151" y="298"/>
+      <point x="180" y="297"/>
+      <point x="193" y="296" type="curve"/>
+      <point x="191" y="394" type="line"/>
+      <point x="183" y="392"/>
+      <point x="159" y="390"/>
+      <point x="125" y="391" type="curve"/>
+      <point x="107" y="392"/>
+      <point x="46" y="393"/>
+      <point x="6" y="394" type="curve"/>
+    </contour>
+    <component base="D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>D</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

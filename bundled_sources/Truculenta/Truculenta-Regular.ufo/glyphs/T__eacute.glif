@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T_eacute" format="2">
+  <advance width="693"/>
+  <guideline x="363" y="120" angle="90"/>
+  <outline>
+    <contour>
+      <point x="144" y="2" type="curve"/>
+      <point x="229" y="-1" type="line"/>
+      <point x="227" y="86"/>
+      <point x="224" y="247"/>
+      <point x="224" y="372" type="curve" smooth="yes"/>
+      <point x="224" y="470"/>
+      <point x="225" y="569"/>
+      <point x="227" y="636" type="curve"/>
+      <point x="267" y="636"/>
+      <point x="325" y="637"/>
+      <point x="364" y="638" type="curve"/>
+      <point x="361" y="704" type="line"/>
+      <point x="307" y="703"/>
+      <point x="222" y="702"/>
+      <point x="186" y="702" type="curve" smooth="yes"/>
+      <point x="150" y="702"/>
+      <point x="66" y="701"/>
+      <point x="12" y="701" type="curve"/>
+      <point x="9" y="630" type="line"/>
+      <point x="50" y="631"/>
+      <point x="106" y="633"/>
+      <point x="149" y="635" type="curve"/>
+      <point x="151" y="555"/>
+      <point x="153" y="450"/>
+      <point x="153" y="381" type="curve" smooth="yes"/>
+      <point x="154" y="278"/>
+      <point x="147" y="52"/>
+    </contour>
+    <contour>
+      <point x="499" y="-12" type="curve" smooth="yes"/>
+      <point x="593" y="-12"/>
+      <point x="636" y="49"/>
+      <point x="636" y="139" type="curve" smooth="yes"/>
+      <point x="636" y="154"/>
+      <point x="635" y="169"/>
+      <point x="633" y="185" type="curve"/>
+      <point x="574" y="185" type="line"/>
+      <point x="576" y="170"/>
+      <point x="577" y="156"/>
+      <point x="577" y="143" type="curve" smooth="yes"/>
+      <point x="577" y="86"/>
+      <point x="557" y="44"/>
+      <point x="503" y="44" type="curve" smooth="yes"/>
+      <point x="456" y="44"/>
+      <point x="433" y="79"/>
+      <point x="423" y="134" type="curve" smooth="yes"/>
+      <point x="416" y="169"/>
+      <point x="415" y="211"/>
+      <point x="414" y="258" type="curve"/>
+      <point x="486" y="261"/>
+      <point x="572" y="262"/>
+      <point x="623" y="263" type="curve"/>
+      <point x="630" y="308"/>
+      <point x="635" y="356"/>
+      <point x="635" y="393" type="curve" smooth="yes"/>
+      <point x="635" y="502"/>
+      <point x="597" y="564"/>
+      <point x="510" y="564" type="curve" smooth="yes"/>
+      <point x="422" y="564"/>
+      <point x="379" y="506"/>
+      <point x="360" y="422" type="curve" smooth="yes"/>
+      <point x="351" y="383"/>
+      <point x="348" y="337"/>
+      <point x="348" y="289" type="curve" smooth="yes"/>
+      <point x="348" y="221"/>
+      <point x="352" y="158"/>
+      <point x="365" y="108" type="curve" smooth="yes"/>
+      <point x="384" y="35"/>
+      <point x="423" y="-12"/>
+    </contour>
+    <contour>
+      <point x="414" y="315" type="line"/>
+      <point x="415" y="342"/>
+      <point x="417" y="367"/>
+      <point x="420" y="390" type="curve" smooth="yes"/>
+      <point x="430" y="460"/>
+      <point x="453" y="509"/>
+      <point x="504" y="509" type="curve" smooth="yes"/>
+      <point x="557" y="509"/>
+      <point x="572" y="470"/>
+      <point x="572" y="409" type="curve" smooth="yes"/>
+      <point x="572" y="382"/>
+      <point x="569" y="351"/>
+      <point x="565" y="317" type="curve"/>
+    </contour>
+    <contour>
+      <point x="455" y="613" type="line"/>
+      <point x="477" y="623"/>
+      <point x="504" y="636"/>
+      <point x="532" y="648" type="curve" smooth="yes"/>
+      <point x="560" y="661"/>
+      <point x="590" y="673"/>
+      <point x="618" y="686" type="curve"/>
+      <point x="582" y="743" type="line"/>
+      <point x="559" y="727"/>
+      <point x="532" y="709"/>
+      <point x="506" y="693" type="curve" smooth="yes"/>
+      <point x="480" y="678"/>
+      <point x="455" y="663"/>
+      <point x="433" y="651" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>eacute</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

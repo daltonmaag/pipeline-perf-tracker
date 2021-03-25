@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb_macroncomb" format="2">
+  <anchor x="-152" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-266" y="780" type="line"/>
+      <point x="-40" y="783" type="line"/>
+      <point x="-45" y="836" type="line"/>
+      <point x="-266" y="839" type="line"/>
+    </contour>
+    <contour>
+      <point x="-187" y="647" type="line"/>
+      <point x="-116" y="648" type="line"/>
+      <point x="-113" y="727" type="line"/>
+      <point x="-190" y="733" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gheupturn-cy.loclRUS" format="2">
+  <advance width="385"/>
+  <outline>
+    <contour>
+      <point x="85" y="0" type="curve" smooth="yes"/>
+      <point x="150" y="0" type="line" smooth="yes"/>
+      <point x="156" y="0"/>
+      <point x="160" y="4"/>
+      <point x="160" y="10" type="curve" smooth="yes"/>
+      <point x="160" y="415" type="line"/>
+      <point x="355" y="415" type="line" smooth="yes"/>
+      <point x="361" y="415"/>
+      <point x="365" y="419"/>
+      <point x="365" y="425" type="curve" smooth="yes"/>
+      <point x="365" y="610" type="line" smooth="yes"/>
+      <point x="365" y="616"/>
+      <point x="361" y="620"/>
+      <point x="355" y="620" type="curve" smooth="yes"/>
+      <point x="294" y="620" type="line" smooth="yes"/>
+      <point x="288" y="620"/>
+      <point x="284" y="616"/>
+      <point x="284" y="610" type="curve" smooth="yes"/>
+      <point x="284" y="488" type="line"/>
+      <point x="85" y="488" type="line" smooth="yes"/>
+      <point x="79" y="488"/>
+      <point x="75" y="484"/>
+      <point x="75" y="478" type="curve" smooth="yes"/>
+      <point x="75" y="10" type="line" smooth="yes"/>
+      <point x="75" y="4"/>
+      <point x="79" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy.loclRUS</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

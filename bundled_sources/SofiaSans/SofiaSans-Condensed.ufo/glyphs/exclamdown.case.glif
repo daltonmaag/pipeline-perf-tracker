@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown.case" format="2">
+  <advance width="168"/>
+  <outline>
+    <contour>
+      <point x="54" y="457" type="line" smooth="yes"/>
+      <point x="49" y="457"/>
+      <point x="47" y="454"/>
+      <point x="47" y="447" type="curve" smooth="yes"/>
+      <point x="41" y="9" type="line" smooth="yes"/>
+      <point x="41" y="4"/>
+      <point x="44" y="0"/>
+      <point x="48" y="0" type="curve" smooth="yes"/>
+      <point x="119" y="0" type="line" smooth="yes"/>
+      <point x="124" y="0"/>
+      <point x="127" y="4"/>
+      <point x="127" y="10" type="curve" smooth="yes"/>
+      <point x="121" y="447" type="line" smooth="yes"/>
+      <point x="121" y="454"/>
+      <point x="118" y="457"/>
+      <point x="114" y="457" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="84" y="661" type="curve" smooth="yes"/>
+      <point x="51" y="661"/>
+      <point x="35" y="644"/>
+      <point x="35" y="612" type="curve" smooth="yes"/>
+      <point x="35" y="603" type="line" smooth="yes"/>
+      <point x="35" y="571"/>
+      <point x="51" y="553"/>
+      <point x="84" y="553" type="curve" smooth="yes"/>
+      <point x="116" y="553"/>
+      <point x="133" y="571"/>
+      <point x="133" y="603" type="curve" smooth="yes"/>
+      <point x="133" y="612" type="line" smooth="yes"/>
+      <point x="133" y="644"/>
+      <point x="116" y="661"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:17:17</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

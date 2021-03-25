@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="napostrophe.alt" format="2">
+  <advance width="354"/>
+  <outline>
+    <contour>
+      <point x="58" y="563" type="line"/>
+      <point x="79" y="585"/>
+      <point x="83" y="627"/>
+      <point x="83" y="653" type="curve"/>
+      <point x="84" y="693"/>
+      <point x="81" y="725"/>
+      <point x="81" y="725" type="curve"/>
+      <point x="44" y="718" type="line"/>
+      <point x="50" y="656" type="line"/>
+      <point x="64" y="655" type="line"/>
+      <point x="66" y="603"/>
+      <point x="44" y="574"/>
+      <point x="44" y="574" type="curve"/>
+    </contour>
+    <component base="n.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

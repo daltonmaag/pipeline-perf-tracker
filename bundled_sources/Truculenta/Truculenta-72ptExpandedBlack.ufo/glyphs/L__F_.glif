@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L_F" format="2">
+  <advance width="769"/>
+  <guideline x="363" y="911" angle="90"/>
+  <guideline x="313" y="153" angle="0"/>
+  <outline>
+    <contour>
+      <point x="52" y="-3" type="curve"/>
+      <point x="233" y="3" type="line"/>
+      <point x="233" y="92"/>
+      <point x="232" y="242"/>
+      <point x="232" y="327" type="curve"/>
+      <point x="232" y="412"/>
+      <point x="232" y="591"/>
+      <point x="232" y="702" type="curve"/>
+      <point x="47" y="694" type="line"/>
+      <point x="51" y="611"/>
+      <point x="57" y="455"/>
+      <point x="57" y="330" type="curve"/>
+      <point x="57" y="207"/>
+      <point x="54" y="68"/>
+    </contour>
+    <contour>
+      <point x="52" y="-3" type="line"/>
+      <point x="606" y="-3" type="line"/>
+      <point x="606" y="122" type="line"/>
+      <point x="119" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="361" y="195" type="curve"/>
+      <point x="539" y="194" type="line"/>
+      <point x="538" y="276"/>
+      <point x="537" y="388"/>
+      <point x="537" y="463" type="curve"/>
+      <point x="537" y="580"/>
+      <point x="540" y="753"/>
+      <point x="540" y="752" type="curve"/>
+      <point x="353" y="768" type="line"/>
+      <point x="357" y="710"/>
+      <point x="363" y="586"/>
+      <point x="363" y="461" type="curve"/>
+      <point x="363" y="367"/>
+      <point x="362" y="268"/>
+    </contour>
+    <contour>
+      <point x="424" y="331" type="line"/>
+      <point x="742" y="332" type="line"/>
+      <point x="740" y="480" type="line"/>
+      <point x="424" y="483" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="623" type="line"/>
+      <point x="737" y="622" type="line"/>
+      <point x="740" y="757" type="line"/>
+      <point x="353" y="768" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

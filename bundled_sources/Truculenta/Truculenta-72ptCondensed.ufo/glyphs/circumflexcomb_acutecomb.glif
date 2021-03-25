@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_acutecomb" format="2">
+  <anchor x="-152" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-88" y="626" type="line"/>
+      <point x="-58" y="653" type="line"/>
+      <point x="-126" y="715" type="line"/>
+      <point x="-180" y="717" type="line"/>
+      <point x="-246" y="651" type="line"/>
+      <point x="-216" y="628" type="line"/>
+      <point x="-153" y="669" type="line"/>
+    </contour>
+    <contour>
+      <point x="-155" y="743" type="line"/>
+      <point x="-155" y="743"/>
+      <point x="-124" y="762"/>
+      <point x="-102" y="774" type="curve"/>
+      <point x="-79" y="787"/>
+      <point x="-53" y="798"/>
+      <point x="-53" y="798" type="curve"/>
+      <point x="-91" y="844" type="line"/>
+      <point x="-91" y="844"/>
+      <point x="-113" y="824"/>
+      <point x="-137" y="806" type="curve"/>
+      <point x="-163" y="786"/>
+      <point x="-185" y="770"/>
+      <point x="-185" y="770" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

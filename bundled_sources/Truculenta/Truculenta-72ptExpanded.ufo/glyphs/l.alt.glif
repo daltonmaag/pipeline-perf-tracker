@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.alt" format="2">
+  <advance width="234"/>
+  <anchor x="118" y="0" name="bottom"/>
+  <anchor x="120" y="359" name="center"/>
+  <anchor x="120" y="693" name="top"/>
+  <anchor x="302" y="473" name="topright"/>
+  <outline>
+    <contour>
+      <point x="81" y="2" type="curve"/>
+      <point x="160" y="0" type="line"/>
+      <point x="156" y="91"/>
+      <point x="150" y="251"/>
+      <point x="150" y="358" type="curve"/>
+      <point x="150" y="465"/>
+      <point x="156" y="615"/>
+      <point x="160" y="698" type="curve"/>
+      <point x="82" y="687" type="line"/>
+      <point x="83" y="607"/>
+      <point x="84" y="461"/>
+      <point x="84" y="357" type="curve"/>
+      <point x="84" y="221"/>
+      <point x="84" y="63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="strokelongcomb" format="2">
+  <unicode hex="0336"/>
+  <anchor x="-175" y="293" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-420" y="244" type="line"/>
+      <point x="-420" y="244"/>
+      <point x="-370" y="246"/>
+      <point x="-178" y="246" type="curve"/>
+      <point x="-118" y="246"/>
+      <point x="73" y="244"/>
+      <point x="73" y="244" type="curve"/>
+      <point x="70" y="343" type="line"/>
+      <point x="70" y="343"/>
+      <point x="-105" y="339"/>
+      <point x="-172" y="340" type="curve"/>
+      <point x="-266" y="341"/>
+      <point x="-417" y="343"/>
+      <point x="-417" y="343" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

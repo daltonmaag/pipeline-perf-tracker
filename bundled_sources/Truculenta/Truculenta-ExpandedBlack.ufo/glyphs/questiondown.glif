@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
+  <advance width="696"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <contour>
+      <point x="274" y="340" type="line"/>
+      <point x="282" y="305"/>
+      <point x="285" y="283"/>
+      <point x="285" y="267" type="curve" smooth="yes"/>
+      <point x="285" y="235"/>
+      <point x="240" y="214"/>
+      <point x="192" y="185" type="curve" smooth="yes"/>
+      <point x="137" y="152"/>
+      <point x="78" y="107"/>
+      <point x="78" y="22" type="curve" smooth="yes"/>
+      <point x="78" y="-92"/>
+      <point x="169" y="-163"/>
+      <point x="340" y="-163" type="curve" smooth="yes"/>
+      <point x="533" y="-163"/>
+      <point x="618" y="-63"/>
+      <point x="618" y="41" type="curve" smooth="yes"/>
+      <point x="618" y="66"/>
+      <point x="613" y="92"/>
+      <point x="603" y="117" type="curve"/>
+      <point x="435" y="118" type="line"/>
+      <point x="443" y="99"/>
+      <point x="448" y="78"/>
+      <point x="448" y="56" type="curve" smooth="yes"/>
+      <point x="448" y="0"/>
+      <point x="414" y="-27"/>
+      <point x="346" y="-27" type="curve" smooth="yes"/>
+      <point x="294" y="-27"/>
+      <point x="245" y="-11"/>
+      <point x="245" y="35" type="curve" smooth="yes"/>
+      <point x="245" y="72"/>
+      <point x="271" y="96"/>
+      <point x="303" y="117" type="curve" smooth="yes"/>
+      <point x="359" y="154"/>
+      <point x="435" y="185"/>
+      <point x="435" y="268" type="curve" smooth="yes"/>
+      <point x="435" y="287"/>
+      <point x="432" y="307"/>
+      <point x="425" y="339" type="curve"/>
+    </contour>
+    <contour>
+      <point x="419" y="553" type="line"/>
+      <point x="274" y="556" type="line"/>
+      <point x="286" y="386" type="line"/>
+      <point x="418" y="388" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

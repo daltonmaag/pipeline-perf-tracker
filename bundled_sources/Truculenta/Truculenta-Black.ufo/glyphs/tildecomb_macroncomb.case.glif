@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb_macroncomb.case" format="2">
+  <anchor x="-152" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-274" y="862" type="line"/>
+      <point x="-29" y="865" type="line"/>
+      <point x="-35" y="944" type="line"/>
+      <point x="-274" y="947" type="line"/>
+    </contour>
+    <contour>
+      <point x="-232" y="751" type="line"/>
+      <point x="-230" y="765"/>
+      <point x="-222" y="769"/>
+      <point x="-202" y="769" type="curve" smooth="yes"/>
+      <point x="-173" y="769"/>
+      <point x="-140" y="751"/>
+      <point x="-95" y="751" type="curve" smooth="yes"/>
+      <point x="-55" y="751"/>
+      <point x="-4" y="759"/>
+      <point x="-7" y="839" type="curve"/>
+      <point x="-73" y="839" type="line"/>
+      <point x="-78" y="825"/>
+      <point x="-86" y="821"/>
+      <point x="-106" y="821" type="curve" smooth="yes"/>
+      <point x="-135" y="821"/>
+      <point x="-166" y="839"/>
+      <point x="-212" y="839" type="curve" smooth="yes"/>
+      <point x="-252" y="839"/>
+      <point x="-302" y="816"/>
+      <point x="-300" y="751" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

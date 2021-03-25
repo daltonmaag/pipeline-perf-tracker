@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E_I" format="2">
+  <advance width="612"/>
+  <outline>
+    <contour>
+      <point x="62" y="-5" type="curve"/>
+      <point x="542" y="0" type="line"/>
+      <point x="542" y="67" type="line"/>
+      <point x="139" y="72" type="line"/>
+      <point x="138" y="115"/>
+      <point x="138" y="163"/>
+      <point x="137" y="210" type="curve"/>
+      <point x="355" y="213" type="line"/>
+      <point x="357" y="274" type="line"/>
+      <point x="137" y="277" type="line"/>
+      <point x="136" y="335"/>
+      <point x="137" y="521"/>
+      <point x="138" y="633" type="curve"/>
+      <point x="348" y="634" type="line"/>
+      <point x="348" y="701" type="line"/>
+      <point x="62" y="707" type="line"/>
+      <point x="63" y="645"/>
+      <point x="65" y="516"/>
+      <point x="65" y="391" type="curve" smooth="yes"/>
+      <point x="65" y="266"/>
+      <point x="63" y="92"/>
+    </contour>
+    <contour>
+      <point x="465" y="144" type="curve"/>
+      <point x="545" y="142" type="line"/>
+      <point x="543" y="212"/>
+      <point x="540" y="320"/>
+      <point x="540" y="364" type="curve" smooth="yes"/>
+      <point x="540" y="449"/>
+      <point x="546" y="626"/>
+      <point x="550" y="736" type="curve"/>
+      <point x="469" y="733" type="line"/>
+      <point x="471" y="691"/>
+      <point x="470" y="521"/>
+      <point x="470" y="362" type="curve" smooth="yes"/>
+      <point x="469" y="279"/>
+      <point x="467" y="189"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

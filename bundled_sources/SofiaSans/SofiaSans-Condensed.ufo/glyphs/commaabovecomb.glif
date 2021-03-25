@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb" format="2">
+  <unicode hex="0313"/>
+  <anchor x="72" y="488" name="_top"/>
+  <anchor x="71" y="719" name="top"/>
+  <outline>
+    <contour>
+      <point x="44" y="546" type="curve" smooth="yes"/>
+      <point x="76" y="546" type="line" smooth="yes"/>
+      <point x="81" y="546"/>
+      <point x="81" y="547"/>
+      <point x="83" y="552" type="curve" smooth="yes"/>
+      <point x="102" y="611" type="line" smooth="yes"/>
+      <point x="108" y="628"/>
+      <point x="112" y="643"/>
+      <point x="112" y="661" type="curve" smooth="yes"/>
+      <point x="112" y="678" type="line" smooth="yes"/>
+      <point x="112" y="706"/>
+      <point x="99" y="719"/>
+      <point x="71" y="719" type="curve" smooth="yes"/>
+      <point x="47" y="719"/>
+      <point x="30" y="706"/>
+      <point x="30" y="678" type="curve" smooth="yes"/>
+      <point x="30" y="661" type="line" smooth="yes"/>
+      <point x="30" y="639"/>
+      <point x="42" y="627"/>
+      <point x="55" y="623" type="curve"/>
+      <point x="39" y="554" type="line" smooth="yes"/>
+      <point x="38" y="548"/>
+      <point x="40" y="546"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>142</integer>
+    </dict>
+  </lib>
+</glyph>

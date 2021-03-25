@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="firsttonechinesecomb.sc" format="2">
+  <advance width="253"/>
+  <anchor x="127" y="488" name="_top"/>
+  <anchor x="127" y="687" name="top"/>
+  <outline>
+    <contour>
+      <point x="45" y="570" type="curve" smooth="yes"/>
+      <point x="208" y="570" type="line" smooth="yes"/>
+      <point x="217" y="570"/>
+      <point x="223" y="576"/>
+      <point x="223" y="585" type="curve" smooth="yes"/>
+      <point x="223" y="662" type="line" smooth="yes"/>
+      <point x="223" y="671"/>
+      <point x="217" y="677"/>
+      <point x="208" y="677" type="curve" smooth="yes"/>
+      <point x="45" y="677" type="line" smooth="yes"/>
+      <point x="36" y="677"/>
+      <point x="30" y="671"/>
+      <point x="30" y="662" type="curve" smooth="yes"/>
+      <point x="30" y="585" type="line" smooth="yes"/>
+      <point x="30" y="576"/>
+      <point x="36" y="570"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

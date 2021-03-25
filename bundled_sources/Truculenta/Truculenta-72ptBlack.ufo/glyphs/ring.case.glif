@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring.case" format="2">
+  <advance width="302"/>
+  <anchor x="153" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="153" y="732" type="curve"/>
+      <point x="211" y="732"/>
+      <point x="251" y="763"/>
+      <point x="251" y="807" type="curve"/>
+      <point x="251" y="846"/>
+      <point x="213" y="873"/>
+      <point x="153" y="873" type="curve"/>
+      <point x="92" y="873"/>
+      <point x="52" y="850"/>
+      <point x="52" y="803" type="curve"/>
+      <point x="52" y="758"/>
+      <point x="89" y="732"/>
+    </contour>
+    <contour>
+      <point x="153" y="778" type="curve"/>
+      <point x="129" y="778"/>
+      <point x="118" y="790"/>
+      <point x="118" y="804" type="curve"/>
+      <point x="118" y="822"/>
+      <point x="132" y="829"/>
+      <point x="151" y="829" type="curve"/>
+      <point x="168" y="829"/>
+      <point x="185" y="821"/>
+      <point x="185" y="806" type="curve"/>
+      <point x="185" y="783"/>
+      <point x="160" y="778"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

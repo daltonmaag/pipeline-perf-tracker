@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>capHeight</key>
+    <integer>693</integer>
+    <key>copyright</key>
+    <string>Copyright 2020 The Truculenta Project Authors (https://github.com/Omnibus-Type/Truculenta)</string>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Truculenta</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2020/04/24 16:33:40</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1050</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-340</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Ivan Castro, Eva Sanz &amp; Omnibus-Type Team</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>www.ivancastro.es</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Omnibus-Type</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>www.omnibus-type.com</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1050</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-340</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>OMNI</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1050</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>340</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-16</integer>
+      <integer>0</integer>
+      <integer>515</integer>
+      <integer>531</integer>
+      <integer>693</integer>
+      <integer>709</integer>
+      <integer>703</integer>
+      <integer>713</integer>
+      <integer>800</integer>
+      <integer>816</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-216</integer>
+      <integer>-200</integer>
+      <integer>-156</integer>
+      <integer>-146</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-150</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>18</integer>
+    <key>styleName</key>
+    <string>Condensed Thin</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>2</integer>
+    <key>xHeight</key>
+    <integer>515</integer>
+  </dict>
+</plist>

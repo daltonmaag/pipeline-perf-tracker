@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iu-cy" format="2">
+  <advance width="596"/>
+  <unicode hex="044E"/>
+  <outline>
+    <contour>
+      <point x="24" y="428" type="line"/>
+      <point x="184" y="428" type="line"/>
+      <point x="184" y="669" type="line" smooth="yes"/>
+      <point x="184" y="678"/>
+      <point x="179" y="683"/>
+      <point x="171" y="683" type="curve" smooth="yes"/>
+      <point x="37" y="683" type="line" smooth="yes"/>
+      <point x="29" y="683"/>
+      <point x="24" y="678"/>
+      <point x="24" y="669" type="curve" smooth="yes"/>
+    </contour>
+    <component base="iu-cy.loclRUS" xOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

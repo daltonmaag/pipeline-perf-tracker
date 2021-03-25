@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perthousand" format="2">
+  <advance width="1352"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="1136" y="-12" type="curve" smooth="yes"/>
+      <point x="1255" y="-12"/>
+      <point x="1316" y="53"/>
+      <point x="1316" y="158" type="curve" smooth="yes"/>
+      <point x="1316" y="190" type="line" smooth="yes"/>
+      <point x="1316" y="295"/>
+      <point x="1256" y="360"/>
+      <point x="1136" y="360" type="curve" smooth="yes"/>
+      <point x="1017" y="360"/>
+      <point x="957" y="295"/>
+      <point x="957" y="190" type="curve" smooth="yes"/>
+      <point x="957" y="158" type="line" smooth="yes"/>
+      <point x="957" y="53"/>
+      <point x="1016" y="-12"/>
+    </contour>
+    <contour>
+      <point x="1136" y="119" type="curve" smooth="yes"/>
+      <point x="1104" y="119"/>
+      <point x="1090" y="137"/>
+      <point x="1090" y="167" type="curve" smooth="yes"/>
+      <point x="1090" y="181" type="line" smooth="yes"/>
+      <point x="1090" y="211"/>
+      <point x="1104" y="229"/>
+      <point x="1136" y="229" type="curve" smooth="yes"/>
+      <point x="1169" y="229"/>
+      <point x="1183" y="211"/>
+      <point x="1183" y="181" type="curve" smooth="yes"/>
+      <point x="1183" y="167" type="line" smooth="yes"/>
+      <point x="1183" y="137"/>
+      <point x="1169" y="119"/>
+    </contour>
+    <component base="percent"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>percent</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>percent</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

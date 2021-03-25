@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashlongcomb" format="2">
+  <unicode hex="0338"/>
+  <anchor x="159" y="278" name="_center"/>
+  <outline>
+    <contour>
+      <point x="54" y="-38" type="line"/>
+      <point x="54" y="-38"/>
+      <point x="127" y="151"/>
+      <point x="167" y="252" type="curve" smooth="yes"/>
+      <point x="206" y="354"/>
+      <point x="305" y="587"/>
+      <point x="305" y="587" type="curve"/>
+      <point x="274" y="601" type="line"/>
+      <point x="274" y="601"/>
+      <point x="205" y="418"/>
+      <point x="147" y="269" type="curve" smooth="yes"/>
+      <point x="88" y="120"/>
+      <point x="23" y="-24"/>
+      <point x="23" y="-24" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>326</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

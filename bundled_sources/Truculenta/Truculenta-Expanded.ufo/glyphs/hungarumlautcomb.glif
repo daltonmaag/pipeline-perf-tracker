@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="-179" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-102" y="608" type="line"/>
+      <point x="-102" y="608"/>
+      <point x="-73" y="633"/>
+      <point x="-53" y="648" type="curve"/>
+      <point x="-31" y="662"/>
+      <point x="1" y="684"/>
+      <point x="1" y="684" type="curve"/>
+      <point x="-47" y="727" type="line"/>
+      <point x="-47" y="727"/>
+      <point x="-72" y="699"/>
+      <point x="-94" y="679" type="curve"/>
+      <point x="-116" y="658"/>
+      <point x="-136" y="641"/>
+      <point x="-136" y="641" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-253" y="618" type="line"/>
+      <point x="-253" y="618"/>
+      <point x="-224" y="643"/>
+      <point x="-203" y="658" type="curve"/>
+      <point x="-182" y="672"/>
+      <point x="-149" y="694"/>
+      <point x="-149" y="694" type="curve"/>
+      <point x="-198" y="737" type="line"/>
+      <point x="-198" y="737"/>
+      <point x="-223" y="709"/>
+      <point x="-244" y="689" type="curve"/>
+      <point x="-267" y="668"/>
+      <point x="-286" y="651"/>
+      <point x="-286" y="651" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

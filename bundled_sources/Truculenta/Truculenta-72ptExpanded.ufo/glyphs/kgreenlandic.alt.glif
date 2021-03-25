@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kgreenlandic.alt" format="2">
+  <advance width="502"/>
+  <outline>
+    <contour>
+      <point x="447" y="-22" type="curve"/>
+      <point x="520" y="1" type="line"/>
+      <point x="409" y="101"/>
+      <point x="304" y="204"/>
+      <point x="207" y="295" type="curve"/>
+      <point x="311" y="391"/>
+      <point x="381" y="458"/>
+      <point x="473" y="539" type="curve"/>
+      <point x="424" y="581" type="line"/>
+      <point x="342" y="502"/>
+      <point x="241" y="404"/>
+      <point x="118" y="289" type="curve"/>
+      <point x="218" y="197"/>
+      <point x="355" y="66"/>
+    </contour>
+    <contour>
+      <point x="81" y="0" type="curve"/>
+      <point x="160" y="11" type="line"/>
+      <point x="157" y="68"/>
+      <point x="153" y="182"/>
+      <point x="153" y="289" type="curve"/>
+      <point x="153" y="336"/>
+      <point x="157" y="474"/>
+      <point x="160" y="565" type="curve"/>
+      <point x="84" y="547" type="line"/>
+      <point x="85" y="463"/>
+      <point x="87" y="334"/>
+      <point x="87" y="287" type="curve"/>
+      <point x="87" y="183"/>
+      <point x="84" y="62"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

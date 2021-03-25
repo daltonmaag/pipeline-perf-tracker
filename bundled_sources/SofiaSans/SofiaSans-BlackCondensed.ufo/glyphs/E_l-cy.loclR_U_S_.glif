@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="El-cy.loclRUS" format="2">
+  <advance width="487"/>
+  <outline>
+    <contour>
+      <point x="83" y="-6" type="curve" smooth="yes"/>
+      <point x="180.294" y="-6"/>
+      <point x="216.184" y="47.708"/>
+      <point x="224" y="205" type="curve" smooth="yes"/>
+      <point x="240" y="509" type="line"/>
+      <point x="291" y="509" type="line"/>
+      <point x="291" y="14" type="line" smooth="yes"/>
+      <point x="291" y="5.692"/>
+      <point x="296.286" y="0"/>
+      <point x="304" y="0" type="curve" smooth="yes"/>
+      <point x="444" y="0" type="line" smooth="yes"/>
+      <point x="452.1" y="0"/>
+      <point x="457" y="6.125"/>
+      <point x="457" y="15" type="curve" smooth="yes"/>
+      <point x="457" y="641" type="line" smooth="yes"/>
+      <point x="457" y="649.308"/>
+      <point x="451.714" y="655"/>
+      <point x="444" y="655" type="curve" smooth="yes"/>
+      <point x="99" y="655" type="line" smooth="yes"/>
+      <point x="90.346" y="655"/>
+      <point x="86" y="650.292"/>
+      <point x="86" y="642" type="curve" smooth="yes"/>
+      <point x="65" y="220" type="line" smooth="yes"/>
+      <point x="62.556" y="161.352"/>
+      <point x="53.159" y="138"/>
+      <point x="32" y="138" type="curve" smooth="yes"/>
+      <point x="26.5" y="138"/>
+      <point x="21.5" y="138.625"/>
+      <point x="16" y="140" type="curve" smooth="yes"/>
+      <point x="9.478" y="141.087"/>
+      <point x="7" y="137"/>
+      <point x="7" y="129" type="curve" smooth="yes"/>
+      <point x="7" y="17" type="line" smooth="yes"/>
+      <point x="7" y="7.875"/>
+      <point x="8.768" y="4.78"/>
+      <point x="15" y="3" type="curve" smooth="yes"/>
+      <point x="34" y="-3"/>
+      <point x="58.611" y="-6"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb.case" format="2">
+  <anchor x="170" y="655" name="_top"/>
+  <anchor x="170" y="841" name="top"/>
+  <outline>
+    <contour>
+      <point x="163" y="718" type="line" smooth="yes"/>
+      <point x="167" y="716"/>
+      <point x="173" y="716"/>
+      <point x="177" y="718" type="curve" smooth="yes"/>
+      <point x="303" y="774" type="line" smooth="yes"/>
+      <point x="308" y="776"/>
+      <point x="310" y="778"/>
+      <point x="310" y="784" type="curve" smooth="yes"/>
+      <point x="310" y="834" type="line" smooth="yes"/>
+      <point x="310" y="841"/>
+      <point x="306" y="843"/>
+      <point x="299" y="840" type="curve" smooth="yes"/>
+      <point x="170" y="794" type="line"/>
+      <point x="41" y="840" type="line" smooth="yes"/>
+      <point x="34" y="843"/>
+      <point x="30" y="841"/>
+      <point x="30" y="834" type="curve" smooth="yes"/>
+      <point x="30" y="784" type="line" smooth="yes"/>
+      <point x="30" y="778"/>
+      <point x="32" y="776"/>
+      <point x="37" y="774" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>340</integer>
+    </dict>
+  </lib>
+</glyph>

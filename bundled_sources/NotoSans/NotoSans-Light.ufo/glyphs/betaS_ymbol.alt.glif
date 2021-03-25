@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="betaSymbol.alt" format="2">
+  <advance width="549"/>
+  <outline>
+    <contour>
+      <point x="288" y="-10" type="curve" smooth="yes"/>
+      <point x="407" y="-10"/>
+      <point x="492" y="81"/>
+      <point x="492" y="235" type="curve" smooth="yes"/>
+      <point x="492" y="344"/>
+      <point x="450" y="423"/>
+      <point x="338" y="437" type="curve"/>
+      <point x="310" y="415" type="line"/>
+      <point x="395" y="413"/>
+      <point x="465" y="372"/>
+      <point x="465" y="235" type="curve" smooth="yes"/>
+      <point x="465" y="94"/>
+      <point x="392" y="15"/>
+      <point x="288" y="15" type="curve" smooth="yes"/>
+      <point x="143" y="15"/>
+      <point x="96" y="140"/>
+      <point x="96" y="383" type="curve" smooth="yes"/>
+      <point x="96" y="527"/>
+      <point x="138" y="740"/>
+      <point x="316" y="740" type="curve" smooth="yes"/>
+      <point x="401" y="740"/>
+      <point x="436" y="695"/>
+      <point x="436" y="625" type="curve" smooth="yes"/>
+      <point x="436" y="462"/>
+      <point x="280" y="392"/>
+      <point x="86" y="379" type="curve"/>
+      <point x="84" y="354" type="line"/>
+      <point x="402" y="384"/>
+      <point x="463" y="503"/>
+      <point x="463" y="627" type="curve" smooth="yes"/>
+      <point x="463" y="698"/>
+      <point x="423" y="765"/>
+      <point x="316" y="765" type="curve" smooth="yes"/>
+      <point x="177" y="765"/>
+      <point x="69" y="647"/>
+      <point x="69" y="337" type="curve" smooth="yes"/>
+      <point x="69" y="122"/>
+      <point x="127" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o+10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=beta</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 09:46:45</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="be-cy.sc" format="2">
+  <advance width="412"/>
+  <guideline x="513" y="668" angle="90"/>
+  <outline>
+    <contour>
+      <point x="39" y="0" type="curve" smooth="yes"/>
+      <point x="204" y="0" type="line" smooth="yes"/>
+      <point x="342" y="0"/>
+      <point x="398" y="53"/>
+      <point x="398" y="183" type="curve" smooth="yes"/>
+      <point x="398" y="296.108"/>
+      <point x="341.076" y="348"/>
+      <point x="217" y="348" type="curve" smooth="yes"/>
+      <point x="180" y="348" type="line"/>
+      <point x="180" y="416" type="line"/>
+      <point x="342" y="416" type="line" smooth="yes"/>
+      <point x="350" y="416"/>
+      <point x="355" y="421"/>
+      <point x="355" y="429" type="curve" smooth="yes"/>
+      <point x="355" y="536" type="line" smooth="yes"/>
+      <point x="355" y="544.5"/>
+      <point x="350.5" y="549"/>
+      <point x="342" y="549" type="curve" smooth="yes"/>
+      <point x="39" y="549" type="line" smooth="yes"/>
+      <point x="30.5" y="549"/>
+      <point x="26" y="544.5"/>
+      <point x="26" y="536" type="curve" smooth="yes"/>
+      <point x="26" y="13" type="line" smooth="yes"/>
+      <point x="26" y="5"/>
+      <point x="31" y="0"/>
+    </contour>
+    <contour>
+      <point x="180" y="125" type="line"/>
+      <point x="180" y="238" type="line"/>
+      <point x="197" y="238" type="line" smooth="yes"/>
+      <point x="227.222" y="238"/>
+      <point x="240" y="221.954"/>
+      <point x="240" y="184" type="curve" smooth="yes"/>
+      <point x="240" y="141.605"/>
+      <point x="227.898" y="125"/>
+      <point x="197" y="125" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:07:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowdownleft" format="2">
+  <advance width="900"/>
+  <unicode hex="2199"/>
+  <outline>
+    <contour>
+      <point x="710.227" y="509.773" type="curve" smooth="yes"/>
+      <point x="625.374" y="594.626" type="line" smooth="yes"/>
+      <point x="619.01" y="600.99"/>
+      <point x="610.525" y="600.99"/>
+      <point x="604.161" y="594.626" type="curve" smooth="yes"/>
+      <point x="316.367" y="306.832" type="line"/>
+      <point x="326.266" y="516.137" type="line" smooth="yes"/>
+      <point x="326.973" y="525.329"/>
+      <point x="321.317" y="530.986"/>
+      <point x="311.417" y="530.986" type="curve" smooth="yes"/>
+      <point x="199.694" y="529.572" type="line" smooth="yes"/>
+      <point x="189.794" y="529.572"/>
+      <point x="184.844" y="524.622"/>
+      <point x="184.844" y="514.723" type="curve" smooth="yes"/>
+      <point x="191.208" y="91.164" type="line" smooth="yes"/>
+      <point x="191.915" y="81.971"/>
+      <point x="197.572" y="76.314"/>
+      <point x="206.765" y="75.607" type="curve" smooth="yes"/>
+      <point x="630.324" y="69.243" type="line" smooth="yes"/>
+      <point x="640.223" y="69.243"/>
+      <point x="645.173" y="74.193"/>
+      <point x="645.173" y="84.093" type="curve" smooth="yes"/>
+      <point x="646.587" y="195.816" type="line" smooth="yes"/>
+      <point x="646.587" y="205.716"/>
+      <point x="640.93" y="211.372"/>
+      <point x="631.738" y="210.665" type="curve" smooth="yes"/>
+      <point x="422.433" y="200.766" type="line"/>
+      <point x="710.227" y="488.56" type="line" smooth="yes"/>
+      <point x="716.591" y="494.924"/>
+      <point x="716.591" y="503.409"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/23 09:17:30</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

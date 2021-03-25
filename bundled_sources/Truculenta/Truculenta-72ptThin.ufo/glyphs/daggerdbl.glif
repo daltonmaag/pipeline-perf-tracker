@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="550"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="256" y="-101" type="curve"/>
+      <point x="290" y="-103" type="line"/>
+      <point x="289" y="-37"/>
+      <point x="288" y="228"/>
+      <point x="288" y="308" type="curve" smooth="yes"/>
+      <point x="288" y="388"/>
+      <point x="293" y="631"/>
+      <point x="295" y="693" type="curve"/>
+      <point x="259" y="692" type="line"/>
+      <point x="260" y="631"/>
+      <point x="260" y="385"/>
+      <point x="260" y="308" type="curve" smooth="yes"/>
+      <point x="260" y="235"/>
+      <point x="258" y="-37"/>
+    </contour>
+    <contour>
+      <point x="71" y="463" type="line"/>
+      <point x="106" y="464"/>
+      <point x="238" y="468"/>
+      <point x="288" y="468" type="curve" smooth="yes"/>
+      <point x="338" y="468"/>
+      <point x="449" y="467"/>
+      <point x="478" y="466" type="curve"/>
+      <point x="480" y="499" type="line"/>
+      <point x="448" y="498"/>
+      <point x="333" y="496"/>
+      <point x="286" y="495" type="curve" smooth="yes"/>
+      <point x="240" y="494"/>
+      <point x="106" y="494"/>
+      <point x="70" y="494" type="curve"/>
+    </contour>
+    <contour>
+      <point x="71" y="93" type="line"/>
+      <point x="106" y="94"/>
+      <point x="238" y="98"/>
+      <point x="288" y="98" type="curve" smooth="yes"/>
+      <point x="338" y="98"/>
+      <point x="449" y="97"/>
+      <point x="478" y="96" type="curve"/>
+      <point x="480" y="129" type="line"/>
+      <point x="448" y="128"/>
+      <point x="333" y="126"/>
+      <point x="286" y="125" type="curve" smooth="yes"/>
+      <point x="240" y="124"/>
+      <point x="106" y="124"/>
+      <point x="70" y="124" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

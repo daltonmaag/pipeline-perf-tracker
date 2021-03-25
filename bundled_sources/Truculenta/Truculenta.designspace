@@ -1,0 +1,1893 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="wdth" name="Width" minimum="75" maximum="125" default="100"/>
+    <axis tag="opsz" name="Optical size" minimum="12" maximum="72" default="12"/>
+  </axes>
+  <rules>
+    <rule name="BRACKET.600.900">
+      <conditionset>
+        <condition name="Weight" minimum="600" maximum="900"/>
+      </conditionset>
+      <sub name="Oslash" with="Oslash.BRACKET.600"/>
+      <sub name="Oslash.alt" with="Oslash.alt.BRACKET.600"/>
+      <sub name="Oslashacute" with="Oslashacute.BRACKET.600"/>
+      <sub name="Oslashacute.alt" with="Oslashacute.alt.BRACKET.600"/>
+      <sub name="cedi" with="cedi.BRACKET.600"/>
+      <sub name="cent" with="cent.BRACKET.600"/>
+      <sub name="dollar" with="dollar.BRACKET.600"/>
+      <sub name="guarani" with="guarani.BRACKET.600"/>
+      <sub name="naira" with="naira.BRACKET.600"/>
+      <sub name="oslash" with="oslash.BRACKET.600"/>
+      <sub name="oslash.alt" with="oslash.alt.BRACKET.600"/>
+      <sub name="oslashacute" with="oslashacute.BRACKET.600"/>
+      <sub name="oslashacute.alt" with="oslashacute.alt.BRACKET.600"/>
+      <sub name="peseta" with="peseta.BRACKET.600"/>
+      <sub name="peso" with="peso.BRACKET.600"/>
+      <sub name="won" with="won.BRACKET.600"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="Truculenta-72ptCondensedThin.ufo" name="Truculenta 72pt Condensed Thin" familyname="Truculenta" stylename="72pt Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptCondensed.ufo" name="Truculenta 72pt Condensed" familyname="Truculenta" stylename="72pt Condensed">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptCondensedBlack.ufo" name="Truculenta 72pt Condensed Black" familyname="Truculenta" stylename="72pt Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-CondensedThin.ufo" name="Truculenta Condensed Thin" familyname="Truculenta" stylename="Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-Condensed.ufo" name="Truculenta Condensed" familyname="Truculenta" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-CondensedBlack.ufo" name="Truculenta Condensed Black" familyname="Truculenta" stylename="Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptThin.ufo" name="Truculenta 72pt Thin" familyname="Truculenta" stylename="72pt Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72pt.ufo" name="Truculenta 72pt" familyname="Truculenta" stylename="72pt">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptBlack.ufo" name="Truculenta 72pt Black" familyname="Truculenta" stylename="72pt Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-Thin.ufo" name="Truculenta Thin" familyname="Truculenta" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-Regular.ufo" name="Truculenta Regular" familyname="Truculenta" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-Black.ufo" name="Truculenta Black" familyname="Truculenta" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptExpandedThin.ufo" name="Truculenta 72pt Expanded Thin" familyname="Truculenta" stylename="72pt Expanded Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptExpanded.ufo" name="Truculenta 72pt Expanded" familyname="Truculenta" stylename="72pt Expanded">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-72ptExpandedBlack.ufo" name="Truculenta 72pt Expanded Black" familyname="Truculenta" stylename="72pt Expanded Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Truculenta-ExpandedThin.ufo" name="Truculenta Expanded Thin" familyname="Truculenta" stylename="Expanded Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-Expanded.ufo" name="Truculenta Expanded" familyname="Truculenta" stylename="Expanded">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Truculenta-ExpandedBlack.ufo" name="Truculenta Expanded Black" familyname="Truculenta" stylename="Expanded Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Truculenta 72pt Condensed Thin" familyname="Truculenta 72pt Condensed" stylename="Thin" filename="instance_ufos/Truculenta72ptCondensed-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>78E15A5C-2EE9-48A0-A817-936B1B1D4410</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed ExtraLight" familyname="Truculenta 72pt Condensed" stylename="ExtraLight" filename="instance_ufos/Truculenta72ptCondensed-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>78E15A5C-2EE9-48A0-A817-936B1B1D4410</key>
+            <real>0.66667</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed Light" familyname="Truculenta 72pt Condensed" stylename="Light" filename="instance_ufos/Truculenta72ptCondensed-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>78E15A5C-2EE9-48A0-A817-936B1B1D4410</key>
+            <real>0.33333</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed Regular" familyname="Truculenta 72pt Condensed" stylename="Regular" filename="instance_ufos/Truculenta72ptCondensed-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed Medium" familyname="Truculenta 72pt Condensed" stylename="Medium" filename="instance_ufos/Truculenta72ptCondensed-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>43632024-9C5E-474A-AED3-5DBDFF17DFD4</key>
+            <real>0.2</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed SemiBold" familyname="Truculenta 72pt Condensed" stylename="SemiBold" filename="instance_ufos/Truculenta72ptCondensed-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>43632024-9C5E-474A-AED3-5DBDFF17DFD4</key>
+            <real>0.4</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed Bold" familyname="Truculenta 72pt Condensed" stylename="Bold" filename="instance_ufos/Truculenta72ptCondensed-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>43632024-9C5E-474A-AED3-5DBDFF17DFD4</key>
+            <real>0.6</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed ExtraBold" familyname="Truculenta 72pt Condensed" stylename="ExtraBold" filename="instance_ufos/Truculenta72ptCondensed-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>43632024-9C5E-474A-AED3-5DBDFF17DFD4</key>
+            <real>0.8</real>
+            <key>A1AD5B8C-E05F-4320-890B-CA186403822F</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Condensed Black" familyname="Truculenta 72pt Condensed" stylename="Black" filename="instance_ufos/Truculenta72ptCondensed-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>43632024-9C5E-474A-AED3-5DBDFF17DFD4</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Thin" familyname="Truculenta 12pt Condensed" stylename="Thin" filename="instance_ufos/Truculenta12ptCondensed-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88A8299D-E022-4DA3-A2E4-227FE3B40034</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed ExtraLight" familyname="Truculenta 12pt Condensed" stylename="ExtraLight" filename="instance_ufos/Truculenta12ptCondensed-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.33333</real>
+            <key>88A8299D-E022-4DA3-A2E4-227FE3B40034</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Light" familyname="Truculenta 12pt Condensed" stylename="Light" filename="instance_ufos/Truculenta12ptCondensed-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.66667</real>
+            <key>88A8299D-E022-4DA3-A2E4-227FE3B40034</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Regular" familyname="Truculenta 12pt Condensed" stylename="Regular" filename="instance_ufos/Truculenta12ptCondensed-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Medium" familyname="Truculenta 12pt Condensed" stylename="Medium" filename="instance_ufos/Truculenta12ptCondensed-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.8</real>
+            <key>EA41DCC1-E30C-4E16-8137-F68D468870A5</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed SemiBold" familyname="Truculenta 12pt Condensed" stylename="SemiBold" filename="instance_ufos/Truculenta12ptCondensed-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.6</real>
+            <key>EA41DCC1-E30C-4E16-8137-F68D468870A5</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Bold" familyname="Truculenta 12pt Condensed" stylename="Bold" filename="instance_ufos/Truculenta12ptCondensed-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.4</real>
+            <key>EA41DCC1-E30C-4E16-8137-F68D468870A5</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed ExtraBold" familyname="Truculenta 12pt Condensed" stylename="ExtraBold" filename="instance_ufos/Truculenta12ptCondensed-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>09723C84-322C-47EA-BE24-2224FDA42E77</key>
+            <real>0.2</real>
+            <key>EA41DCC1-E30C-4E16-8137-F68D468870A5</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Condensed Black" familyname="Truculenta 12pt Condensed" stylename="Black" filename="instance_ufos/Truculenta12ptCondensed-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="75"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>EA41DCC1-E30C-4E16-8137-F68D468870A5</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Thin" familyname="Truculenta" stylename="Thin" filename="instance_ufos/Truculenta-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta ExtraLight" familyname="Truculenta" stylename="ExtraLight" filename="instance_ufos/Truculenta-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.33333</real>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Light" familyname="Truculenta" stylename="Light" filename="instance_ufos/Truculenta-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.66667</real>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Regular" familyname="Truculenta" stylename="Regular" filename="instance_ufos/Truculenta-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Medium" familyname="Truculenta" stylename="Medium" filename="instance_ufos/Truculenta-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.8</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta SemiBold" familyname="Truculenta" stylename="SemiBold" filename="instance_ufos/Truculenta-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.6</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Bold" familyname="Truculenta" stylename="Bold" filename="instance_ufos/Truculenta-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.4</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta ExtraBold" familyname="Truculenta" stylename="ExtraBold" filename="instance_ufos/Truculenta-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.2</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta Black" familyname="Truculenta" stylename="Black" filename="instance_ufos/Truculenta-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Thin" familyname="Truculenta 12pt" stylename="Thin" filename="instance_ufos/Truculenta12pt-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt ExtraLight" familyname="Truculenta 12pt" stylename="ExtraLight" filename="instance_ufos/Truculenta12pt-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.33333</real>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Light" familyname="Truculenta 12pt" stylename="Light" filename="instance_ufos/Truculenta12pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.66667</real>
+            <key>442E71B2-A460-41D3-A47D-0980BED54865</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Regular" familyname="Truculenta 12pt" stylename="Regular" filename="instance_ufos/Truculenta12pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Medium" familyname="Truculenta 12pt" stylename="Medium" filename="instance_ufos/Truculenta12pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.8</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt SemiBold" familyname="Truculenta 12pt" stylename="SemiBold" filename="instance_ufos/Truculenta12pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.6</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Bold" familyname="Truculenta 12pt" stylename="Bold" filename="instance_ufos/Truculenta12pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.4</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt ExtraBold" familyname="Truculenta 12pt" stylename="ExtraBold" filename="instance_ufos/Truculenta12pt-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2C2DD94C-68DE-414D-9BC0-FF3596995E28</key>
+            <real>0.2</real>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Black" familyname="Truculenta 12pt" stylename="Black" filename="instance_ufos/Truculenta12pt-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>347FB8FC-0FE3-492B-BC30-47384598CEDC</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Thin" familyname="Truculenta 72pt" stylename="Thin" filename="instance_ufos/Truculenta72pt-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5CD8FF26-29F3-4CF5-962E-351C1FC77CB4</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt ExtraLight" familyname="Truculenta 72pt" stylename="ExtraLight" filename="instance_ufos/Truculenta72pt-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.33333</real>
+            <key>5CD8FF26-29F3-4CF5-962E-351C1FC77CB4</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Light" familyname="Truculenta 72pt" stylename="Light" filename="instance_ufos/Truculenta72pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.66667</real>
+            <key>5CD8FF26-29F3-4CF5-962E-351C1FC77CB4</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Regular" familyname="Truculenta 72pt" stylename="Regular" filename="instance_ufos/Truculenta72pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Medium" familyname="Truculenta 72pt" stylename="Medium" filename="instance_ufos/Truculenta72pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.8</real>
+            <key>DBBB4A94-C63F-4E8A-BD49-CF5BABA62F48</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt SemiBold" familyname="Truculenta 72pt" stylename="SemiBold" filename="instance_ufos/Truculenta72pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.6</real>
+            <key>DBBB4A94-C63F-4E8A-BD49-CF5BABA62F48</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Bold" familyname="Truculenta 72pt" stylename="Bold" filename="instance_ufos/Truculenta72pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.4</real>
+            <key>DBBB4A94-C63F-4E8A-BD49-CF5BABA62F48</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt ExtraBold" familyname="Truculenta 72pt" stylename="ExtraBold" filename="instance_ufos/Truculenta72pt-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>46714D5E-1976-4AB0-9015-EE96FC3CB5C7</key>
+            <real>0.2</real>
+            <key>DBBB4A94-C63F-4E8A-BD49-CF5BABA62F48</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Black" familyname="Truculenta 72pt" stylename="Black" filename="instance_ufos/Truculenta72pt-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>DBBB4A94-C63F-4E8A-BD49-CF5BABA62F48</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Thin" familyname="Truculenta 72pt Expanded" stylename="Thin" filename="instance_ufos/Truculenta72ptExpanded-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>121E81C8-370B-4E74-B536-9333FC9F56EB</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded ExtraLight" familyname="Truculenta 72pt Expanded" stylename="ExtraLight" filename="instance_ufos/Truculenta72ptExpanded-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>121E81C8-370B-4E74-B536-9333FC9F56EB</key>
+            <real>0.66667</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Light" familyname="Truculenta 72pt Expanded" stylename="Light" filename="instance_ufos/Truculenta72ptExpanded-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>121E81C8-370B-4E74-B536-9333FC9F56EB</key>
+            <real>0.33333</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Regular" familyname="Truculenta 72pt Expanded" stylename="Regular" filename="instance_ufos/Truculenta72ptExpanded-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Medium" familyname="Truculenta 72pt Expanded" stylename="Medium" filename="instance_ufos/Truculenta72ptExpanded-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>25EA72B7-D3B8-4838-BB35-E376827E9204</key>
+            <real>0.2</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded SemiBold" familyname="Truculenta 72pt Expanded" stylename="SemiBold" filename="instance_ufos/Truculenta72ptExpanded-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>25EA72B7-D3B8-4838-BB35-E376827E9204</key>
+            <real>0.4</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Bold" familyname="Truculenta 72pt Expanded" stylename="Bold" filename="instance_ufos/Truculenta72ptExpanded-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>25EA72B7-D3B8-4838-BB35-E376827E9204</key>
+            <real>0.6</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded ExtraBold" familyname="Truculenta 72pt Expanded" stylename="ExtraBold" filename="instance_ufos/Truculenta72ptExpanded-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>25EA72B7-D3B8-4838-BB35-E376827E9204</key>
+            <real>0.8</real>
+            <key>D606502D-B64B-45D5-82AA-980CC30A98C5</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 72pt Expanded Black" familyname="Truculenta 72pt Expanded" stylename="Black" filename="instance_ufos/Truculenta72ptExpanded-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>25EA72B7-D3B8-4838-BB35-E376827E9204</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Thin" familyname="Truculenta 12pt Expanded" stylename="Thin" filename="instance_ufos/Truculenta12ptExpanded-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4F9AE7AF-B85C-4760-B6B1-FBC87CE137CD</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded ExtraLight" familyname="Truculenta 12pt Expanded" stylename="ExtraLight" filename="instance_ufos/Truculenta12ptExpanded-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4F9AE7AF-B85C-4760-B6B1-FBC87CE137CD</key>
+            <real>0.66667</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Light" familyname="Truculenta 12pt Expanded" stylename="Light" filename="instance_ufos/Truculenta12ptExpanded-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4F9AE7AF-B85C-4760-B6B1-FBC87CE137CD</key>
+            <real>0.33333</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Regular" familyname="Truculenta 12pt Expanded" stylename="Regular" filename="instance_ufos/Truculenta12ptExpanded-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Medium" familyname="Truculenta 12pt Expanded" stylename="Medium" filename="instance_ufos/Truculenta12ptExpanded-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88AB2F86-33EB-4A4E-B224-E3E389022AEB</key>
+            <real>0.2</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded SemiBold" familyname="Truculenta 12pt Expanded" stylename="SemiBold" filename="instance_ufos/Truculenta12ptExpanded-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88AB2F86-33EB-4A4E-B224-E3E389022AEB</key>
+            <real>0.4</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Bold" familyname="Truculenta 12pt Expanded" stylename="Bold" filename="instance_ufos/Truculenta12ptExpanded-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88AB2F86-33EB-4A4E-B224-E3E389022AEB</key>
+            <real>0.6</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded ExtraBold" familyname="Truculenta 12pt Expanded" stylename="ExtraBold" filename="instance_ufos/Truculenta12ptExpanded-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88AB2F86-33EB-4A4E-B224-E3E389022AEB</key>
+            <real>0.8</real>
+            <key>BD161C12-3CFB-471A-8895-7912B77EBC5F</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Truculenta 12pt Expanded Black" familyname="Truculenta 12pt Expanded" stylename="Black" filename="instance_ufos/Truculenta12ptExpanded-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>88AB2F86-33EB-4A4E-B224-E3E389022AEB</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Expanded</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>LWPluginVersion</key>
+      <string>1429</string>
+    </dict>
+  </lib>
+</designspace>

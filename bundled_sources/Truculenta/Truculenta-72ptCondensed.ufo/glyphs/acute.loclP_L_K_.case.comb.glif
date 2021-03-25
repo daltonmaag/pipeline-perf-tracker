@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute.loclPLK.case.comb" format="2">
+  <anchor x="-117" y="693" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-118" y="732" type="line"/>
+      <point x="-118" y="732"/>
+      <point x="-101" y="764"/>
+      <point x="-88" y="785" type="curve"/>
+      <point x="-74" y="808"/>
+      <point x="-57" y="831"/>
+      <point x="-57" y="831" type="curve"/>
+      <point x="-113" y="851" type="line"/>
+      <point x="-113" y="851"/>
+      <point x="-122" y="823"/>
+      <point x="-134" y="795" type="curve"/>
+      <point x="-147" y="765"/>
+      <point x="-158" y="740"/>
+      <point x="-158" y="740" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

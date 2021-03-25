@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.alt" format="2">
+  <advance width="219"/>
+  <outline>
+    <contour>
+      <point x="197" y="493" type="line"/>
+      <point x="218" y="527"/>
+      <point x="230" y="578"/>
+      <point x="230" y="615" type="curve"/>
+      <point x="231" y="642"/>
+      <point x="232" y="680"/>
+      <point x="232" y="701" type="curve"/>
+      <point x="163" y="695" type="line"/>
+      <point x="167" y="609" type="line"/>
+      <point x="196" y="608" type="line"/>
+      <point x="197" y="578"/>
+      <point x="185" y="535"/>
+      <point x="169" y="507" type="curve"/>
+    </contour>
+    <contour>
+      <point x="56" y="3" type="curve"/>
+      <point x="124" y="-5" type="line"/>
+      <point x="120" y="87"/>
+      <point x="114" y="248"/>
+      <point x="114" y="355" type="curve"/>
+      <point x="114" y="462"/>
+      <point x="120" y="612"/>
+      <point x="124" y="695" type="curve"/>
+      <point x="57" y="710" type="line"/>
+      <point x="58" y="618"/>
+      <point x="59" y="458"/>
+      <point x="59" y="354" type="curve"/>
+      <point x="59" y="249"/>
+      <point x="57" y="92"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

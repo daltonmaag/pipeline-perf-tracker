@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsiliypogegrammeni.sc.ss06" format="2">
+  <advance width="474"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="psili.sc" xOffset="135" yOffset="35"/>
+    <component base="ypogegrammeni" xOffset="121"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/03/10 10:59:36</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>
