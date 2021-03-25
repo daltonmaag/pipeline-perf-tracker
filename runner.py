@@ -16,7 +16,7 @@ import yaml
 def main():
     NUMBER_OF_TIMES = 3
     try:
-        old_results = Results.from_file("results.json")
+        old_results = Results.from_file("results/results.json")
     except OSError:
         old_results = Results()
     new_results = Results()
@@ -41,10 +41,10 @@ def main():
                             print(": already done.")
                         if result is not None:
                             new_results.set(scenario, variant, project, version, result)
-    new_results.save("results.json")
+    new_results.save("results/results.json")
     with open("index.template.html", "r") as fp:
         template = fp.read()
-    with open("index.html", "w") as fp:
+    with open("results/index.html", "w") as fp:
         fp.write(template.replace("REPLACE_ME_WITH_JSON", json.dumps(new_results.data)))
 
 
@@ -189,10 +189,11 @@ class Project:
                 # -p for portable output for easy parsing
                 # TODO: if we're just measuring python stuff anyway, and we want
                 # more types of data (cpu, memory, gpu...) we could use scalene instead.
-                "/usr/bin/time -p -o time.txt sh -c {}".format(
+                "/usr/bin/time -p -o time.txt bash -c {}".format(
                     shlex.quote(
                         "; ".join(
                             [
+                                "set -e",
                                 f"for i in $(seq {times})",
                                 "do echo '######## Run number '$i",
                                 *timed_script,

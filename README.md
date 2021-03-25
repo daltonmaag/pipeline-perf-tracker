@@ -1,5 +1,4 @@
-UFO Performance Tracker
-=======================
+# UFO Performance Tracker
 
 A tracker for performance improvements across the UFO libraries inspired by
 arewefastyet.com
@@ -21,4 +20,5 @@ poetry install
 poetry run python runner.py
 ```
 
-The results of the runs are stored both in `results.json` and embedded into `index.html`.
+The results of the runs are stored both in `results/results.json` and embedded
+into `results/index.html`.
