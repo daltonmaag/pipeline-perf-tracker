@@ -7,7 +7,7 @@ description: |
   - Build test variable fonts on designer's machines
   - ...
 variants:
-  - id: Nunito (Glyphs, XXX glyphs, XXX masters)
+  - id: Nunito (Glyphs, 1100 glyphs, 6 masters)
     sources:
       git:
         repository: https://github.com/googlefonts/nunito
