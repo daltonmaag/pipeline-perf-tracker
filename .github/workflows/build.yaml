@@ -22,4 +22,6 @@ jobs:
       with:
         commit_message: Run tests
         branch: gh-pages
-        file_pattern: results/results.json results/results.html
+        file_pattern: -f results/results.json results/results.html
+        skip_dirty_check: true
+
