@@ -252,11 +252,11 @@ class Project:
             pass
         real = cpu = float("nan")
         try:
-            times = json.load(project_path / "times.json")
-            real = times.get("clock")
-            cpu = times.get("cpu")
-        except:
-            pass
+            timing = json.load(open(project_path / "times.json"))
+            real = timing.get("clock")
+            cpu = timing.get("cpu")
+        except Exception as e:
+            print("Couldn't load timings: %s" % e)
         return Result(
             cmd,
             code == 0 and not math.isnan(real),
