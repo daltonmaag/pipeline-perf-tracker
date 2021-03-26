@@ -15,7 +15,7 @@ import yaml
 
 
 def main():
-    NUMBER_OF_TIMES = 1
+    NUMBER_OF_TIMES = 3
     try:
         old_results = Results.from_file("results/results.json")
     except OSError:
