@@ -21,31 +21,43 @@ def main():
     except OSError:
         old_results = Results()
     new_results = Results()
-    scenarios = Scenario.load_all()
-    projects = Project.load_all()
-    for scenario in scenarios:
-        if scenario.disabled:
-            continue
-        for project in projects:
-            if project.disabled:
+    scenarios = [s for s in Scenario.load_all() if not s.disabled]
+    projects = [p for p in Project.load_all() if not p.disabled]
+    for project in projects:
+        for version in project.versions:
+            print("\n# Environment %s/%s\n" % (project.id, version.id))
+            project_path = VENVS / safe_dir_name(project.id) / safe_dir_name(version.id)
+            try:
+                version.setup(project_path)
+            except Exception as e:
+                print("Could not set up %s/%s - %s" % (project.id, version.id, e))
                 continue
-            if project.can_handle(scenario):
+
+            for scenario in scenarios:
+                if not project.can_handle(scenario):
+                    continue
                 for variant in scenario.variants:
-                    for version in project.versions:
-                        result = old_results.get(scenario, variant, project, version)
-                        print(
-                            f'Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"',
-                            end="",
+                    sources_path = (
+                        DOWNLOADS
+                        / safe_dir_name(scenario.id)
+                        / safe_dir_name(variant.id)
+                    )
+                    result = old_results.get(scenario, variant, project, version)
+                    print(
+                        f'Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"',
+                        end="",
+                    )
+                    if result is None or not result.success:
+                        print("... ")
+                        variant.sources.download(sources_path)
+                        variables = variant.get_variables(sources_path)
+                        result = project.run(
+                            project_path, scenario, variables, NUMBER_OF_TIMES
                         )
-                        if result is None or not result.success:
-                            print("... ")
-                            result = run(
-                                scenario, variant, project, version, NUMBER_OF_TIMES
-                            )
-                        else:
-                            print(": already done.")
-                        if result is not None:
-                            new_results.set(scenario, variant, project, version, result)
+                    else:
+                        print(": already done.")
+                    if result is not None:
+                        new_results.set(scenario, variant, project, version, result)
     new_results.save("results/results.json")
     with open("index.template.html", "r") as fp:
         template = fp.read()
@@ -58,8 +70,8 @@ class Result:
     cmd: str
     success: bool
     output: str
-    clock_time_ms: float
-    cpu_time_ms: float
+    clock_times_ms: List[float]
+    cpu_times_ms: List[float]
 
     def get_data(self):
         return asdict(self)
@@ -92,7 +104,7 @@ class ScenarioSourcesBundled:
         os.makedirs(path, exist_ok=True)
         # Make symlinks in path to the bundled_sources folders
         for child in BUNDLED_SOURCES.iterdir():
-            target = (path / child.name)
+            target = path / child.name
             if not target.is_symlink():
                 target.symlink_to(child, child.is_dir())
 
@@ -230,10 +242,6 @@ class Project:
                 "{",
                 "set -e",
                 "source bin/activate",
-                *(
-                    f"export {variable}={list_of_quoted_paths(paths)}"
-                    for variable, paths in variables.items()
-                ),
                 *before_script,
                 # Use GNU time to output the results to a file,
                 # -p for portable output for easy parsing
@@ -243,7 +251,7 @@ class Project:
                     runner_script, times, " ".join(substituted_args)
                 ),
                 *after_script,
-                "} 2>&1 | tee output.txt",
+                "}",
             ]
         )
         print(f"    Running script:")
@@ -254,6 +262,7 @@ class Project:
             executable="bash",
             cwd=project_path,
         )
+        print("Script returned %i" % code)
         output = "<no output>"
         try:
             with (project_path / "output.txt").open("r") as fp:
@@ -263,17 +272,11 @@ class Project:
         real = cpu = float("nan")
         try:
             timing = json.load(open(project_path / "times.json"))
-            real = timing.get("clock")
-            cpu = timing.get("cpu")
+            real = [t.get("clock") * 1000 / times for t in timing]
+            cpu = [t.get("cpu") * 100 / times for t in timing]
         except Exception as e:
             print("Couldn't load timings: %s" % e)
-        return Result(
-            cmd,
-            code == 0 and not math.isnan(real),
-            output,
-            real / times,
-            cpu / times,
-        )
+        return Result(cmd, code == 0 and not math.isnan(real), output, real, cpu)
 
     @staticmethod
     def from_data(id, data):
@@ -392,28 +395,6 @@ def safe_dir_name(string):
 
 DOWNLOADS = Path("downloads/").resolve()
 VENVS = Path("venvs/").resolve()
-
-
-def run(
-    scenario: Scenario,
-    variant: ScenarioVariant,
-    project: Project,
-    version: ProjectVersion,
-    times: int,
-) -> Optional[Result]:
-    try:
-        sources_path = (
-            DOWNLOADS / safe_dir_name(scenario.id) / safe_dir_name(variant.id)
-        )
-        variant.sources.download(sources_path)
-        variables = variant.get_variables(sources_path)
-        project_path = VENVS / safe_dir_name(project.id) / safe_dir_name(version.id)
-        version.setup(project_path)
-        result = project.run(project_path, scenario, variables, times)
-        return result
-    except Exception as e:
-        print(f"Could not run: {e}")
-        return None
 
 
 def git(*args):

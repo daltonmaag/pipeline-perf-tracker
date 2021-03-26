@@ -3,6 +3,7 @@ import sys
 import argparse
 import time
 import json
+import traceback
 
 parser = argparse.ArgumentParser(description='Run a Python script several times')
 parser.add_argument('--times', help='Number of times to run', type=int, default=3)
@@ -14,24 +15,31 @@ sys.stdout = open('output.txt', 'w')
 sys.stderr = sys.stdout
 module = args.command[0]
 sys.argv = args.command
-errcode = 0
+exitcode = 0
 
-def fake_exit(err=0):
-    global errcode
-    errcode = err
+times = []
 
-oldsysexit = sys.exit
-sys.exit = fake_exit
 
-t_start_cpu, t_start_clock = time.process_time(), time.perf_counter()
 for i in range(args.times):
+    t_start_cpu, t_start_clock = time.process_time(), time.perf_counter()
     print("\n### Starting run %i ###\n" % i)
-    runpy.run_module(module, run_name="__main__")
-t_end_cpu, t_end_clock = time.process_time(), time.perf_counter()
+    try:
+        runpy.run_module(module, run_name="__main__")
+    except SystemExit as exception:
+        exitcode = exception.code
+        if exitcode != 0:
+            break
+    except Exception as e:
+        print("Caught exception %s" % e)
+        traceback.print_exc(file=sys.stdout)
+        exitcode = 1
+        break
+    t_end_cpu, t_end_clock = time.process_time(), time.perf_counter()
+    times.append({
+        "cpu": t_end_cpu-t_start_cpu,
+        "clock": t_end_clock-t_start_clock,
+    })
 
-json.dump({
-    "cpu": t_end_cpu-t_start_cpu,
-    "clock": t_end_clock-t_start_clock,
-}, open("times.json", "w"))
+json.dump(times, open("times.json", "w"))
 
-sys.exit(errcode)
+sys.exit(exitcode)
