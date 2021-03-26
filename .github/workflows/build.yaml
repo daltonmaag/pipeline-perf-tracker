@@ -29,8 +29,10 @@ jobs:
         echo "{}" > results/results.json
     - name: Switch branch without trashing results
       run: |
+        mv results results.stash
         git fetch --depth=1
         git checkout gh-pages
+        mv results.stash/* results/
         git add --force results/*
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
