@@ -173,7 +173,14 @@ class ProjectVersion:
         cmd = "\n".join(["source bin/activate", *self.setup_script])
         print(f"    Running setup_script:")
         print(textwrap.indent(cmd, " " * 8))
-        subprocess.check_call(cmd, shell=True, executable="/bin/bash", cwd=project_path)
+        subprocess.check_call(
+            cmd,
+            shell=True,
+            executable="/bin/bash",
+            cwd=project_path,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
 
     @staticmethod
     def from_data(data):
