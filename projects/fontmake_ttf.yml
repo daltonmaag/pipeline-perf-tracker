@@ -36,15 +36,12 @@ scenarios:
   - id: narrow_build_vf_from_designspace
     before_script:
       - pip list
-    timed_script:
-      - fontmake --verbose WARNING -m $DESIGNSPACE -o variable
+    timed_args: fontmake --verbose WARNING -m $DESIGNSPACE -o variable
   - id: narrow_build_vf_from_glyphs
     before_script:
       - pip list
-    timed_script:
-      - fontmake --verbose WARNING -g $GLYPHS_FILE -o variable
+    timed_args: fontmake --verbose WARNING -g $GLYPHS_FILE -o variable
   - id: fat_build_instances
     before_script:
       - pip list
-    timed_script:
-      - fontmake --verbose WARNING -m $DESIGNSPACE -i -o ttf
+    timed_args: fontmake --verbose WARNING -m $DESIGNSPACE -i -o ttf

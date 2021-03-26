@@ -197,13 +197,22 @@ class Project:
         self, project_path: Path, scenario: Scenario, variables: Dict, times: int
     ) -> Result:
         before_script = []
-        timed_script = []
+        timed_args = []
         after_script = []
         for s in self.scenarios:
             if s["id"] == scenario.id:
                 before_script = s.get("before_script", [])
-                timed_script = s["timed_script"]
+                timed_args = s["timed_args"].split()
                 after_script = s.get("after_script", [])
+        runner_script = Path.cwd() / "run-timed.py"
+
+        substituted_args = []
+        for ix,arg in enumerate(timed_args):
+            if arg.startswith("$") and arg[1:] in variables:
+                substituted_args.extend([shlex.quote(path) for path in variables[arg[1:]]])
+            else:
+                substituted_args.append(arg)
+
         cmd = "\n".join(
             [
                 "{",
@@ -218,18 +227,10 @@ class Project:
                 # -p for portable output for easy parsing
                 # TODO: if we're just measuring python stuff anyway, and we want
                 # more types of data (cpu, memory, gpu...) we could use scalene instead.
-                "/usr/bin/time -p -o time.txt bash -c {}".format(
-                    shlex.quote(
-                        "; ".join(
-                            [
-                                "set -e",
-                                f"for i in $(seq {times})",
-                                "do echo '######## Run number '$i",
-                                *timed_script,
-                                "done",
-                            ]
-                        )
-                    )
+                "python {} --times {} {}".format(
+                    runner_script,
+                    times,
+                    " ".join(substituted_args)
                 ),
                 *after_script,
                 "} 2>&1 | tee output.txt",
@@ -249,14 +250,11 @@ class Project:
                 output = fp.read()
         except:
             pass
-        real = user = sys = float("nan")
+        real = cpu = float("nan")
         try:
-            with (project_path / "time.txt").open("r") as fp:
-                match = TIME_OUTPUT_RE.match(fp.read())
-                if match is not None:
-                    real = float(match.group(1))
-                    user = float(match.group(2))
-                    sys = float(match.group(3))
+            times = json.load(project_path / "times.json")
+            real = times.get("clock")
+            cpu = times.get("cpu")
         except:
             pass
         return Result(
@@ -264,7 +262,7 @@ class Project:
             code == 0 and not math.isnan(real),
             output,
             real * 1000 / times,
-            (user + sys) * 1000 / times,
+            cpu * 1000 / times,
         )
 
     @staticmethod

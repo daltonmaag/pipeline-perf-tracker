@@ -23,10 +23,8 @@ scenarios:
   - id: narrow_build_vf_from_designspace
     before_script:
       - pip list
-    timed_script:
-      - babelfont $DESIGNSPACE vf.ttf
+    timed_args: babelfont $DESIGNSPACE vf.ttf
   - id: narrow_build_vf_from_glyphs
     before_script:
       - pip list
-    timed_script:
-      - babelfont $GLYPHS_FILE vf.ttf
+    timed_args: babelfont $GLYPHS_FILE vf.ttf
