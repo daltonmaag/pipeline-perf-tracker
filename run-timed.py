@@ -3,7 +3,6 @@ import sys
 import argparse
 import time
 import json
-import os
 
 parser = argparse.ArgumentParser(description='Run a Python script several times')
 parser.add_argument('--times', help='Number of times to run', type=int, default=3)
@@ -11,12 +10,8 @@ parser.add_argument('command', help='Python module to run', nargs=argparse.REMAI
 
 args = parser.parse_args()
 
-
-so = se = open("output.txt", 'w', 0)
-sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
-os.dup2(so.fileno(), sys.stdout.fileno())
-os.dup2(se.fileno(), sys.stderr.fileno())
-
+sys.stdout = open('output.txt', 'w')
+sys.stderr = sys.stdout
 module = args.command[0]
 sys.argv = args.command
 errcode = 0
