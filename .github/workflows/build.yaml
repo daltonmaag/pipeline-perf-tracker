@@ -20,12 +20,22 @@ jobs:
       with:
           toolchain: nightly
           override: true
-    - name: Run test
-      run: poetry run python runner.py
-      continue-on-error: true
+    #- name: Run test
+    #  run: poetry run python runner.py
+    #  continue-on-error: true
+    - name: A dummy test to test the commit process
+      run:
+        echo "Testing" > results/index.html
+        echo "{}" > results/results.json
+    - name: Switch branch without trashing results
+      run: |
+        git stash
+        git checkout gh-pages
+        git stash apply
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
+        branch: gh-pages
         commit_message: Run tests
-        file_pattern: -f results/results.json results/index.html
+        file_pattern: results/*
         skip_dirty_check: true
 
