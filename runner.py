@@ -276,7 +276,7 @@ class Project:
             cpu = [t.get("cpu") * 100 / times for t in timing]
         except Exception as e:
             print("Couldn't load timings: %s" % e)
-        return Result(cmd, code == 0 and not math.isnan(real[0]), output, real, cpu)
+        return Result(cmd, code == 0, output, real, cpu)
 
     @staticmethod
     def from_data(id, data):
