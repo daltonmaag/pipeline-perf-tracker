@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UFO Performance Tracker</title>
+    <style>
+      .variant {
+        border-left: 1px solid lightgray;
+        padding-left: 2rem;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 0.1rem 1rem 0.1rem 0;
+      }
+      .time {
+        text-align: right;
+        font-family: monospace;
+      }
+      .backdrop {
+        background-color: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+      .modal {
+        background-color: white;
+        border: 1px solid black;
+        margin: auto auto;
+        padding: 1rem;
+        max-width: calc(100vw - 6rem - 2px);
+        max-height: calc(100vh - 6rem - 2px);
+        overflow: auto;
+      }
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div v-for="(variants, scenario_id) in results.values">
+        <h2>{{results.scenarios[scenario_id].name}}</h2>
+        <pre>{{results.scenarios[scenario_id].description}}</pre>
+        <div class="variant" v-for="(projects, variant_id) in variants">
+          <h3>{{variant_id}}</h3>
+          <table>
+            <tr>
+              <th>Project</th>
+              <th>Version</th>
+              <th>Clock time (ms)</th>
+              <th>CPU time (ms)</th>
+              <th></th>
+            </tr>
+            <template v-for="(versions, project_id) in projects">
+              <template v-for="(result, version_id) in versions">
+                <tr>
+                  <th>
+                    <strong :title="results.projects[project_id].description">
+                      <a :href="results.projects[project_id].url">
+                        {{results.projects[project_id].name}}
+                      </a>
+                    </strong>
+                  </th>
+                  <th>{{version_id}}</th>
+                  <td class="time">{{time(result.clock_time_ms)}}</td>
+                  <td class="time">{{time(result.cpu_time_ms)}}</td>
+                  <td>
+                    <button @click="alert(result.cmd, result.output)">
+                      show logs
+                    </button>
+                  </td>
+                </tr>
+              </template>
+            </template>
+          </table>
+        </div>
+      </div>
+      <div v-show="showLogs" class="backdrop" @click="showLogs = false" v-cloak>
+        <div class="modal">
+          <button style="float: right" @click="showLogs = false">close</button>
+          <h2>Command</h2>
+          <pre>{{cmd}}</pre>
+          <h2>Output</h2>
+          <pre>{{output}}</pre>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+      const results = {"values": {"narrow_build_vf_from_designspace": {"Sofia Sans (960 glyphs, 7 masters)": {"babelfont": {"nfsf-4e5fd5a17": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Sofia_Sans__960_glyphs__7_masters_/SofiaSans/SofiaSans-VF-New.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\n", "clock_time_ms": 42380.0, "cpu_time_ms": 42240.0}, "nfsf-head": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Sofia_Sans__960_glyphs__7_masters_/SofiaSans/SofiaSans-VF-New.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\n", "clock_time_ms": 38940.0, "cpu_time_ms": 39050.00000000001}}, "fontmake_ttf": {"git-main-ufo2ft-avoid-reloading": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Sofia_Sans__960_glyphs__7_masters_/SofiaSans/SofiaSans-VF-New.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- --------------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.2.dev0\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.1.dev9+g41d7218\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 37450.0, "cpu_time_ms": 37420.0}, "v2.4.0": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Sofia_Sans__960_glyphs__7_masters_/SofiaSans/SofiaSans-VF-New.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncompreffor        0.5.1\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 44180.0, "cpu_time_ms": 44160.00000000001}, "v2.3.1": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Sofia_Sans__960_glyphs__7_masters_/SofiaSans/SofiaSans-VF-New.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.3.1\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 44890.0, "cpu_time_ms": 44870.00000000001}}}, "Noto Sans LCG (3780 glyphs, 8 masters)": {"babelfont": {"nfsf-4e5fd5a17": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": false, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\nCouldn't read /home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace: 'sigma1'\n", "clock_time_ms": NaN, "cpu_time_ms": NaN}, "nfsf-head": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": false, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\nCouldn't read /home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace: 'sigma1'\n", "clock_time_ms": NaN, "cpu_time_ms": NaN}}, "fontmake_ttf": {"git-main-ufo2ft-avoid-reloading": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- --------------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.2.dev0\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.1.dev9+g41d7218\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 75380.0, "cpu_time_ms": 75350.0}, "v2.4.0": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncompreffor        0.5.1\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 94280.0, "cpu_time_ms": 94270.0}, "v2.3.1": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Noto_Sans_LCG__3780_glyphs__8_masters_/NotoSans/NotoSans-MM.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.3.1\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 105830.0, "cpu_time_ms": 105800.0}}}, "Truculenta (1390 glyphs, 18 masters)": {"babelfont": {"nfsf-4e5fd5a17": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Truculenta__1390_glyphs__18_masters_/Truculenta/Truculenta.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": false, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\nCouldn't write vf.ttf: 'oslash.BRACKET.600'\n", "clock_time_ms": NaN, "cpu_time_ms": NaN}, "nfsf-head": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Truculenta__1390_glyphs__18_masters_/Truculenta/Truculenta.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; babelfont $DESIGNSPACE vf.ttf; done'\n} 2>&1 > output.txt", "success": false, "output": "Package           Version\n----------------- ---------\nappdirs           1.4.4\nattrs             20.3.0\nbabelfont         2.0.1\nbeziers           0.2.0\nbooleanOperations 0.9.0\ncertifi           2020.12.5\nchardet           4.0.0\ncu2qu             1.6.7\nfontFeatures      1.0.5\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nglyphtools        0.7.0\nidna              2.10\nlark              0.11.1\nlxml              4.6.3\nmore-itertools    8.7.0\nnumpy             1.20.1\nopenstep-plist    0.2.2\norjson            3.5.1\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nrequests          2.25.1\nsetuptools        49.2.1\nsix               1.15.0\nufoLib2           0.11.1\nurllib3           1.26.4\nyouseedee         0.3.0\n######## Run number 1\nCouldn't write vf.ttf: 'oslash.BRACKET.600'\n", "clock_time_ms": NaN, "cpu_time_ms": NaN}}, "fontmake_ttf": {"git-main-ufo2ft-avoid-reloading": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Truculenta__1390_glyphs__18_masters_/Truculenta/Truculenta.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- --------------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.2.dev0\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.1.dev9+g41d7218\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 90020.0, "cpu_time_ms": 90000.0}, "v2.4.0": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Truculenta__1390_glyphs__18_masters_/Truculenta/Truculenta.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncompreffor        0.5.1\ncu2qu             1.6.7\nfontmake          2.4.0\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 119230.0, "cpu_time_ms": 119200.0}, "v2.3.1": {"cmd": "{\nset -e\nsource bin/activate\nexport DESIGNSPACE=/home/runner/work/pipeline-perf-tracker/pipeline-perf-tracker/downloads/narrow_build_vf_from_designspace/Truculenta__1390_glyphs__18_masters_/Truculenta/Truculenta.designspace\npip list\n/usr/bin/time -p -o time.txt bash -c 'set -e; for i in $(seq 1); do echo '\"'\"'######## Run number '\"'\"'$i; fontmake --verbose WARNING -m $DESIGNSPACE -o variable; done'\n} 2>&1 > output.txt", "success": true, "output": "Package           Version\n----------------- ------------\nappdirs           1.4.4\nattrs             20.3.0\nbooleanOperations 0.9.0\ncffsubr           0.2.8\ncu2qu             1.6.7\nfontmake          2.3.1\nfontMath          0.6.0\nfonttools         4.21.1\nfs                2.4.12\nglyphsLib         5.3.2\nlxml              4.6.3\npip               20.2.3\npyclipper         1.2.1\npytz              2021.1\nsetuptools        49.2.1\nsix               1.15.0\nufo2ft            2.20.0\nufoLib2           0.11.1\nunicodedata2      13.0.0.post2\n######## Run number 1\n", "clock_time_ms": 122480.0, "cpu_time_ms": 122460.00000000001}}}}}, "scenarios": {"narrow_build_vf_from_designspace": {"name": "Narrow build (VF) from Designspace", "description": "Build a variable font from a designspace file that links several master UFOs.\nRead all UFOs speedily, combine outline data etc. into variable font TTF.\n\nUse-cases:\n- Build final variable fonts on CI machines\n- Build test variable fonts on designer's machines\n- ...\n"}}, "projects": {"babelfont": {"name": "babelfont", "url": "https://github.com/simoncozens/babelfont", "description": "babelfont"}, "fontmake_ttf": {"name": "fontmake TTF output", "url": "https://github.com/googlefonts/fontmake", "description": "fontmake in its default configuration, only TTF output"}}};
+      const $vm = new Vue({
+        el: "#app",
+        data() {
+          return {
+            results,
+            cmd: "",
+            output: "",
+            showLogs: false,
+          };
+        },
+        methods: {
+          time(ms) {
+            return Math.round(Number(ms)).toLocaleString("en-US");
+          },
+          alert(cmd, output) {
+            this.cmd = cmd;
+            this.output = output;
+            this.showLogs = true;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
