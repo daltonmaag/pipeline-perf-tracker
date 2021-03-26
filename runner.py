@@ -219,17 +219,17 @@ class Project:
         self, project_path: Path, scenario: Scenario, variables: Dict, times: int
     ) -> Result:
         before_script = []
-        timed_args = []
+        timed_command = []
         after_script = []
         for s in self.scenarios:
             if s["id"] == scenario.id:
                 before_script = s.get("before_script", [])
-                timed_args = s["timed_args"].split()
+                timed_command = s["timed_command"].split()
                 after_script = s.get("after_script", [])
         runner_script = Path.cwd() / "run-timed.py"
 
         substituted_args = []
-        for ix, arg in enumerate(timed_args):
+        for ix, arg in enumerate(timed_command):
             if arg.startswith("$") and arg[1:] in variables:
                 substituted_args.extend(
                     [shlex.quote(path) for path in variables[arg[1:]]]
@@ -269,14 +269,14 @@ class Project:
                 output = fp.read()
         except:
             pass
-        real = cpu = float("nan")
+        real = cpu = [float("nan")]
         try:
             timing = json.load(open(project_path / "times.json"))
             real = [t.get("clock") * 1000 / times for t in timing]
             cpu = [t.get("cpu") * 100 / times for t in timing]
         except Exception as e:
             print("Couldn't load timings: %s" % e)
-        return Result(cmd, code == 0 and not math.isnan(real), output, real, cpu)
+        return Result(cmd, code == 0 and not math.isnan(real[0]), output, real, cpu)
 
     @staticmethod
     def from_data(id, data):
