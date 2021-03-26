@@ -20,7 +20,7 @@ versions:
       - python -m pip install --upgrade pip
       - python -m pip install wheel
       - python -m pip install iondrive
-      - python -m pip install git+git://github.com/simoncozens/ufoLib2@iondrive"
+      - python -m pip install git+git://github.com/simoncozens/ufoLib2@iondrive
       - python -m pip install fontmake==2.4.0
   - id: v2.4.0
     description: official release
