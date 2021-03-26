@@ -23,7 +23,6 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Run tests
-        branch: gh-pages
         file_pattern: -f results/results.json results/index.html
         skip_dirty_check: true
 
