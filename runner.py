@@ -27,6 +27,8 @@ def main():
         if scenario.disabled:
             continue
         for project in projects:
+            if project.disabled:
+                continue
             if project.can_handle(scenario):
                 for variant in scenario.variants:
                     for version in project.versions:
@@ -189,6 +191,7 @@ class Project:
     description: str
     scenarios: List[Dict]
     versions: List[ProjectVersion]
+    disabled: bool
 
     def can_handle(self, scenario):
         return any(s["id"] == scenario.id for s in self.scenarios)
@@ -274,6 +277,7 @@ class Project:
             data["description"],
             data["scenarios"],
             [ProjectVersion.from_data(v) for v in data["versions"]],
+            "disabled" in data
         )
 
     @staticmethod
