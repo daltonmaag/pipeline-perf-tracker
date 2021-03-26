@@ -10,6 +10,12 @@ versions:
     description: nfsf head
     setup_script:
       - python -m pip install git+git://github.com/simoncozens/babelfont@nfsf
+  - id: nfsf-head-iondrive
+    description: nfsf head with Rust UFO loader
+    setup_script:
+      - python -m pip install iondrive
+      - python -m pip install git+git://github.com/simoncozens/ufoLib2@iondrive
+      - python -m pip install git+git://github.com/simoncozens/babelfont@nfsf
 scenarios:
   - id: narrow_build_vf_from_designspace
     before_script:
