@@ -145,7 +145,7 @@ class Scenario:
             data["name"],
             data["description"],
             [ScenarioVariant.from_data(v) for v in data["variants"]],
-            "disabled" in data
+            "disabled" in data,
         )
 
     @staticmethod
@@ -217,9 +217,11 @@ class Project:
         runner_script = Path.cwd() / "run-timed.py"
 
         substituted_args = []
-        for ix,arg in enumerate(timed_args):
+        for ix, arg in enumerate(timed_args):
             if arg.startswith("$") and arg[1:] in variables:
-                substituted_args.extend([shlex.quote(path) for path in variables[arg[1:]]])
+                substituted_args.extend(
+                    [shlex.quote(path) for path in variables[arg[1:]]]
+                )
             else:
                 substituted_args.append(arg)
 
@@ -238,9 +240,7 @@ class Project:
                 # TODO: if we're just measuring python stuff anyway, and we want
                 # more types of data (cpu, memory, gpu...) we could use scalene instead.
                 "python {} --times {} {}".format(
-                    runner_script,
-                    times,
-                    " ".join(substituted_args)
+                    runner_script, times, " ".join(substituted_args)
                 ),
                 *after_script,
                 "} 2>&1 | tee output.txt",
@@ -284,7 +284,7 @@ class Project:
             data["description"],
             data["scenarios"],
             [ProjectVersion.from_data(v) for v in data["versions"]],
-            "disabled" in data
+            "disabled" in data,
         )
 
     @staticmethod
