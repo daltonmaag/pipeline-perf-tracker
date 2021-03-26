@@ -24,6 +24,8 @@ def main():
     scenarios = Scenario.load_all()
     projects = Project.load_all()
     for scenario in scenarios:
+        if scenario.disabled:
+            continue
         for project in projects:
             if project.can_handle(scenario):
                 for variant in scenario.variants:
@@ -132,6 +134,7 @@ class Scenario:
     name: str
     description: str
     variants: List[ScenarioVariant]
+    disabled: bool
 
     @staticmethod
     def from_data(id, data):
@@ -140,6 +143,7 @@ class Scenario:
             data["name"],
             data["description"],
             [ScenarioVariant.from_data(v) for v in data["variants"]],
+            "disabled" in data
         )
 
     @staticmethod

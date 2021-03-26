@@ -1,4 +1,5 @@
 name: Narrow build (VF) from Glyphs.app
+disabled: true
 description: |
   Build a variable font from a Glyphs file.
 
