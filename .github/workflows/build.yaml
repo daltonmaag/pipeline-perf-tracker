@@ -20,13 +20,9 @@ jobs:
       with:
           toolchain: nightly
           override: true
-    #- name: Run test
-    #  run: poetry run python runner.py
-    #  continue-on-error: true
-    - name: A dummy test to test the commit process
-      run:
-        echo "Testing" > results/index.html
-        echo "{}" > results/results.json
+    - name: Run test
+      run: poetry run python runner.py
+      continue-on-error: true
     - name: Switch branch without trashing results
       run: |
         mv results results.stash
