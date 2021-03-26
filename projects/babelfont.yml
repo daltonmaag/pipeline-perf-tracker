@@ -6,6 +6,10 @@ versions:
     description: nfsf branch, packaged with poetry
     setup_script:
       - python -m pip install git+git://github.com/daltonmaag/babelfont@4e5fd5a17
+  - id: nfsf-head
+    description: nfsf head
+    setup_script:
+      - python -m pip install git+git://github.com/simoncozens/babelfont@nfsf
 scenarios:
   - id: narrow_build_vf_from_designspace
     before_script:
