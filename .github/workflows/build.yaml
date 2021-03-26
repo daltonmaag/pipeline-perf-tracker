@@ -30,6 +30,7 @@ jobs:
     - name: Switch branch without trashing results
       run: |
         git stash
+        git fetch --depth=1
         git checkout gh-pages
         git stash apply
     - uses: stefanzweifel/git-auto-commit-action@v4
