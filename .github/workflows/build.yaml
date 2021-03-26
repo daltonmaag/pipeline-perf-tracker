@@ -15,6 +15,11 @@ jobs:
       run: |
         pip install poetry
         poetry install
+    - name: Install Rust nightly
+      uses: actions-rs/toolchain@v1
+      with:
+          toolchain: nightly
+          override: true
     - name: Run test
       run: poetry run python runner.py
       continue-on-error: true
