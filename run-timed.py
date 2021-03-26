@@ -12,7 +12,7 @@ parser.add_argument('command', help='Python module to run', nargs=argparse.REMAI
 args = parser.parse_args()
 
 
-so = se = open("output.txt", 'w')
+so = se = open("output.txt", 'w', 0)
 sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 os.dup2(so.fileno(), sys.stdout.fileno())
 os.dup2(se.fileno(), sys.stderr.fileno())
