@@ -264,8 +264,8 @@ class Project:
             cmd,
             code == 0 and not math.isnan(real),
             output,
-            real * 1000 / times,
-            cpu * 1000 / times,
+            real / times,
+            cpu / times,
         )
 
     @staticmethod
