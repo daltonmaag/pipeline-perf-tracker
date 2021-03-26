@@ -68,8 +68,8 @@
                     </strong>
                   </th>
                   <th>{{version_id}}</th>
-                  <td class="time">{{time(result.clock_time_ms)}}</td>
-                  <td class="time">{{time(result.cpu_time_ms)}}</td>
+                  <td class="time">{{mean_time(result.clock_times_ms)}}</td>
+                  <td class="time">{{mean_time(result.cpu_times_ms)}}</td>
                   <td>
                     <button @click="alert(result.cmd, result.output)">
                       show logs
@@ -105,8 +105,15 @@
           };
         },
         methods: {
-          time(ms) {
-            return Math.round(Number(ms)).toLocaleString("en-US");
+          mean_time(times_ms) {
+            const [mean, stddev] = getMeanAndStandardDeviation(times_ms);
+            return (
+              Math.round(mean).toLocaleString("en-US") +
+              ("±" + Math.round(stddev).toLocaleString("en-US")).padStart(
+                10,
+                " "
+              )
+            );
           },
           alert(cmd, output) {
             this.cmd = cmd;
@@ -115,6 +122,16 @@
           },
         },
       });
+
+      function getMeanAndStandardDeviation(array) {
+        const n = array.length;
+        if (n == 0) return [NaN, NaN];
+        const mean = array.reduce((a, b) => a + b, 0) / n;
+        const stddev = Math.sqrt(
+          array.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b, 0) / n
+        );
+        return [mean, stddev];
+      }
     </script>
   </body>
 </html>

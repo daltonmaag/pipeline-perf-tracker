@@ -16,39 +16,35 @@ import yaml
 
 def main():
     NUMBER_OF_TIMES = 3
-    try:
-        old_results = Results.from_file("results/results.json")
-    except OSError:
-        old_results = Results()
-    new_results = Results()
+    results = Results()
     scenarios = Scenario.load_all()
     projects = Project.load_all()
-    for scenario in scenarios:
-        if scenario.disabled:
-            continue
-        for project in projects:
-            if project.can_handle(scenario):
-                for variant in scenario.variants:
-                    for version in project.versions:
-                        result = old_results.get(scenario, variant, project, version)
-                        print(
-                            f'Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"',
-                            end="",
-                        )
-                        if result is None or not result.success:
-                            print("... ")
-                            result = run(
-                                scenario, variant, project, version, NUMBER_OF_TIMES
-                            )
-                        else:
-                            print(": already done.")
-                        if result is not None:
-                            new_results.set(scenario, variant, project, version, result)
-    new_results.save("results/results.json")
+    combinations = [
+        (scenario, variant, project, version)
+        for scenario in scenarios
+        if not scenario.disabled
+        for project in projects
+        if project.can_handle(scenario)
+        for variant in scenario.variants
+        for version in project.versions
+    ]
+    for i, (scenario, variant, project, version) in enumerate(combinations):
+        print(
+            f"[{i + 1:4}/{len(combinations)}] "
+            f'Running "{scenario.name}" variant "{variant.id}" '
+            f'using "{project.name}" version "{version.id}"...'
+        )
+        # For debugging, just run the first combination
+        # if i > 0:
+        #     continue
+        result = run(scenario, variant, project, version, NUMBER_OF_TIMES)
+        if result is not None:
+            results.set(scenario, variant, project, version, result)
+    results.save("results/results.json")
     with open("index.template.html", "r") as fp:
         template = fp.read()
     with open("results/index.html", "w") as fp:
-        fp.write(template.replace("REPLACE_ME_WITH_JSON", json.dumps(new_results.data)))
+        fp.write(template.replace("REPLACE_ME_WITH_JSON", json.dumps(results.data)))
 
 
 @dataclass
@@ -56,8 +52,8 @@ class Result:
     cmd: str
     success: bool
     output: str
-    clock_time_ms: float
-    cpu_time_ms: float
+    clock_times_ms: List[float]
+    cpu_times_ms: List[float]
 
     def get_data(self):
         return asdict(self)
@@ -90,7 +86,7 @@ class ScenarioSourcesBundled:
         os.makedirs(path, exist_ok=True)
         # Make symlinks in path to the bundled_sources folders
         for child in BUNDLED_SOURCES.iterdir():
-            target = (path / child.name)
+            target = path / child.name
             if not target.is_symlink():
                 target.symlink_to(child, child.is_dir())
 
@@ -143,7 +139,7 @@ class Scenario:
             data["name"],
             data["description"],
             [ScenarioVariant.from_data(v) for v in data["variants"]],
-            "disabled" in data
+            "disabled" in data,
         )
 
     @staticmethod
@@ -179,6 +175,7 @@ class ProjectVersion:
 
 
 TIME_OUTPUT_RE = re.compile(r"real (\d+\.\d+)\nuser (\d+\.\d+)\nsys (\d+\.\d+)")
+WORKDIR = Path("workdir/").resolve()
 
 
 @dataclass
@@ -197,18 +194,18 @@ class Project:
         self, project_path: Path, scenario: Scenario, variables: Dict, times: int
     ) -> Result:
         before_script = []
-        timed_script = []
         after_script = []
         for s in self.scenarios:
             if s["id"] == scenario.id:
                 before_script = s.get("before_script", [])
-                timed_script = s["timed_script"]
+                timed_command = s["timed_command"]
                 after_script = s.get("after_script", [])
         cmd = "\n".join(
             [
                 "{",
                 "set -e",
                 "source bin/activate",
+                f"cd {shlex.quote(str(WORKDIR))}",
                 *(
                     f"export {variable}={list_of_quoted_paths(paths)}"
                     for variable, paths in variables.items()
@@ -218,23 +215,20 @@ class Project:
                 # -p for portable output for easy parsing
                 # TODO: if we're just measuring python stuff anyway, and we want
                 # more types of data (cpu, memory, gpu...) we could use scalene instead.
-                "/usr/bin/time -p -o time.txt bash -c {}".format(
-                    shlex.quote(
-                        "; ".join(
-                            [
-                                "set -e",
-                                f"for i in $(seq {times})",
-                                "do echo '######## Run number '$i",
-                                *timed_script,
-                                "done",
-                            ]
-                        )
-                    )
-                ),
+                f"for i in $(seq {times})",
+                '  do echo "######## Run number $i, clearing the workdir: $(pwd)"',
+                f"  rm -rf {shlex.quote(str(WORKDIR))}/*",
+                # "  ls -a",
+                f"  /usr/bin/time -p -o {shlex.quote(str(project_path))}/time_$i.txt {timed_command}",
+                f"  cat {shlex.quote(str(project_path))}/time_$i.txt",
+                "done",
                 *after_script,
-                "} 2>&1 | tee output.txt",
+                f"}} 2>&1 | tee {shlex.quote(str(project_path))}/output.txt",
             ]
         )
+        (project_path / "output.txt").unlink(missing_ok=True)
+        for i in range(times):
+            (project_path / f"time_{i}.txt").unlink(missing_ok=True)
         print(f"    Running script:")
         print(textwrap.indent(cmd, " " * 8))
         code = subprocess.call(
@@ -249,23 +243,22 @@ class Project:
                 output = fp.read()
         except:
             pass
-        real = user = sys = float("nan")
-        try:
-            with (project_path / "time.txt").open("r") as fp:
-                match = TIME_OUTPUT_RE.match(fp.read())
-                if match is not None:
-                    real = float(match.group(1))
-                    user = float(match.group(2))
-                    sys = float(match.group(3))
-        except:
-            pass
-        return Result(
-            cmd,
-            code == 0 and not math.isnan(real),
-            output,
-            real * 1000 / times,
-            (user + sys) * 1000 / times,
-        )
+        clock_times_ms = []
+        cpu_times_ms = []
+        for i in range(times):
+            try:
+                with (project_path / f"time_{i}.txt").open("r") as fp:
+                    match = TIME_OUTPUT_RE.match(fp.read())
+                    if match is not None:
+                        real = float(match.group(1))
+                        user = float(match.group(2))
+                        sys = float(match.group(3))
+                        clock_times_ms.append(real * 1000)
+                        cpu_times_ms.append((user + sys) * 1000)
+
+            except:
+                pass
+        return Result(cmd, code == 0, output, clock_times_ms, cpu_times_ms)
 
     @staticmethod
     def from_data(id, data):
