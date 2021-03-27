@@ -45,6 +45,7 @@ def main():
                         / safe_dir_name(scenario.id)
                         / safe_dir_name(variant.id)
                     )
+                    run_id = safe_dir_name("-".join([project.id, version.id, scenario.id, variant.id]))
                     result = old_results.get(scenario, variant, project, version)
                     print(
                         f'::group::Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"'
@@ -54,7 +55,8 @@ def main():
                         variant.sources.download(sources_path)
                         variables = variant.get_variables(sources_path)
                         result = project.run(
-                            project_path, scenario, variables, NUMBER_OF_TIMES
+                            project_path, scenario, variables, NUMBER_OF_TIMES,
+                            profiler_output="results/"+run_id+".svg"
                         )
                     else:
                         print(": already done.")
@@ -75,6 +77,7 @@ class Result:
     output: str
     clock_times_ms: List[float]
     cpu_times_ms: List[float]
+    profile_svg: str=None
 
     def get_data(self):
         return asdict(self)
@@ -216,7 +219,8 @@ class Project:
         return any(s["id"] == scenario.id for s in self.scenarios)
 
     def run(
-        self, project_path: Path, scenario: Scenario, variables: Dict, times: int
+        self, project_path: Path, scenario: Scenario, variables: Dict, times: int,
+        profiler_output: str
     ) -> Result:
         before_script = []
         timed_command = []
@@ -227,6 +231,7 @@ class Project:
                 timed_command = s["timed_command"].split()
                 after_script = s.get("after_script", [])
         runner_script = Path.cwd() / "run-timed.py"
+        absolute_profile_path = Path.cwd() / profiler_output
 
         substituted_args = []
         for ix, arg in enumerate(timed_command):
@@ -247,8 +252,8 @@ class Project:
                 # -p for portable output for easy parsing
                 # TODO: if we're just measuring python stuff anyway, and we want
                 # more types of data (cpu, memory, gpu...) we could use scalene instead.
-                "python {} --times {} {}".format(
-                    runner_script, times, " ".join(substituted_args)
+                "python {} --profile {} --times {} {}".format(
+                    runner_script, absolute_profile_path, times, " ".join(substituted_args)
                 ),
                 *after_script,
                 "}",
@@ -280,7 +285,9 @@ class Project:
             cpu = [t.get("cpu") * 1000 / times for t in timing]
         except Exception as e:
             print("::warning::Couldn't load timings: %s" % e)
-        return Result(cmd, code == 0, output, real, cpu)
+        if not os.path.exists(absolute_profile_path):
+            profiler_output = None
+        return Result(cmd, code == 0, output, real, cpu, profiler_output)
 
     @staticmethod
     def from_data(id, data):

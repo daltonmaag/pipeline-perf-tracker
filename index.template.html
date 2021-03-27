@@ -56,6 +56,7 @@
               <th>Clock time (ms)</th>
               <th>CPU time (ms)</th>
               <th></th>
+              <th></th>
             </tr>
             <template v-for="(versions, project_id) in projects">
               <template v-for="(result, version_id) in versions">
@@ -73,6 +74,11 @@
                   <td>
                     <button @click="alert(result.cmd, result.output)">
                       show logs
+                    </button>
+                  </td>
+                  <td v-if="results.profile_svg">
+                    <button>
+                      <a href="{{results.profile_svg}}">show profile</a>
                     </button>
                   </td>
                 </tr>

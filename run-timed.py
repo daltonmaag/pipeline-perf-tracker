@@ -4,9 +4,11 @@ import argparse
 import time
 import json
 import traceback
+import subprocess
 
 parser = argparse.ArgumentParser(description='Run a Python script several times')
 parser.add_argument('--times', help='Number of times to run', type=int, default=3)
+parser.add_argument('--profile', help='Write profile to file', type=str)
 parser.add_argument('command', help='Python module to run', nargs=argparse.REMAINDER)
 
 args = parser.parse_args()
@@ -43,4 +45,9 @@ for i in range(args.times):
 
 json.dump(times, open("times.json", "w"))
 
+if args.profile and (exitcode == 0 or exitcode is None):
+    print("\n### Starting profiling run ###\n")
+    cmd = ["py-spy", "record", "-o", args.profile, "--", "python", "-m"] + sys.argv
+    print(" ".join(cmd))
+    subprocess.run(cmd)
 sys.exit(exitcode)
