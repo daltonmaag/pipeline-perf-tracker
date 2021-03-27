@@ -76,10 +76,10 @@
                       show logs
                     </button>
                   </td>
-                  <td v-if="results.profile_svg">
-                    <button>
-                      <a href="{{results.profile_svg}}">show profile</a>
-                    </button>
+                  <td v-if="result.profile_svg">
+                    <a :href="result.profile_svg.replace('results/','')">
+                      show profile
+                    </a>
                   </td>
                 </tr>
               </template>
