@@ -256,11 +256,14 @@ class Project:
         )
         print(f"    Running script:")
         print(textwrap.indent(cmd, " " * 8))
+        out_file = (project_path / "output.txt").open("w")
         code = subprocess.call(
             cmd,
             shell=True,
             executable="bash",
             cwd=project_path,
+            stdout=out_file,
+            stderr=out_file,
         )
         print("Script returned %i" % code)
         output = "<no output>"

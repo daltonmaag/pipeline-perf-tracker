@@ -11,7 +11,7 @@ parser.add_argument('command', help='Python module to run', nargs=argparse.REMAI
 
 args = parser.parse_args()
 
-sys.stdout = open('output.txt', 'w')
+# sys.stdout = open('output.txt', 'w')
 sys.stderr = sys.stdout
 module = args.command[0]
 sys.argv = args.command
