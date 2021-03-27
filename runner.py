@@ -119,7 +119,7 @@ class ScenarioSourcesGit:
         if os.path.exists(path):
             git("-C", path, "remote", "update")
         else:
-            git("clone", self.repository, path)
+            git("clone", "--depth", "1", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
 
 
