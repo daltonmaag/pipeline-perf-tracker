@@ -21,7 +21,7 @@ jobs:
           toolchain: nightly
           override: true
     - name: Run test
-      run: poetry run python runner.py
+      run: poetry run python -u runner.py
       continue-on-error: true
     - name: Switch branch without trashing results
       run: |
