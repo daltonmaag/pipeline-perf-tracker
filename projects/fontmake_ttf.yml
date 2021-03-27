@@ -16,6 +16,13 @@ versions:
       - python -m pip install iondrive
       - python -m pip install git+git://github.com/simoncozens/ufoLib2@iondrive
       - python -m pip install "fonttools[ufo,lxml,unicode] @ git+git://github.com/fonttools/fonttools@0e5fe2d1d7" git+git://github.com/googlefonts/ufo2ft@avoid-font-reloading
+  - id: v2.4.0-plus-glyphs3
+    description: fontmake official release, with Glyphs3 glyphslib
+    setup_script:
+      - python -m pip install --upgrade pip
+      - python -m pip install wheel
+      - python -m pip install fontmake==2.4.0
+      - python -m pip install git+git://github.com/simoncozens/glyphsLib@glyphs3-try3
   - id: v2.4.0-plus-iondrive
     description: fontmake official release, with Rust UFO loader
     setup_script:
