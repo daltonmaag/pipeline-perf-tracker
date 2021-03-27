@@ -30,7 +30,10 @@ def main():
             try:
                 version.setup(project_path)
             except Exception as e:
-                print("Could not set up %s/%s - %s" % (project.id, version.id, e))
+                print(
+                    "::warning::Could not set up %s/%s - %s"
+                    % (project.id, version.id, e)
+                )
                 continue
 
             for scenario in scenarios:
@@ -44,8 +47,7 @@ def main():
                     )
                     result = old_results.get(scenario, variant, project, version)
                     print(
-                        f'Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"',
-                        end="",
+                        f'::group::Running "{scenario.name}" variant "{variant.id}" using "{project.name}" version "{version.id}"'
                     )
                     if result is None or not result.success:
                         print("... ")
@@ -58,6 +60,7 @@ def main():
                         print(": already done.")
                     if result is not None:
                         new_results.set(scenario, variant, project, version, result)
+                    print("::endgroup::")
     new_results.save("results/results.json")
     with open("index.template.html", "r") as fp:
         template = fp.read()
@@ -115,7 +118,7 @@ class ScenarioSourcesGit:
     ref: str
 
     def download(self, path):
-        print("\n Downloading %s from %s/%s\n" % (path, self.repository, self.ref))
+        print("::group::Downloading %s from %s/%s" % (path, self.repository, self.ref))
         os.makedirs(os.path.dirname(path), exist_ok=True)
         if os.path.exists(path):
             git("-C", path, "remote", "update")
@@ -123,6 +126,7 @@ class ScenarioSourcesGit:
             git("clone", "--depth", "1", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
         print(" Download complete\n")
+        print("::endgroup")
 
 
 @dataclass
@@ -185,9 +189,10 @@ class ProjectVersion:
         # TODO: virtualenv is faster and better
         venv.create(project_path, with_pip=True)
         cmd = "\n".join(["source bin/activate", *self.setup_script])
-        print(f"    Running setup_script:")
+        print(f"::group::Running setup_script for {self.description}")
         print(textwrap.indent(cmd, " " * 8))
         subprocess.check_call(cmd, shell=True, executable="/bin/bash", cwd=project_path)
+        print("::endgroup::")
 
     @staticmethod
     def from_data(data):
@@ -260,7 +265,8 @@ class Project:
             stdout=out_file,
             stderr=out_file,
         )
-        print("Script returned %i" % code)
+        if code != 0:
+            print("::warning::Script returned %i" % code)
         output = "<no output>"
         try:
             with (project_path / "output.txt").open("r") as fp:
@@ -273,7 +279,7 @@ class Project:
             real = [t.get("clock") * 1000 / times for t in timing]
             cpu = [t.get("cpu") * 100 / times for t in timing]
         except Exception as e:
-            print("Couldn't load timings: %s" % e)
+            print("::warning::Couldn't load timings: %s" % e)
         return Result(cmd, code == 0, output, real, cpu)
 
     @staticmethod
