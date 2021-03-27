@@ -126,7 +126,7 @@ class ScenarioSourcesGit:
             git("clone", "--depth", "1", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
         print(" Download complete\n")
-        print("::endgroup")
+        print("::endgroup::")
 
 
 @dataclass
@@ -277,7 +277,7 @@ class Project:
         try:
             timing = json.load(open(project_path / "times.json"))
             real = [t.get("clock") * 1000 / times for t in timing]
-            cpu = [t.get("cpu") * 100 / times for t in timing]
+            cpu = [t.get("cpu") * 1000 / times for t in timing]
         except Exception as e:
             print("::warning::Couldn't load timings: %s" % e)
         return Result(cmd, code == 0, output, real, cpu)
