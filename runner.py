@@ -115,12 +115,14 @@ class ScenarioSourcesGit:
     ref: str
 
     def download(self, path):
+        print("\n Downloading %s from %s/%s\n" % (path, self.repository, self.ref))
         os.makedirs(os.path.dirname(path), exist_ok=True)
         if os.path.exists(path):
             git("-C", path, "remote", "update")
         else:
             git("clone", "--depth", "1", self.repository, path)
         git("-c", "advice.detachedHead=false", "-C", path, "checkout", self.ref)
+        print(" Download complete\n")
 
 
 @dataclass
