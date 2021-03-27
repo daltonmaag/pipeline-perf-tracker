@@ -27,7 +27,8 @@ for i in range(args.times):
         runpy.run_module(module, run_name="__main__")
     except SystemExit as exception:
         exitcode = exception.code
-        if exitcode != 0:
+        if exitcode != 0 and exitcode is not None:
+            print("Got exit code %i, exiting" % i)
             break
     except Exception as e:
         print("Caught exception %s" % e)
