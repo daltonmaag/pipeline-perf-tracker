@@ -18,6 +18,7 @@
       .time {
         text-align: right;
         font-family: monospace;
+        white-space: pre;
       }
       .backdrop {
         background-color: rgba(0, 0, 0, 0.3);
@@ -116,7 +117,7 @@
             return (
               Math.round(mean).toLocaleString("en-US") +
               ("±" + Math.round(stddev).toLocaleString("en-US")).padStart(
-                10,
+                7,
                 " "
               )
             );
