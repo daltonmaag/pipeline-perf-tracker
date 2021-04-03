@@ -2,6 +2,15 @@ name: fontmake TTF output
 url: https://github.com/googlefonts/fontmake
 description: fontmake in its default configuration, only TTF output
 versions:
+  - id: all-fontmake-optimizations
+    description: Nikolaus ufo2ft, Simon's glyphs3 + do-less glyphsLib, iondrive
+    setup_script:
+      - python -m pip install --upgrade pip
+      - python -m pip install fontmake==2.4.0
+      - python -m pip install "fonttools[ufo,lxml,unicode] @ git+git://github.com/fonttools/fonttools@0e5fe2d1d7"
+      - python -m pip install iondrive
+      - python -m pip install git+git://github.com/simoncozens/glyphsLib@speedy
+      - python -m pip install git+git://github.com/googlefonts/ufo2ft@avoid-font-reloading
   - id: git-main-ufo2ft-avoid-reloading
     description: Nikolaus version that avoid copying fonts during compilation
     setup_script:
