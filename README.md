@@ -1,7 +1,7 @@
-# UFO Performance Tracker
+# Pipeline Performance Tracker
 
-A tracker for performance improvements across the UFO libraries inspired by
-arewefastyet.com
+A tracker for performance improvements across the open-source font building
+libraries inspired by arewefastyet.com
 
 Tested on Ubuntu on WSL2. Should work on Linux and macOS, not windows (because
 it uses /usr/bin/time to measure time... to be improved!)
@@ -38,7 +38,7 @@ description: fontmake in its default configuration, only TTF output
 # Instructions to install the project's code and its dependencies.
 # The project can come in different version to compare them against each other.
 # Each version is identified by a unique id and a free-text description.
-# 
+#
 # The `setup_script` is a list of lines of bash script.
 # They will be evaluated inside a fresh Python environment,
 # different for each version of the project.
