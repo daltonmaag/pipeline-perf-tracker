@@ -1,7 +1,7 @@
 # Pipeline Performance Tracker
 
 A tracker for performance improvements across the open-source font building
-libraries inspired by arewefastyet.com
+libraries inspired by [arewefastyet.com](https://arewefastyet.com)
 
 Tested on Ubuntu on WSL2. Should work on Linux and macOS, not windows (because
 it uses /usr/bin/time to measure time... to be improved!)
@@ -27,7 +27,8 @@ into `results/index.html`.
 
 ### Add a "project" = a font-related library that can execute some scenarios
 
-Add a file called `projects/<your_project_name>.yml`. See the commented example below of the `fontmake` compiler:
+Add a file called `projects/<your_project_name>.yml`.
+See the commented example below of the `fontmake` compiler:
 
 ```yaml
 # Identification of the project, to be shown in the results
@@ -79,7 +80,8 @@ scenarios:
 
 ### Add a "scenario" = sources to compile, transform etc. using the various projects
 
-Add a file called `scenarios/<your_scenario_name>.yml`. Each scenario can come in several variants.
+Add a file called `scenarios/<your_scenario_name>.yml`.
+Each scenario can come in several variants.
 
 ```yaml
 # Identification for the test result page.
