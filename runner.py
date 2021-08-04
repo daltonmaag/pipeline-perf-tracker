@@ -295,8 +295,8 @@ class Project:
         real = cpu = [float("nan")]
         try:
             timing = json.load(open(project_path / "times.json"))
-            real = [t.get("clock") * 1000 / times for t in timing]
-            cpu = [t.get("cpu") * 1000 / times for t in timing]
+            real = [t.get("clock") * 1000 for t in timing]
+            cpu = [t.get("cpu") * 1000 for t in timing]
         except Exception as e:
             print("::warning::Couldn't load timings: %s" % e)
         if not os.path.exists(absolute_profile_path):
