@@ -23,6 +23,12 @@ jobs:
     - name: Run test
       run: poetry run python -u runner.py
       continue-on-error: true
+    - name: Upload result as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: results
+        path: results/index.html
+        retention-days: 7
     - name: Switch branch without trashing results
       run: |
         mv results results.stash
@@ -36,4 +42,3 @@ jobs:
         commit_message: Run tests
         file_pattern: results/*
         skip_dirty_check: true
-
