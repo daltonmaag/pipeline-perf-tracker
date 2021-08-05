@@ -2,60 +2,21 @@ name: fontmake TTF output
 url: https://github.com/googlefonts/fontmake
 description: fontmake in its default configuration, only TTF output
 versions:
-  - id: fonttools-compact-gpos
-    description: Stock fontmake==2.4.0 but using the fontTools branch for https://github.com/fonttools/fonttools/pull/2326
+  - id: current
+    description: official release, with floating dependencies
     setup_script:
       - python -m pip install --upgrade pip
-      - python -m pip install fontmake==2.4.0
-      - python -m pip install --upgrade "fonttools[ufo,lxml,unicode] @ git+git://github.com/daltonmaag/fonttools@compact-gpos"
-  - id: all-fontmake-optimizations
-    description: Nikolaus ufo2ft, Simon's glyphs3 + do-less glyphsLib, iondrive
-    setup_script:
-      - python -m pip install --upgrade pip
-      - python -m pip install fontmake==2.4.0
-      - python -m pip install "fonttools[ufo,lxml,unicode] @ git+git://github.com/fonttools/fonttools@0e5fe2d1d7"
-      - python -m pip install iondrive
-      - python -m pip install git+git://github.com/simoncozens/glyphsLib@speedy
-      - python -m pip install git+git://github.com/googlefonts/ufo2ft@a5267d1
-  - id: git-main-ufo2ft-avoid-reloading
-    description: Nikolaus version that avoid copying fonts during compilation
-    setup_script:
-      - python -m pip install --upgrade pip
-      - python -m pip install fontmake==2.4.0
-      - python -m pip install "fonttools[ufo,lxml,unicode] @ git+git://github.com/fonttools/fonttools@0e5fe2d1d7"
-      - python -m pip install git+git://github.com/googlefonts/ufo2ft@a5267d1
-  - id: v2.4.0-plus-glyphs-do-less
-    description: fontmake official release, with Simon's glyphsLib do-less branch
-    setup_script:
-      - python -m pip install --upgrade pip
-      - python -m pip install wheel
-      - python -m pip install fontmake==2.4.0
-      - python -m pip install git+git://github.com/simoncozens/glyphsLib@do-less
-  - id: v2.4.0-plus-glyphs3
-    description: fontmake official release, with Glyphs3 glyphslib
-    setup_script:
-      - python -m pip install --upgrade pip
-      - python -m pip install wheel
-      - python -m pip install fontmake==2.4.0
-      - python -m pip install git+git://github.com/simoncozens/glyphsLib@glyphs3-try3
-  - id: v2.4.0-plus-iondrive
-    description: fontmake official release, with Rust UFO loader
-    setup_script:
-      - python -m pip install --upgrade pip
-      - python -m pip install wheel
-      - python -m pip install iondrive
-      - python -m pip install git+git://github.com/simoncozens/ufoLib2@iondrive
-      - python -m pip install fontmake==2.4.0
+      - python -m pip install fontmake
   - id: v2.4.0
-    description: official release
+    description: official release, with contemporary dependencies
     setup_script:
       - python -m pip install --upgrade pip
-      - python -m pip install fontmake==2.4.0
+      - python -m pip install fontmake==2.4.0 fonttools==4.21.1 ufo2ft==2.20.0 glyphsLib==5.3.2
   - id: v2.3.1
-    description: official release
+    description: official release, with contemporary dependencies
     setup_script:
       - python -m pip install --upgrade pip
-      - python -m pip install fontmake==2.3.1
+      - python -m pip install fontmake==2.3.1 fonttools==4.18.1 ufo2ft==2.19.1 glyphsLib==5.3.0
 scenarios:
   - id: narrow_build_vf_from_designspace
     before_script:
