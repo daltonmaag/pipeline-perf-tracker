@@ -2,11 +2,11 @@ name: fontmake TTF output
 url: https://github.com/googlefonts/fontmake
 description: fontmake in its default configuration, only TTF output
 versions:
-  - id: current-glyphsLib-v6.0.0b1
-    description: official release, with floating dependencies and glyphsLib v6.0.0b1
+  - id: current-glyphsLib-v6.0.0b3
+    description: official release, with floating dependencies and glyphsLib v6.0.0b3
     setup_script:
       - python -m pip install --upgrade pip
-      - python -m pip install fontmake glyphsLib==6.0.0b1
+      - python -m pip install fontmake glyphsLib==6.0.0b3
   - id: current
     description: official release, with floating dependencies
     setup_script:
